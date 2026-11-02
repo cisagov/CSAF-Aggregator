@@ -1,0 +1,29 @@
+name: Aggregate
+
+on:
+  schedule:
+    - cron: "0 8 * * 3,5" # 8 a.m. every wednesday and friday UTC
+    # - cron: "0 8 * * *" # Every day at 8
+    # - cron: "0 * * * *" # Every hour
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v2
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - run: pip install requests pgpy python-dateutil
+    - name: Run aggregator
+      run: python3 .github/aggregation/csaf_scraper.py
+    - name: Add and commit
+      id: add_commit
+      uses: EndBug/add-and-commit@v8
+      with:
+        committer_name: Automated
+        committer_email: actions@users.noreply.github.com
+        message: "CSAF updates"

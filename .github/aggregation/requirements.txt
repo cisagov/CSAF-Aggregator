@@ -1,0 +1,14 @@
+certifi==2026.10.23
+cffi==2.0.0
+charset-normalizer==3.5.2
+cryptography==50.0.2
+idna==3.20
+PGPy==0.6.0
+pyasn1==0.6.5
+pycparser==2.23
+python-dateutil==3.0.0
+requests==2.32.5
+six==1.17.0
+typing_extensions==4.16.0
+tzdata==2026.6
+urllib3==2.6.3
