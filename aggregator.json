@@ -11,7 +11,7 @@
   "csaf_providers": [
     {
       "metadata": {
-        "last_updated": "2026-11-02T12:04:32.485340Z",
+        "last_updated": "2026-11-02T23:01:42.477962Z",
         "publisher": {
           "category": "vendor",
           "contact_details": "psirt@festo.com",
@@ -27,7 +27,7 @@
     },
     {
       "metadata": {
-        "last_updated": "2026-11-02T12:04:32.485340Z",
+        "last_updated": "2026-11-02T23:01:42.477962Z",
         "publisher": {
           "category": "vendor",
           "contact_details": "prodsec@nozominetworks.com",
@@ -44,7 +44,7 @@
     },
     {
       "metadata": {
-        "last_updated": "2026-11-02T12:04:32.485340Z",
+        "last_updated": "2026-11-02T23:01:42.477962Z",
         "publisher": {
           "category": "vendor",
           "contact_details": "product-securityincident@beckhoff.com",
@@ -60,7 +60,7 @@
     },
     {
       "metadata": {
-        "last_updated": "2026-11-02T12:04:32.485340Z",
+        "last_updated": "2026-11-02T23:01:42.477962Z",
         "publisher": {
           "category": "coordinator",
           "contact_details": "central@cisa.dhs.gov",
@@ -76,7 +76,7 @@
     },
     {
       "metadata": {
-        "last_updated": "2026-11-02T12:04:32.485340Z",
+        "last_updated": "2026-11-02T23:01:42.477962Z",
         "publisher": {
           "category": "vendor",
           "contact_details": "productcert@siemens.com",
@@ -91,5 +91,5 @@
       ]
     }
   ],
-  "last_updated": "2026-11-02T19:04:41.433742Z"
+  "last_updated": "2026-11-02T23:01:50.007577Z"
 }
