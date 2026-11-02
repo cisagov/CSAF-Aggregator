@@ -1,0 +1,144 @@
+{
+  "document": {
+    "category": "csaf_security_advisory",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Disclosure is not limited. (TLPv2: TLP:CLEAR)",
+      "tlp": {
+        "label": "WHITE"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "This advisory is revoked. Re-investigation confirmed the reported behavior is expected platform configuration and does not expose the protected attribute.",
+        "title": "Summary"
+      },
+      {
+        "category": "general",
+        "text": "As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals.\n\nAdditional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity",
+        "title": "General Recommendations"
+      },
+      {
+        "category": "general",
+        "text": "For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories",
+        "title": "Additional Resources"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "productcert@siemens.com",
+      "name": "Siemens ProductCERT",
+      "namespace": "https://www.siemens.com"
+    },
+    "references": [
+      {
+        "category": "self",
+        "summary": "SSA-814963: Insecure Inherited Permission in Mendix (Revoked) - HTML Version",
+        "url": "https://cert-portal.siemens.com/productcert/html/ssa-814963.html"
+      },
+      {
+        "category": "self",
+        "summary": "SSA-814963: Insecure Inherited Permission in Mendix (Revoked) - CSAF Version",
+        "url": "https://cert-portal.siemens.com/productcert/csaf/ssa-814963.json"
+      }
+    ],
+    "title": "SSA-814963: Insecure Inherited Permission in Mendix (Revoked)",
+    "tracking": {
+      "current_release_date": "2026-09-22T00:00:00.000Z",
+      "generator": {
+        "engine": {
+          "name": "Siemens ProductCERT CSAF Generator",
+          "version": "1"
+        }
+      },
+      "id": "SSA-814963",
+      "initial_release_date": "2026-07-14T00:00:00.000Z",
+      "revision_history": [
+        {
+          "date": "2026-07-14T00:00:00.000Z",
+          "legacy_version": "1.0",
+          "number": "1",
+          "summary": "Publication Date"
+        },
+        {
+          "date": "2026-09-22T00:00:00.000Z",
+          "legacy_version": "1.1",
+          "number": "2",
+          "summary": "Revoked advisory as the CVE is rejected"
+        }
+      ],
+      "status": "final",
+      "version": "2"
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Mendix Runtime",
+                  "product_id": "1"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Mendix Runtime"
+          }
+        ],
+        "category": "vendor",
+        "name": "Siemens"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-7891",
+      "cwe": {
+        "id": "CWE-277",
+        "name": "Insecure Inherited Permissions"
+      },
+      "flags": [
+        {
+          "label": "vulnerable_code_not_present",
+          "product_ids": [
+            "1"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "This CVE has been retracted. Re-investigation confirmed the reported behavior is expected platform configuration and does not expose the protected application-specific attribute.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_not_affected": [
+          "1"
+        ]
+      },
+      "threats": [
+        {
+          "category": "impact",
+          "details": "Vulnerability is rejected as re-investigation confirmed the reported behavior is expected platform configuration and does not expose the protected application-specific attribute",
+          "product_ids": [
+            "1"
+          ]
+        }
+      ],
+      "title": "CVE-2026-7891"
+    }
+  ]
+}

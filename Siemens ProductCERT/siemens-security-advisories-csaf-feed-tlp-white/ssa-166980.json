@@ -1,0 +1,1010 @@
+{
+  "document": {
+    "category": "csaf_security_advisory",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Disclosure is not limited. (TLPv2: TLP:CLEAR)",
+      "tlp": {
+        "label": "WHITE"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products.\n\nAs a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals.\n\nSiemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available.",
+        "title": "Summary"
+      },
+      {
+        "category": "general",
+        "text": "Operators of critical power systems (e.g. TSOs or DSOs) worldwide are usually required by regulations to build resilience into the power grids by applying multi-level redundant secondary protection schemes. It is therefore recommended that the operators check whether appropriate resilient protection measures are in place. The risk of cyber incidents impacting the grid's reliability can thus be minimized by virtue of the grid design.\nSiemens strongly recommends applying the provided security updates using the corresponding tooling and documented procedures made available with the product. If supported by the product, an automated means to apply the security updates across multiple product instances may be used. Siemens strongly recommends prior validation of any security update before being applied, and supervision by trained staff of the update process in the target environment. \nAs a general security measure Siemens strongly recommends to protect network access with appropriate mechanisms (e.g. firewalls, segmentation, VPN). It is advised to configure the environment according to our operational guidelines in order to run the devices in a protected IT environment.\n\nRecommended security guidelines can be found at:\nhttps://www.siemens.com/gridsecurity",
+        "title": "General Recommendations"
+      },
+      {
+        "category": "general",
+        "text": "For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories",
+        "title": "Additional Resources"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "productcert@siemens.com",
+      "name": "Siemens ProductCERT",
+      "namespace": "https://www.siemens.com"
+    },
+    "references": [
+      {
+        "category": "self",
+        "summary": "SSA-166980: PHP2Shell Vulnerabilities in Siemens Products - HTML Version",
+        "url": "https://cert-portal.siemens.com/productcert/html/ssa-166980.html"
+      },
+      {
+        "category": "self",
+        "summary": "SSA-166980: PHP2Shell Vulnerabilities in Siemens Products - CSAF Version",
+        "url": "https://cert-portal.siemens.com/productcert/csaf/ssa-166980.json"
+      }
+    ],
+    "title": "SSA-166980: PHP2Shell Vulnerabilities in Siemens Products",
+    "tracking": {
+      "current_release_date": "2026-10-29T00:00:00.000Z",
+      "generator": {
+        "engine": {
+          "name": "Siemens ProductCERT CSAF Generator",
+          "version": "1"
+        }
+      },
+      "id": "SSA-166980",
+      "initial_release_date": "2026-10-26T00:00:00.000Z",
+      "revision_history": [
+        {
+          "date": "2026-10-26T00:00:00.000Z",
+          "legacy_version": "1.0",
+          "number": "1",
+          "summary": "Publication Date"
+        },
+        {
+          "date": "2026-10-27T00:00:00.000Z",
+          "legacy_version": "1.1",
+          "number": "2",
+          "summary": "Updated the Known not affected list"
+        },
+        {
+          "date": "2026-10-29T00:00:00.000Z",
+          "legacy_version": "1.2",
+          "number": "3",
+          "summary": "Added AMIS TS, Energy Engage V2.0SP9, Energy Engage V3.1SP1, Spectrum Power 3, Spectrum Power 4, Spectrum Power 7 and Spectrum Power TG to Affected Products and updated the list of known not affected"
+        }
+      ],
+      "status": "interim",
+      "version": "3"
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "AMIS TS",
+                  "product_id": "1"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "AMIS TS"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "blueplanet 360 NX3 M6 WM OD IISX",
+                  "product_id": "2"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "blueplanet 360 NX3 M6 WM OD IISX"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "blueplanet 360 NX3 M6 WM OD IISX - S",
+                  "product_id": "3"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "blueplanet 360 NX3 M6 WM OD IISX - S"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Building X",
+                  "product_id": "4"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Building X"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Climatix Cloud IC",
+                  "product_id": "5"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Climatix Cloud IC"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Climatix Devices",
+                  "product_id": "6"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Climatix Devices"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Connect Insights",
+                  "product_id": "7"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Connect Insights"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Connect X200",
+                  "product_id": "8"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Connect X200"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Connect X300",
+                  "product_id": "9"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Connect X300"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Connect X500",
+                  "product_id": "10"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Connect X500"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "cRSP",
+                  "product_id": "11"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "cRSP"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Desigo CC",
+                  "product_id": "12"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo CC"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Desigo DXR2",
+                  "product_id": "13"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo DXR2"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Desigo DXR3",
+                  "product_id": "14"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo DXR3"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Desigo Optic",
+                  "product_id": "15"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo Optic"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Desigo PXC3",
+                  "product_id": "16"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo PXC3"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Desigo PXC4",
+                  "product_id": "17"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo PXC4"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Desigo PXC5",
+                  "product_id": "18"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo PXC5"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Desigo PXC7",
+                  "product_id": "19"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo PXC7"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Energy Engage V2.0SP9",
+                  "product_id": "20"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Energy Engage V2.0SP9"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Energy Engage V3.1SP1",
+                  "product_id": "21"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Energy Engage V3.1SP1"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Enlighted RTLS",
+                  "product_id": "22"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Enlighted RTLS"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Enlighted Space",
+                  "product_id": "23"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Enlighted Space"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Navigator E&S",
+                  "product_id": "24"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Navigator E&S"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Sinteso FS20 EN",
+                  "product_id": "25"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Sinteso FS20 EN"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SiPass integrated",
+                  "product_id": "26"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SiPass integrated"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SIPORT",
+                  "product_id": "27"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SIPORT"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Siveillance Control",
+                  "product_id": "28"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Siveillance Control"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Siveillance Control Pro",
+                  "product_id": "29"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Siveillance Control Pro"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Siveillance Intrusion",
+                  "product_id": "30"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Siveillance Intrusion"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Siveillance Video",
+                  "product_id": "31"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Siveillance Video"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Spectrum Power 3 using IHM (NagiosXI) running on Red Hat Enterprise Linux version (RHEL) 7",
+                  "product_id": "32"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Spectrum Power 3"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Spectrum Power 4 using Nagios or Zabbix",
+                  "product_id": "33"
+                }
+              },
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Spectrum Power 4 with Web Office Portal V3.0, V3.1 and V3.2",
+                  "product_id": "34"
+                }
+              },
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Spectrum Power 4 with HISViews V1.0",
+                  "product_id": "35"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Spectrum Power 4"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Spectrum Power 7 using IHM (NagiosXI)",
+                  "product_id": "36"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Spectrum Power 7"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Spectrum Power TG which are based on Microsoft Windows using the WebConsole and WebQuery components",
+                  "product_id": "37"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Spectrum Power TG"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Workplace Experience",
+                  "product_id": "38"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Workplace Experience"
+          }
+        ],
+        "category": "vendor",
+        "name": "Siemens"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-109618",
+      "cwe": {
+        "id": "CWE-416",
+        "name": "Use After Free"
+      },
+      "flags": [
+        {
+          "label": "component_not_present",
+          "product_ids": [
+            "22",
+            "29",
+            "16",
+            "7",
+            "25",
+            "18",
+            "5",
+            "19",
+            "4",
+            "8",
+            "14",
+            "30",
+            "11",
+            "23",
+            "28",
+            "10",
+            "24",
+            "17",
+            "15",
+            "12",
+            "26",
+            "6",
+            "27",
+            "38",
+            "9",
+            "13",
+            "31"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "1",
+          "2",
+          "20",
+          "21",
+          "3",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37"
+        ],
+        "known_not_affected": [
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "38",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "no_fix_planned",
+          "details": "Currently no fix is planned",
+          "product_ids": [
+            "20"
+          ]
+        },
+        {
+          "category": "none_available",
+          "details": "Currently no fix is available",
+          "product_ids": [
+            "1",
+            "2",
+            "3",
+            "33",
+            "34",
+            "35"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Red Hat released a PHP security patch for RHEL 8 and 9",
+          "product_ids": [
+            "36"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Upgrade PHP version to V8.5.12",
+          "product_ids": [
+            "37"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Upgrade PHP version to V8.1.34 release 6",
+          "product_ids": [
+            "21"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "1",
+            "2",
+            "20",
+            "21",
+            "3",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "details": "PHP is not present in this product",
+          "product_ids": [
+            "22",
+            "29",
+            "16",
+            "7",
+            "25",
+            "18",
+            "5",
+            "19",
+            "4",
+            "8",
+            "14",
+            "30",
+            "11",
+            "23",
+            "28",
+            "10",
+            "24",
+            "17",
+            "15",
+            "12",
+            "26",
+            "6",
+            "27",
+            "38",
+            "9",
+            "13",
+            "31"
+          ]
+        }
+      ],
+      "title": "CVE-2026-109618"
+    },
+    {
+      "cve": "CVE-2026-109619",
+      "cwe": {
+        "id": "CWE-416",
+        "name": "Use After Free"
+      },
+      "flags": [
+        {
+          "label": "component_not_present",
+          "product_ids": [
+            "22",
+            "29",
+            "16",
+            "7",
+            "25",
+            "18",
+            "5",
+            "19",
+            "4",
+            "8",
+            "14",
+            "30",
+            "11",
+            "23",
+            "28",
+            "10",
+            "24",
+            "17",
+            "15",
+            "12",
+            "26",
+            "6",
+            "27",
+            "38",
+            "9",
+            "13",
+            "31"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated after being reset. The global state may then refer to request memory even after it has been freed. Subsequent requests may read or branch on this stale state before it is fully initialized. Multiple strategies can trigger this condition and produce remote code execution (RCE).",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "1",
+          "2",
+          "20",
+          "21",
+          "3",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37"
+        ],
+        "known_not_affected": [
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "38",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "no_fix_planned",
+          "details": "Currently no fix is planned",
+          "product_ids": [
+            "20"
+          ]
+        },
+        {
+          "category": "none_available",
+          "details": "Currently no fix is available",
+          "product_ids": [
+            "1",
+            "2",
+            "3",
+            "33",
+            "34",
+            "35"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Red Hat released a PHP security patch for RHEL 8 and 9",
+          "product_ids": [
+            "36"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Red Hat released a PHP security patch for RHEL 7",
+          "product_ids": [
+            "32"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Upgrade PHP version to V8.5.12",
+          "product_ids": [
+            "37"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Upgrade PHP version to V8.1.34 release 6",
+          "product_ids": [
+            "21"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "1",
+            "2",
+            "20",
+            "21",
+            "3",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "details": "PHP is not present in this product",
+          "product_ids": [
+            "22",
+            "29",
+            "16",
+            "7",
+            "25",
+            "18",
+            "5",
+            "19",
+            "4",
+            "8",
+            "14",
+            "30",
+            "11",
+            "23",
+            "28",
+            "10",
+            "24",
+            "17",
+            "15",
+            "12",
+            "26",
+            "6",
+            "27",
+            "38",
+            "9",
+            "13",
+            "31"
+          ]
+        }
+      ],
+      "title": "CVE-2026-109619"
+    }
+  ]
+}

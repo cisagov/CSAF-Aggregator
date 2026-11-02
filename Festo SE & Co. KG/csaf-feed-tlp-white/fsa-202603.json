@@ -1,0 +1,343 @@
+{
+  "document": {
+    "acknowledgments": [
+      {
+        "organization": "CERT@VDE",
+        "summary": "coordination and support with this publication"
+      }
+    ],
+    "category": "csaf_security_advisory",
+    "csaf_version": "2.0",
+    "distribution": {
+      "tlp": {
+        "label": "WHITE"
+      }
+    },
+    "lang": "en-US",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "Festo Didactic FactoryViews and MES4 deployed along with xampp bundle an Apache web server with PHP. The bundled version of PHP is vulnerable to the two critical vulnerabilities CVE-2026-109618 and CVE-2026-109619 (commonly referred to as PHP2Shell). These vulnerabilities allow an attacker to remotely execute code on the FactoryViews or xampp host system.",
+        "title": "Summary"
+      },
+      {
+        "category": "details",
+        "text": "A successful attack on a vulnerable PHP installation allows the attacker to remotely execute malicious code on the FactoryViews or xampp host system with the privileges of the user account running the server application.",
+        "title": "Impact"
+      },
+      {
+        "category": "description",
+        "text": "The xampp versions installed with older deployments of MES4 run PHP versions up to 7.3. These versions are out-of-support and no patches have been made available.\nUsers can apply the mitigation measures recommended by the PHP foundation:\n- CVE-2026-109618: Set memory_limit=-1 in php.ini.\n- CVE-2026-109619: Set \"session.upload_progress.enabled=0\" in php.ini. Additionally, the setting \"MaxConnectionsPerChild 1\" can be added to the end of httpd-xampp.conf. Note that this will have a significant negative impact on performance.\nUsers might also consider adding firewall rules to the Windows host system which restrict communication with httpd.exe from sources other than the HMI panels of manual workstations.",
+        "title": "Mitigation"
+      },
+      {
+        "category": "description",
+        "text": "Festo recommends updating FactoryViews 1.12.1 and earlier to FactoryViews 1.13.0.\nFor MES4 with xampp no fix is available. Please apply the mitigation measures.",
+        "title": "Remediation"
+      },
+      {
+        "category": "general",
+        "text": "As part of a security strategy, Festo recommends the following general defense measures to reduce the risk of exploits: \n- Use controllers and devices only in a protected environment to minimize network exposure and ensure that they are not accessible from outside.\n- Use firewalls to protect and separate the control system network from other networks.\n- Use VPN (Virtual Private Networks) tunnels if remote access is required.\n- Activate and apply user management and password features.\n- Use encrypted communication links.\n- Limit the access to both development and control system by physical means, operating system features, etc. \n- Protect both development and control systems by using up-to-date virus detection solutions.\n\nFesto strongly recommends minimizing and protecting network access to connected devices with state-of-the-art techniques and processes. \nTo ensure secure operation follow the recommendations in the product manuals.",
+        "title": "General recommendations"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "Festo assumes no liability whatsoever for indirect, collateral, accidental or consequential losses that occur by the distribution and/or use of this document or any losses in connection with the distribution and/or use of this document. All information published in this document is provided free of charge and on good faith by Festo. Insofar as permissible by law, however, none of this information shall establish any warranty, guarantee, commitment, or liability on the part of Festo.\n\nNote: In no case does this information release the operator or responsible person from the obligation to check the effect on his system or installation before using the information and, in the event of negative consequences, not to use the information.\n\nIn addition, the actual general terms, and conditions for delivery, payment and software use of Festo, available under http://www.festo.com and the special provisions for the use of Festo Security Advisory available at https://www.festo.com/psirt shall apply.",
+        "title": "Disclaimer"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "psirt@festo.com",
+      "name": "Festo SE & Co. KG",
+      "namespace": "https://www.festo.com"
+    },
+    "references": [
+      {
+        "category": "external",
+        "summary": "CERT@VDE Advisory ",
+        "url": "https://certvde.com/en/advisories/vendor/festo/"
+      },
+      {
+        "category": "external",
+        "summary": "For further security-related issues in Festo products please contact the Festo Product Security Incident Response Team (PSIRT)",
+        "url": "https://www.festo.com/psirt"
+      },
+      {
+        "category": "self",
+        "summary": "FSA-202603: Two critical PHP vulnerabilities in several Festo Didactic products - CSAF",
+        "url": "https://festo.csaf-tp.certvde.com/.well-known/csaf/white/2026/fsa-202603.json"
+      },
+      {
+        "category": "self",
+        "summary": "FSA-202603: Two critical PHP vulnerabilities in several Festo Didactic products - HTML",
+        "url": "https://certvde.com/en/advisories/VDE-2026-139"
+      }
+    ],
+    "title": "Two critical PHP vulnerabilities in several Festo Didactic products",
+    "tracking": {
+      "aliases": [
+        "VDE-2026-139"
+      ],
+      "current_release_date": "2026-11-02T12:00:00.000Z",
+      "generator": {
+        "date": "2026-11-02T09:52:47.138Z",
+        "engine": {
+          "name": "Secvisogram",
+          "version": "2.6.16"
+        }
+      },
+      "id": "FSA-202603",
+      "initial_release_date": "2026-11-02T12:00:00.000Z",
+      "revision_history": [
+        {
+          "date": "2026-11-02T12:00:00.000Z",
+          "number": "1.0.0",
+          "summary": "Initial Revision"
+        }
+      ],
+      "status": "final",
+      "version": "1.0.0"
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "branches": [
+                  {
+                    "category": "product_version",
+                    "name": "1.13.0",
+                    "product": {
+                      "name": "FactoryViews 1.13.0",
+                      "product_id": "FV-113",
+                      "product_identification_helper": {
+                        "cpe": "cpe:2.3:a:festo:factoryviews:1.13.0:*:*:*:*:*:*:*"
+                      }
+                    }
+                  },
+                  {
+                    "category": "product_version_range",
+                    "name": "vers:semver/>=1.0.0|<=1.12.1",
+                    "product": {
+                      "name": "FactoryViews <= 1.12.1",
+                      "product_id": "FV-112",
+                      "product_identification_helper": {
+                        "cpe": "cpe:2.3:a:festo:factoryviews:1.12.1:*:*:*:*:*:*:*"
+                      }
+                    }
+                  }
+                ],
+                "category": "product_name",
+                "name": "FactoryViews"
+              },
+              {
+                "branches": [
+                  {
+                    "category": "product_version_range",
+                    "name": "vers:all/*",
+                    "product": {
+                      "name": "MES4 with xampp all versions",
+                      "product_id": "MES4",
+                      "product_identification_helper": {
+                        "cpe": "cpe:2.3:a:festo:mes4:*:*:*:*:*:*:*:*"
+                      }
+                    }
+                  }
+                ],
+                "category": "product_name",
+                "name": "MES4"
+              }
+            ],
+            "category": "product_family",
+            "name": "Software"
+          }
+        ],
+        "category": "vendor",
+        "name": "Festo Didactic"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-109618",
+      "cwe": {
+        "id": "CWE-416",
+        "name": "Use After Free"
+      },
+      "notes": [
+        {
+          "category": "description",
+          "text": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).",
+          "title": "CVE description"
+        },
+        {
+          "category": "details",
+          "text": "The vulnerability originates from error handling during out-of-memory conditions. When request processing is aborted, request-owned memory structures may remain in an inconsistent state. Subsequent cleanup operations can access corrupted internal state, resulting in memory corruption that can be leveraged for code execution.",
+          "title": "Technical Details"
+        },
+        {
+          "category": "details",
+          "text": "Successful exploitation allows unauthenticated remote code execution with the privileges of the user account running the PHP process. This can result in compromise of confidentiality, integrity and availability of the affected system.",
+          "title": "Impact"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "FV-113"
+        ],
+        "known_affected": [
+          "FV-112",
+          "MES4"
+        ]
+      },
+      "references": [
+        {
+          "category": "external",
+          "summary": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N - 9.2 - Critical",
+          "url": "https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "date": "2026-10-30T11:00:00.000Z",
+          "details": "Update to FactoryViews 1.13.0",
+          "product_ids": [
+            "FV-112"
+          ],
+          "restart_required": {
+            "category": "service"
+          }
+        },
+        {
+          "category": "mitigation",
+          "details": "The xampp versions installed with older deployments of MES4 run PHP versions up to 7.3. These version are out-of-support and no patches have been made available.\nUsers can apply the mitigation measures recommended by the PHP foundation:\nSet memory_limit=-1 in php.ini.\nUsers might also consider adding firewall rules to the Windows host system which restrict communication with httpd.exe from sources other than the HMI panels of manual workstations.",
+          "product_ids": [
+            "MES4"
+          ],
+          "restart_required": {
+            "category": "none"
+          }
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "environmentalScore": 9.8,
+            "environmentalSeverity": "CRITICAL",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "temporalScore": 9.8,
+            "temporalSeverity": "CRITICAL",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "FV-112",
+            "MES4"
+          ]
+        }
+      ],
+      "title": "RCE via OOM corruption"
+    },
+    {
+      "cve": "CVE-2026-109619",
+      "cwe": {
+        "id": "CWE-416",
+        "name": "Use After Free"
+      },
+      "notes": [
+        {
+          "category": "description",
+          "text": "PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated after being reset. The global state may then refer to request memory even after it has been freed. Subsequent requests may read or branch on this stale state before it is fully initialized. Multiple strategies can trigger this condition and produce remote code execution (RCE).",
+          "title": "CVE description"
+        },
+        {
+          "category": "details",
+          "text": "The vulnerability arises from stale request-owned global state that outlives the request memory to which it points. When a subsequent request handled by the same worker process reuses that state, PHP can access invalid memory, resulting in memory corruption and a potential path to code execution.",
+          "title": "Technical Details"
+        },
+        {
+          "category": "details",
+          "text": "Successful exploitation allows unauthenticated remote code execution with the privileges of the user account running the PHP process. This can result in compromise of confidentiality, integrity and availability of the affected system.",
+          "title": "Impact"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "FV-113"
+        ],
+        "known_affected": [
+          "FV-112",
+          "MES4"
+        ]
+      },
+      "references": [
+        {
+          "category": "external",
+          "summary": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N - 9.2 - Critical",
+          "url": "https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "date": "2026-10-30T11:00:00.000Z",
+          "details": "Update to FactoryViews 1.13.0",
+          "product_ids": [
+            "FV-112"
+          ],
+          "restart_required": {
+            "category": "service"
+          }
+        },
+        {
+          "category": "mitigation",
+          "details": "The xampp versions installed with older deployments of MES4 run PHP versions up to 7.3. These version are out-of-support and no patches have been made available.\nUsers can apply the mitigation measures recommended by the PHP foundation:\nSet \"session.upload_progress.enabled=0\" in php.ini.\nAdditionally, the setting \"MaxConnectionsPerChild 1\" can be added to the end of httpd-xampp.conf. Note that this will have a significant negative impact on performance.\nUsers might also consider adding firewall rules to the Windows host system which restrict communication with httpd.exe from sources other than the HMI panels of manual workstations.",
+          "product_ids": [
+            "MES4"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "environmentalScore": 8.1,
+            "environmentalSeverity": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "temporalScore": 8.1,
+            "temporalSeverity": "HIGH",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "FV-112",
+            "MES4"
+          ]
+        }
+      ],
+      "title": "RCE via stale global state"
+    }
+  ]
+}

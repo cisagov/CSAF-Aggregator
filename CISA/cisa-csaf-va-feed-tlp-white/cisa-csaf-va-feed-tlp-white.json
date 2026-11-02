@@ -1,0 +1,133 @@
+{
+  "feed": {
+    "category": [
+      {
+        "scheme": "urn:ietf:params:rolie:category:information-type",
+        "term": "csaf"
+      }
+    ],
+    "entry": [
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-267-01.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-267-01",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-267-01.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-267-01.json.asc",
+            "rel": "signature"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-267-01.json.sha512",
+            "rel": "hash"
+          }
+        ],
+        "published": "2026-09-24T06:00:00.000000Z",
+        "title": "MrSteam iSteamX",
+        "updated": "2026-09-24T06:00:00.000000Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-251-01.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-251-01",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-251-01.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-251-01.json.asc",
+            "rel": "signature"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-251-01.json.sha512",
+            "rel": "hash"
+          }
+        ],
+        "published": "2026-09-08T06:00:00.000000Z",
+        "title": "Softish C6 Ear Camera and EarVision Android Application",
+        "updated": "2026-09-08T06:00:00.000000Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-225-01.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-225-01",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-225-01.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-225-01.json.asc",
+            "rel": "signature"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-225-01.json.sha512",
+            "rel": "hash"
+          }
+        ],
+        "published": "2026-08-13T06:00:00.000000Z",
+        "title": "Yarbo iOS Mobile Application",
+        "updated": "2026-08-13T06:00:00.000000Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-176-01.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-176-01",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-176-01.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-176-01.json.asc",
+            "rel": "signature"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/va-26-176-01.json.sha512",
+            "rel": "hash"
+          }
+        ],
+        "published": "2026-06-25T06:00:00.000000Z",
+        "title": "Setracker2 Children's Smartwatch Ecosystem",
+        "updated": "2026-07-31T06:00:00.000000Z"
+      }
+    ],
+    "id": "cisa-csaf-va-feed-tlp-white",
+    "link": [
+      {
+        "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-va-feed-tlp-white/cisa-csaf-va-feed-tlp-white.json",
+        "rel": "self"
+      }
+    ],
+    "title": "CISA CSAF VA feed (TLP:WHITE)",
+    "updated": "2026-11-02T12:04:32.485340Z"
+  }
+}

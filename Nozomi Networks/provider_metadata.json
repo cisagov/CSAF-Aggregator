@@ -1,0 +1,37 @@
+{
+  "canonical_url": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Nozomi%20Networks/provider_metadata.json",
+  "distributions": [
+    {
+      "directory_url": "https://security.nozominetworks.com/csaf/"
+    },
+    {
+      "rolie": {
+        "feeds": [
+          {
+            "summary": "All TLP:WHITE advisories of Nozomi Networks.",
+            "tlp_label": "WHITE",
+            "url": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Nozomi%20Networks/nn-csaf-feed-tlp-white/nn-csaf-feed-tlp-white.json"
+          }
+        ]
+      }
+    }
+  ],
+  "last_updated": "2026-11-02T12:04:32.485340Z",
+  "list_on_CSAF_aggregators": true,
+  "metadata_version": "2.0",
+  "mirror_on_CSAF_aggregators": true,
+  "public_openpgp_keys": [
+    {
+      "fingerprint": "16D505F8FC8D6AFD94345D25F050B61F3C9CBFD5",
+      "url": "https://security.nozominetworks.com/csaf/psirt.asc"
+    }
+  ],
+  "publisher": {
+    "category": "vendor",
+    "contact_details": "prodsec@nozominetworks.com",
+    "issuing_authority": "Nozomi Networks Product Security is responsible for any vulnerabilities related to any Nozomi Network products or services.",
+    "name": "Nozomi Networks",
+    "namespace": "https://security.nozominetworks.com"
+  },
+  "role": "csaf_trusted_provider"
+}

@@ -1,0 +1,36 @@
+{
+  "canonical_url": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Festo%20SE%20&%20Co.%20KG/provider_metadata.json",
+  "distributions": [
+    {
+      "rolie": {
+        "feeds": [
+          {
+            "summary": "TLP:WHITE advisories",
+            "tlp_label": "WHITE",
+            "url": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Festo%20SE%20&%20Co.%20KG/csaf-feed-tlp-white/csaf-feed-tlp-white.json"
+          }
+        ]
+      }
+    },
+    {
+      "directory_url": "https://festo.csaf-tp.certvde.com/.well-known/csaf/white"
+    }
+  ],
+  "last_updated": "2026-11-02T12:04:32.485340Z",
+  "list_on_CSAF_aggregators": true,
+  "metadata_version": "2.0",
+  "mirror_on_CSAF_aggregators": true,
+  "public_openpgp_keys": [
+    {
+      "fingerprint": "4B29CDDC3DD4B231162C2B122DF4DD0771B68E61",
+      "url": "https://festo.csaf-tp.certvde.com/.well-known/csaf/openpgp/4B29CDDC3DD4B231162C2B122DF4DD0771B68E61.asc"
+    }
+  ],
+  "publisher": {
+    "category": "vendor",
+    "contact_details": "psirt@festo.com",
+    "name": "Festo SE & Co. KG",
+    "namespace": "https://www.festo.com"
+  },
+  "role": "csaf_trusted_provider"
+}
