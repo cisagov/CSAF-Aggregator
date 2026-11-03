@@ -9,37 +9,6 @@
     "entry": [
       {
         "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-045512",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-30T00:00:00Z",
-        "summary": {
-          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products."
-        },
-        "title": "Node2Shell Vulnerabilities in Siemens Products",
-        "updated": "2026-10-30T00:00:00Z"
-      },
-      {
-        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
           "type": "application/json"
         },
@@ -67,6 +36,37 @@
           "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products."
         },
         "title": "PHP2Shell Vulnerabilities in Siemens Software Products",
+        "updated": "2026-11-03T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-045512",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-30T00:00:00Z",
+        "summary": {
+          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products."
+        },
+        "title": "Node2Shell Vulnerabilities in Siemens Products",
         "updated": "2026-10-30T00:00:00Z"
       },
       {
@@ -26831,6 +26831,6 @@
       }
     ],
     "title": "Siemens Security Advisories CSAF feed (TLP:WHITE)",
-    "updated": "2026-11-03T08:41:46.387074Z"
+    "updated": "2026-11-03T17:46:16.842639Z"
   }
 }
