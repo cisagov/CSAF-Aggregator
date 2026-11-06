@@ -12,7 +12,7 @@
     "notes": [
       {
         "category": "summary",
-        "text": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup:\n\n- No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK.\n- Management Applications installed: Follow the specific mitigations until a fix is available.\n\nFor Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented.\n\nSiemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available.",
+        "text": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup:   \n\n- No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK.\n- Management Applications installed: Follow the specific mitigations until a fix is available.\n- Device Applications installed: Follow the specific mitigations until a fix is available.\n\nFor Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented.\n\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available.",
         "title": "Summary"
       },
       {
@@ -51,7 +51,7 @@
     ],
     "title": "SSA-443410: Node2Shell Vulnerability in Industrial Edge Management Applications",
     "tracking": {
-      "current_release_date": "2026-10-30T00:00:00.000Z",
+      "current_release_date": "2026-11-06T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -66,10 +66,16 @@
           "legacy_version": "1.0",
           "number": "1",
           "summary": "Publication Date"
+        },
+        {
+          "date": "2026-11-06T00:00:00.000Z",
+          "legacy_version": "1.1",
+          "number": "2",
+          "summary": "Added fix for Cloud Connector Configurator, Data Flow Monitoring, Databus Configurator, Edge OPC UA Server Configurator and Flow Creator Configurator; Added DataXess Configurator as affected product"
         }
       ],
       "status": "interim",
-      "version": "1"
+      "version": "2"
     }
   },
   "product_tree": {
@@ -80,9 +86,9 @@
             "branches": [
               {
                 "category": "product_version_range",
-                "name": "vers:all/*",
+                "name": "vers:intdot/<1.24.3",
                 "product": {
-                  "name": "Cloud Connector Configurator",
+                  "name": "Cloud Connector Configurator < V1.24.3",
                   "product_id": "1"
                 }
               }
@@ -122,9 +128,9 @@
             "branches": [
               {
                 "category": "product_version_range",
-                "name": "vers:all/*",
+                "name": "vers:intdot/<3.0.18",
                 "product": {
-                  "name": "Data Flow Monitoring",
+                  "name": "Data Flow Monitoring < V3.0.18",
                   "product_id": "4"
                 }
               }
@@ -136,9 +142,9 @@
             "branches": [
               {
                 "category": "product_version_range",
-                "name": "vers:all/*",
+                "name": "vers:intdot/<4.0.1",
                 "product": {
-                  "name": "Databus Configurator",
+                  "name": "Databus Configurator < V4.0.1",
                   "product_id": "5"
                 }
               }
@@ -150,10 +156,24 @@
             "branches": [
               {
                 "category": "product_version_range",
-                "name": "vers:all/*",
+                "name": "vers:intdot/<1.5.7",
                 "product": {
-                  "name": "Edge OPC UA Server Configurator",
+                  "name": "DataXess Configurator < V1.5.7",
                   "product_id": "6"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "DataXess Configurator"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<2.3.10",
+                "product": {
+                  "name": "Edge OPC UA Server Configurator < V2.3.10",
+                  "product_id": "7"
                 }
               }
             ],
@@ -164,10 +184,10 @@
             "branches": [
               {
                 "category": "product_version_range",
-                "name": "vers:all/*",
+                "name": "vers:intdot/<1.15.1",
                 "product": {
-                  "name": "Flow Creator Configurator",
-                  "product_id": "7"
+                  "name": "Flow Creator Configurator < V1.15.1",
+                  "product_id": "8"
                 }
               }
             ],
@@ -181,7 +201,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Industrial Edge Hub",
-                  "product_id": "8"
+                  "product_id": "9"
                 }
               }
             ],
@@ -195,7 +215,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Industrial Edge Management Cloud",
-                  "product_id": "9"
+                  "product_id": "10"
                 }
               }
             ],
@@ -225,6 +245,7 @@
       "product_status": {
         "known_affected": [
           "1",
+          "10",
           "2",
           "3",
           "4",
@@ -245,47 +266,74 @@
         },
         {
           "category": "mitigation",
-          "details": "Stop Data Flow Monitoring until a fix is available",
-          "product_ids": [
-            "4"
-          ]
-        },
-        {
-          "category": "mitigation",
           "details": "Uninstall all Management Applications and protect your IEM instance with a Firewall/WAF until a fix is available",
           "product_ids": [
-            "1",
-            "2",
-            "5",
-            "6",
-            "7"
+            "2"
           ]
         },
         {
           "category": "none_available",
           "details": "Currently no fix is available",
           "product_ids": [
-            "1",
             "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7"
+            "3"
           ]
         },
         {
           "category": "vendor_fix",
-          "details": "Vulnerability fixed on central cloud service starting 2026-10-29; no user actions necessary",
+          "details": "Update to V1.15.1 or later version",
           "product_ids": [
             "8"
           ]
         },
         {
           "category": "vendor_fix",
-          "details": "Vulnerability fixed on central cloud service starting 2026-10-28; no user actions necessary",
+          "details": "Update to V1.24.3 or later version",
+          "product_ids": [
+            "1"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V1.5.7 or later version",
+          "product_ids": [
+            "6"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V2.3.10 or later version",
+          "product_ids": [
+            "7"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V3.0.18 or later version",
+          "product_ids": [
+            "4"
+          ],
+          "url": "https://iehub.eu1.edge.siemens.cloud/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V4.0.1 or later version",
+          "product_ids": [
+            "5"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Vulnerability fixed on central cloud service starting 2026-10-29; no user actions necessary",
           "product_ids": [
             "9"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Vulnerability fixed on central cloud service starting 2026-10-28; no user actions necessary",
+          "product_ids": [
+            "10"
           ]
         }
       ],
@@ -299,6 +347,7 @@
           },
           "products": [
             "1",
+            "10",
             "2",
             "3",
             "4",

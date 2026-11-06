@@ -9,37 +9,6 @@
     "entry": [
       {
         "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-566435",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-23T00:00:00Z",
-        "summary": {
-          "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products."
-        },
-        "title": "PHP2Shell Vulnerabilities in Siemens Software Products",
-        "updated": "2026-11-03T00:00:00Z"
-      },
-      {
-        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json",
           "type": "application/json"
         },
@@ -64,10 +33,10 @@
         ],
         "published": "2026-10-30T00:00:00Z",
         "summary": {
-          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products."
+          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products.\r\n\r\nSiemens has released new versions for the affected products and recommends to update to the latest versions."
         },
-        "title": "Node2Shell Vulnerabilities in Siemens Products",
-        "updated": "2026-10-30T00:00:00Z"
+        "title": "Node2Shell Vulnerability in Siemens Products",
+        "updated": "2026-11-06T00:00:00Z"
       },
       {
         "content": {
@@ -95,10 +64,134 @@
         ],
         "published": "2026-10-30T00:00:00Z",
         "summary": {
-          "content": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup:\r\n\r\n- No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK.\r\n- Management Applications installed: Follow the specific mitigations until a fix is available.\r\n\r\nFor Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented.\r\n\r\nSiemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available."
+          "content": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup:   \r\n\r\n- No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK.\r\n- Management Applications installed: Follow the specific mitigations until a fix is available.\r\n- Device Applications installed: Follow the specific mitigations until a fix is available.\r\n\r\nFor Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available."
         },
         "title": "Node2Shell Vulnerability in Industrial Edge Management Applications",
-        "updated": "2026-10-30T00:00:00Z"
+        "updated": "2026-11-06T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-166980",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-26T00:00:00Z",
+        "summary": {
+          "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products.\r\n\r\nAs a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals.\r\n\r\n Siemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends mitigations for products where fixes are not or not yet available."
+        },
+        "title": "PHP2Shell Vulnerabilities in Siemens Products",
+        "updated": "2026-11-05T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-566435",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-23T00:00:00Z",
+        "summary": {
+          "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products."
+        },
+        "title": "PHP2Shell Vulnerabilities in Siemens Software Products",
+        "updated": "2026-11-04T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-566512",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-23T00:00:00Z",
+        "summary": {
+          "content": "Palo Alto Networks has published [1] information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities.\r\n\r\nCustomers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications.\r\n\r\n[1] <https://security.paloaltonetworks.com/CVE-2026-109618>"
+        },
+        "title": "PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
+        "updated": "2026-11-04T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-834709",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-08-11T00:00:00Z",
+        "summary": {
+          "content": "SIMATIC IoT2050 devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges.\r\n\r\nSiemens has released new versions for the affected products and recommends to update to the latest versions."
+        },
+        "title": "Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 with Industrial OS",
+        "updated": "2026-11-04T00:00:00Z"
       },
       {
         "content": {
@@ -130,68 +223,6 @@
         },
         "title": "Node2Shell Vulnerability in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
         "updated": "2026-10-30T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-166980",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-26T00:00:00Z",
-        "summary": {
-          "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products.\r\n\r\nAs a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals.\r\n\r\n Siemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available."
-        },
-        "title": "PHP2Shell Vulnerabilities in Siemens Products",
-        "updated": "2026-10-29T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-566512",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-23T00:00:00Z",
-        "summary": {
-          "content": "Palo Alto Networks has published [1] information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities.\r\n\r\nCustomers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications.\r\n\r\n[1] <https://security.paloaltonetworks.com/CVE-2026-109618>"
-        },
-        "title": "PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
-        "updated": "2026-10-28T00:00:00Z"
       },
       {
         "content": {
@@ -2268,37 +2299,6 @@
           "content": "Nozomi Networks has published information on vulnerabilities in [Nozomi Guardian/CMC](https://security.nozominetworks.com/). This advisory lists the related Siemens Industrial products affected by these vulnerabilities.\r\n\r\nSiemens has released a new version for RUGGEDCOM APE1808 and recommends to update to the latest version."
         },
         "title": "Vulnerability in Nozomi Guardian/CMC Before  V26.2.0 on RUGGEDCOM APE1808 Devices",
-        "updated": "2026-08-11T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-834709",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-08-11T00:00:00Z",
-        "summary": {
-          "content": "SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges.\r\n\r\nSiemens has released a new version for SIMATIC IoT2050 Advanced and strongly recommends to update to the latest version."
-        },
-        "title": "Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 Advanced with Industrial OS",
         "updated": "2026-08-11T00:00:00Z"
       },
       {
@@ -26831,6 +26831,6 @@
       }
     ],
     "title": "Siemens Security Advisories CSAF feed (TLP:WHITE)",
-    "updated": "2026-11-04T15:59:02.634576Z"
+    "updated": "2026-11-06T15:43:00.348184Z"
   }
 }

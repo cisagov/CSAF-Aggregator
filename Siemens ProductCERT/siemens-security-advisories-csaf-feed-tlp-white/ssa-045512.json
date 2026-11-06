@@ -12,7 +12,7 @@
     "notes": [
       {
         "category": "summary",
-        "text": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products.",
+        "text": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products.\n\nSiemens has released new versions for the affected products and recommends to update to the latest versions.",
         "title": "Summary"
       },
       {
@@ -40,18 +40,18 @@
     "references": [
       {
         "category": "self",
-        "summary": "SSA-045512: Node2Shell Vulnerabilities in Siemens Products - HTML Version",
+        "summary": "SSA-045512: Node2Shell Vulnerability in Siemens Products - HTML Version",
         "url": "https://cert-portal.siemens.com/productcert/html/ssa-045512.html"
       },
       {
         "category": "self",
-        "summary": "SSA-045512: Node2Shell Vulnerabilities in Siemens Products - CSAF Version",
+        "summary": "SSA-045512: Node2Shell Vulnerability in Siemens Products - CSAF Version",
         "url": "https://cert-portal.siemens.com/productcert/csaf/ssa-045512.json"
       }
     ],
-    "title": "SSA-045512: Node2Shell Vulnerabilities in Siemens Products",
+    "title": "SSA-045512: Node2Shell Vulnerability in Siemens Products",
     "tracking": {
-      "current_release_date": "2026-10-30T00:00:00.000Z",
+      "current_release_date": "2026-11-06T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -66,10 +66,22 @@
           "legacy_version": "1.0",
           "number": "1",
           "summary": "Publication Date"
+        },
+        {
+          "date": "2026-11-04T00:00:00.000Z",
+          "legacy_version": "1.1",
+          "number": "2",
+          "summary": "Added Desigo CC to the affected products list."
+        },
+        {
+          "date": "2026-11-06T00:00:00.000Z",
+          "legacy_version": "1.2",
+          "number": "3",
+          "summary": "Added Gridscale X DSA and PSSE to the list of affected products"
         }
       ],
-      "status": "final",
-      "version": "1"
+      "status": "interim",
+      "version": "3"
     }
   },
   "product_tree": {
@@ -82,8 +94,64 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
-                  "name": "Heliox Dual Port 60kW",
+                  "name": "Desigo CC family V8",
                   "product_id": "1"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo CC family V8"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Desigo CC family V9",
+                  "product_id": "2"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Desigo CC family V9"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/>=5.3|<5.4",
+                "product": {
+                  "name": "Gridscale X DSA >= V5.3 < V5.4",
+                  "product_id": "3"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Gridscale X DSA"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<36.8.0",
+                "product": {
+                  "name": "Gridscale X PSS\u00aeE < V36.8.0",
+                  "product_id": "4"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Gridscale X PSS\u00aeE"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Heliox Dual Port 60kW",
+                  "product_id": "5"
                 }
               }
             ],
@@ -97,7 +165,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Heliox Flex Pro",
-                  "product_id": "2"
+                  "product_id": "6"
                 }
               }
             ],
@@ -111,7 +179,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SICHARGE FLEX",
-                  "product_id": "3"
+                  "product_id": "7"
                 }
               }
             ],
@@ -125,7 +193,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SICHARGE UC",
-                  "product_id": "4"
+                  "product_id": "8"
                 }
               }
             ],
@@ -139,7 +207,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Sifinity Go",
-                  "product_id": "5"
+                  "product_id": "9"
                 }
               }
             ],
@@ -153,7 +221,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Sifinity Setup",
-                  "product_id": "6"
+                  "product_id": "10"
                 }
               }
             ],
@@ -167,7 +235,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "VersiCharge AC Series",
-                  "product_id": "7"
+                  "product_id": "11"
                 }
               }
             ],
@@ -181,7 +249,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "VersiCloud",
-                  "product_id": "8"
+                  "product_id": "12"
                 }
               }
             ],
@@ -206,13 +274,13 @@
           "label": "component_not_present",
           "product_ids": [
             "5",
-            "2",
-            "4",
-            "6",
-            "8",
             "7",
-            "1",
-            "3"
+            "6",
+            "12",
+            "10",
+            "9",
+            "8",
+            "11"
           ]
         }
       ],
@@ -224,30 +292,76 @@
         }
       ],
       "product_status": {
-        "known_not_affected": [
+        "known_affected": [
           "1",
           "2",
           "3",
-          "4",
+          "4"
+        ],
+        "known_not_affected": [
+          "10",
+          "11",
+          "12",
           "5",
           "6",
           "7",
-          "8"
+          "8",
+          "9"
         ]
       },
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "Update to V36.8.0 or later version",
+          "product_ids": [
+            "4"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V5.4 or later version",
+          "product_ids": [
+            "3"
+          ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Install the latest .NET security updates via Windows Update.",
+          "product_ids": [
+            "1",
+            "2"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ],
       "threats": [
         {
           "category": "impact",
           "details": "Node.js not present",
           "product_ids": [
             "5",
-            "2",
-            "4",
-            "6",
-            "8",
             "7",
-            "1",
-            "3"
+            "6",
+            "12",
+            "10",
+            "9",
+            "8",
+            "11"
           ]
         }
       ],
