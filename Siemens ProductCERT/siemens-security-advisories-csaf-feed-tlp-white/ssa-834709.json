@@ -12,7 +12,7 @@
     "notes": [
       {
         "category": "summary",
-        "text": "SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges.\n\nSiemens has released a new version for SIMATIC IoT2050 Advanced and strongly recommends to update to the latest version.",
+        "text": "SIMATIC IoT2050 devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges.\n\nSiemens has released new versions for the affected products and recommends to update to the latest versions.",
         "title": "Summary"
       },
       {
@@ -40,18 +40,18 @@
     "references": [
       {
         "category": "self",
-        "summary": "SSA-834709: Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 Advanced with Industrial OS - HTML Version",
+        "summary": "SSA-834709: Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 with Industrial OS - HTML Version",
         "url": "https://cert-portal.siemens.com/productcert/html/ssa-834709.html"
       },
       {
         "category": "self",
-        "summary": "SSA-834709: Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 Advanced with Industrial OS - CSAF Version",
+        "summary": "SSA-834709: Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 with Industrial OS - CSAF Version",
         "url": "https://cert-portal.siemens.com/productcert/csaf/ssa-834709.json"
       }
     ],
-    "title": "SSA-834709: Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 Advanced with Industrial OS",
+    "title": "SSA-834709: Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 with Industrial OS",
     "tracking": {
-      "current_release_date": "2026-08-11T00:00:00.000Z",
+      "current_release_date": "2026-11-04T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -66,10 +66,16 @@
           "legacy_version": "1.0",
           "number": "1",
           "summary": "Publication Date"
+        },
+        {
+          "date": "2026-11-04T00:00:00.000Z",
+          "legacy_version": "1.1",
+          "number": "2",
+          "summary": "Clarified Affected products list. Updated title. Updated summary."
         }
       ],
       "status": "interim",
-      "version": "1"
+      "version": "2"
     }
   },
   "product_tree": {
@@ -82,7 +88,7 @@
                 "category": "product_version_range",
                 "name": "vers:intdot/<4.3.4.1",
                 "product": {
-                  "name": "SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) < V4.3.4.1 running Industrial OS with Node-RED installed",
+                  "name": "SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) < V4.3.4-1 running Industrial OS with Node-RED installed",
                   "product_id": "1",
                   "product_identification_helper": {
                     "model_numbers": [
@@ -94,6 +100,63 @@
             ],
             "category": "product_name",
             "name": "SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<4.3.4.1",
+                "product": {
+                  "name": "SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2) < V4.3.4-1 running Industrial OS with Node-RED installed",
+                  "product_id": "2",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0BA00-0YA2"
+                    ]
+                  }
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<4.3.4.1",
+                "product": {
+                  "name": "SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2) < V4.3.4-1 running Industrial OS with Node-RED installed",
+                  "product_id": "3",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0BB00-1YA2"
+                    ]
+                  }
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<4.3.4.1",
+                "product": {
+                  "name": "SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2) < V4.3.4-1 running Industrial OS with Node-RED installed",
+                  "product_id": "4",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0CA00-1AA2"
+                    ]
+                  }
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2)"
           }
         ],
         "category": "vendor",
@@ -117,7 +180,10 @@
       ],
       "product_status": {
         "known_affected": [
-          "1"
+          "1",
+          "2",
+          "3",
+          "4"
         ]
       },
       "remediations": [
@@ -125,19 +191,35 @@
           "category": "mitigation",
           "details": "Harden the Node-RED installation (see Node-RED User Guide)",
           "product_ids": [
-            "1"
+            "1",
+            "2",
+            "3",
+            "4"
           ]
         },
         {
           "category": "mitigation",
           "details": "Uninstall Node-RED",
           "product_ids": [
-            "1"
+            "1",
+            "2",
+            "3",
+            "4"
           ]
         },
         {
           "category": "vendor_fix",
-          "details": "Update to V4.3.4.1 or later version",
+          "details": "Update to V4.3.4-1 or later version",
+          "product_ids": [
+            "2",
+            "3",
+            "4"
+          ],
+          "url": "https://support.industry.siemens.com/cs/ww/en/view/109741799/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V4.3.4-1 or later version",
           "product_ids": [
             "1"
           ],
@@ -153,7 +235,10 @@
             "version": "3.1"
           },
           "products": [
-            "1"
+            "1",
+            "2",
+            "3",
+            "4"
           ]
         }
       ],

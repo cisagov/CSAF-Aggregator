@@ -51,7 +51,7 @@
     ],
     "title": "SSA-566512: PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
     "tracking": {
-      "current_release_date": "2026-10-28T00:00:00.000Z",
+      "current_release_date": "2026-11-04T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -71,11 +71,17 @@
           "date": "2026-10-28T00:00:00.000Z",
           "legacy_version": "1.1",
           "number": "2",
-          "summary": "Automatically generated entry"
+          "summary": "Updated Remediation to include PAN-OS"
+        },
+        {
+          "date": "2026-11-04T00:00:00.000Z",
+          "legacy_version": "1.2",
+          "number": "3",
+          "summary": "Adjusted history entry of V1.1"
         }
       ],
       "status": "final",
-      "version": "2"
+      "version": "3"
     }
   },
   "product_tree": {

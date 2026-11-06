@@ -9,6 +9,34 @@
     "entry": [
       {
         "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-211-07.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "ICSA-26-211-07",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-211-07.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-211-07.json.asc",
+            "rel": "signature"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-211-07.json.sha512",
+            "rel": "hash"
+          }
+        ],
+        "published": "2026-07-30T00:00:00.000000Z",
+        "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update B)",
+        "updated": "2026-11-05T07:00:00.000000Z"
+      },
+      {
+        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-307-01.json",
           "type": "application/json"
         },
@@ -2357,34 +2385,6 @@
         ],
         "published": "2026-08-11T07:00:00.000000Z",
         "title": "Schneider Electric NetBotz 5 750/755",
-        "updated": "2026-09-17T06:00:00.000000Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-211-07.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "ICSA-26-211-07",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-211-07.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-211-07.json.asc",
-            "rel": "signature"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-211-07.json.sha512",
-            "rel": "hash"
-          }
-        ],
-        "published": "2026-07-30T00:00:00.000000Z",
-        "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
         "updated": "2026-09-17T06:00:00.000000Z"
       },
       {
@@ -111876,6 +111876,6 @@
       }
     ],
     "title": "CISA CSAF OT feed (TLP:WHITE)",
-    "updated": "2026-11-04T15:59:02.634576Z"
+    "updated": "2026-11-06T15:43:00.348184Z"
   }
 }

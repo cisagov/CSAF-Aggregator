@@ -12,7 +12,7 @@
     "notes": [
       {
         "category": "summary",
-        "text": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products.\n\nAs a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals.\n\nSiemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available.",
+        "text": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products.\n\nAs a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals.\n\nSiemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available.\n\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends mitigations for products where fixes are not or not yet available.",
         "title": "Summary"
       },
       {
@@ -51,7 +51,7 @@
     ],
     "title": "SSA-166980: PHP2Shell Vulnerabilities in Siemens Products",
     "tracking": {
-      "current_release_date": "2026-10-29T00:00:00.000Z",
+      "current_release_date": "2026-11-05T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -78,10 +78,16 @@
           "legacy_version": "1.2",
           "number": "3",
           "summary": "Added AMIS TS, Energy Engage V2.0SP9, Energy Engage V3.1SP1, Spectrum Power 3, Spectrum Power 4, Spectrum Power 7 and Spectrum Power TG to Affected Products and updated the list of known not affected"
+        },
+        {
+          "date": "2026-11-05T00:00:00.000Z",
+          "legacy_version": "1.3",
+          "number": "4",
+          "summary": "Updated Known Not Affected and Known Affected Products list"
         }
       ],
       "status": "interim",
-      "version": "3"
+      "version": "4"
     }
   },
   "product_tree": {
@@ -150,8 +156,36 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
-                  "name": "Climatix Cloud IC",
+                  "name": "Call stations",
                   "product_id": "5"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Call stations"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Chargesight",
+                  "product_id": "6"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Chargesight"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Climatix Cloud IC",
+                  "product_id": "7"
                 }
               }
             ],
@@ -165,7 +199,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Climatix Devices",
-                  "product_id": "6"
+                  "product_id": "8"
                 }
               }
             ],
@@ -179,7 +213,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Connect Insights",
-                  "product_id": "7"
+                  "product_id": "9"
                 }
               }
             ],
@@ -193,7 +227,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Connect X200",
-                  "product_id": "8"
+                  "product_id": "10"
                 }
               }
             ],
@@ -207,7 +241,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Connect X300",
-                  "product_id": "9"
+                  "product_id": "11"
                 }
               }
             ],
@@ -221,7 +255,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Connect X500",
-                  "product_id": "10"
+                  "product_id": "12"
                 }
               }
             ],
@@ -235,7 +269,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "cRSP",
-                  "product_id": "11"
+                  "product_id": "13"
                 }
               }
             ],
@@ -248,8 +282,22 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Depotfinity",
+                  "product_id": "14"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Depotfinity"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Desigo CC",
-                  "product_id": "12"
+                  "product_id": "15"
                 }
               }
             ],
@@ -263,7 +311,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Desigo DXR2",
-                  "product_id": "13"
+                  "product_id": "16"
                 }
               }
             ],
@@ -277,7 +325,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Desigo DXR3",
-                  "product_id": "14"
+                  "product_id": "17"
                 }
               }
             ],
@@ -291,7 +339,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Desigo Optic",
-                  "product_id": "15"
+                  "product_id": "18"
                 }
               }
             ],
@@ -305,7 +353,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Desigo PXC3",
-                  "product_id": "16"
+                  "product_id": "19"
                 }
               }
             ],
@@ -319,7 +367,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Desigo PXC4",
-                  "product_id": "17"
+                  "product_id": "20"
                 }
               }
             ],
@@ -333,7 +381,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Desigo PXC5",
-                  "product_id": "18"
+                  "product_id": "21"
                 }
               }
             ],
@@ -347,7 +395,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Desigo PXC7",
-                  "product_id": "19"
+                  "product_id": "22"
                 }
               }
             ],
@@ -361,7 +409,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Energy Engage V2.0SP9",
-                  "product_id": "20"
+                  "product_id": "23"
                 }
               }
             ],
@@ -375,7 +423,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Energy Engage V3.1SP1",
-                  "product_id": "21"
+                  "product_id": "24"
                 }
               }
             ],
@@ -388,8 +436,22 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Energy Management System",
+                  "product_id": "25"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Energy Management System"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Enlighted RTLS",
-                  "product_id": "22"
+                  "product_id": "26"
                 }
               }
             ],
@@ -403,7 +465,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Enlighted Space",
-                  "product_id": "23"
+                  "product_id": "27"
                 }
               }
             ],
@@ -416,8 +478,64 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Heliox Flex Pro",
+                  "product_id": "28"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Heliox Flex Pro"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Heliox H60",
+                  "product_id": "29"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Heliox H60"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Heliox Rapid",
+                  "product_id": "30"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Heliox Rapid"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<20261103",
+                "product": {
+                  "name": "Local Monitoring bt-monitoring-vm < V20261103",
+                  "product_id": "31"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Local Monitoring bt-monitoring-vm"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Navigator E&S",
-                  "product_id": "24"
+                  "product_id": "32"
                 }
               }
             ],
@@ -430,8 +548,148 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Novigo VANSYS",
+                  "product_id": "33"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Novigo VANSYS"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Novigo VANSYS core",
+                  "product_id": "34"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Novigo VANSYS core"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "PACE-Design",
+                  "product_id": "35"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "PACE-Design"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Sicharge D",
+                  "product_id": "36"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Sicharge D"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Sicharge D Configuration Backend",
+                  "product_id": "37"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Sicharge D Configuration Backend"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SICHARGE FLEX",
+                  "product_id": "38"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SICHARGE FLEX"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SICHARGE UC",
+                  "product_id": "39"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SICHARGE UC"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Sifinity Control",
+                  "product_id": "40"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Sifinity Control"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Sifinity Go",
+                  "product_id": "41"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Sifinity Go"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Sifinity Setup",
+                  "product_id": "42"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Sifinity Setup"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Sinteso FS20 EN",
-                  "product_id": "25"
+                  "product_id": "43"
                 }
               }
             ],
@@ -445,7 +703,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SiPass integrated",
-                  "product_id": "26"
+                  "product_id": "44"
                 }
               }
             ],
@@ -459,7 +717,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIPORT",
-                  "product_id": "27"
+                  "product_id": "45"
                 }
               }
             ],
@@ -473,7 +731,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Siveillance Control",
-                  "product_id": "28"
+                  "product_id": "46"
                 }
               }
             ],
@@ -487,7 +745,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Siveillance Control Pro",
-                  "product_id": "29"
+                  "product_id": "47"
                 }
               }
             ],
@@ -501,7 +759,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Siveillance Intrusion",
-                  "product_id": "30"
+                  "product_id": "48"
                 }
               }
             ],
@@ -515,7 +773,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Siveillance Video",
-                  "product_id": "31"
+                  "product_id": "49"
                 }
               }
             ],
@@ -529,7 +787,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Spectrum Power 3 using IHM (NagiosXI) running on Red Hat Enterprise Linux version (RHEL) 7",
-                  "product_id": "32"
+                  "product_id": "50"
                 }
               }
             ],
@@ -543,7 +801,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Spectrum Power 4 using Nagios or Zabbix",
-                  "product_id": "33"
+                  "product_id": "51"
                 }
               },
               {
@@ -551,7 +809,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Spectrum Power 4 with Web Office Portal V3.0, V3.1 and V3.2",
-                  "product_id": "34"
+                  "product_id": "52"
                 }
               },
               {
@@ -559,7 +817,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Spectrum Power 4 with HISViews V1.0",
-                  "product_id": "35"
+                  "product_id": "53"
                 }
               }
             ],
@@ -573,7 +831,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Spectrum Power 7 using IHM (NagiosXI)",
-                  "product_id": "36"
+                  "product_id": "54"
                 }
               }
             ],
@@ -587,7 +845,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Spectrum Power TG which are based on Microsoft Windows using the WebConsole and WebQuery components",
-                  "product_id": "37"
+                  "product_id": "55"
                 }
               }
             ],
@@ -600,8 +858,64 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Verischarge",
+                  "product_id": "56"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Verischarge"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "VersiCloudHeliox Dual Port 60kW",
+                  "product_id": "57"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "VersiCloudHeliox Dual Port 60kW"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Voice alarm panels",
+                  "product_id": "58"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Voice alarm panels"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Voice alarm systems and audio matrices",
+                  "product_id": "59"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Voice alarm systems and audio matrices"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Workplace Experience",
-                  "product_id": "38"
+                  "product_id": "60"
                 }
               }
             ],
@@ -625,33 +939,54 @@
         {
           "label": "component_not_present",
           "product_ids": [
+            "48",
+            "45",
+            "28",
+            "32",
+            "38",
+            "39",
+            "30",
+            "49",
+            "57",
+            "14",
+            "34",
+            "56",
+            "59",
+            "20",
+            "35",
+            "15",
+            "5",
+            "21",
+            "60",
+            "8",
             "22",
             "29",
-            "16",
-            "7",
-            "25",
-            "18",
-            "5",
-            "19",
-            "4",
-            "8",
-            "14",
-            "30",
-            "11",
-            "23",
-            "28",
-            "10",
-            "24",
-            "17",
-            "15",
-            "12",
+            "47",
             "26",
-            "6",
+            "11",
+            "36",
+            "18",
+            "37",
+            "44",
+            "25",
+            "10",
+            "41",
             "27",
-            "38",
+            "12",
+            "43",
             "9",
+            "19",
+            "7",
+            "46",
+            "6",
+            "58",
             "13",
-            "31"
+            "4",
+            "33",
+            "40",
+            "42",
+            "16",
+            "17"
           ]
         }
       ],
@@ -666,14 +1001,15 @@
         "known_affected": [
           "1",
           "2",
-          "20",
-          "21",
+          "23",
+          "24",
           "3",
-          "33",
-          "34",
-          "35",
-          "36",
-          "37"
+          "31",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55"
         ],
         "known_not_affected": [
           "10",
@@ -686,20 +1022,41 @@
           "17",
           "18",
           "19",
+          "20",
+          "21",
           "22",
-          "23",
-          "24",
           "25",
           "26",
           "27",
           "28",
           "29",
           "30",
-          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
           "38",
+          "39",
           "4",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
           "5",
+          "56",
+          "57",
+          "58",
+          "59",
           "6",
+          "60",
           "7",
           "8",
           "9"
@@ -710,7 +1067,7 @@
           "category": "no_fix_planned",
           "details": "Currently no fix is planned",
           "product_ids": [
-            "20"
+            "23"
           ]
         },
         {
@@ -720,30 +1077,38 @@
             "1",
             "2",
             "3",
-            "33",
-            "34",
-            "35"
+            "51",
+            "52",
+            "53"
           ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V20261103 or later version",
+          "product_ids": [
+            "31"
+          ],
+          "url": "https://support.industry.siemens.com/cs/ww/en/view/110007932/"
         },
         {
           "category": "vendor_fix",
           "details": "Red Hat released a PHP security patch for RHEL 8 and 9",
           "product_ids": [
-            "36"
+            "54"
           ]
         },
         {
           "category": "vendor_fix",
           "details": "Upgrade PHP version to V8.5.12",
           "product_ids": [
-            "37"
+            "55"
           ]
         },
         {
           "category": "vendor_fix",
           "details": "Upgrade PHP version to V8.1.34 release 6",
           "product_ids": [
-            "21"
+            "24"
           ]
         }
       ],
@@ -758,14 +1123,15 @@
           "products": [
             "1",
             "2",
-            "20",
-            "21",
+            "23",
+            "24",
             "3",
-            "33",
-            "34",
-            "35",
-            "36",
-            "37"
+            "31",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55"
           ]
         }
       ],
@@ -774,33 +1140,54 @@
           "category": "impact",
           "details": "PHP is not present in this product",
           "product_ids": [
+            "48",
+            "45",
+            "28",
+            "32",
+            "38",
+            "39",
+            "30",
+            "49",
+            "57",
+            "14",
+            "34",
+            "56",
+            "59",
+            "20",
+            "35",
+            "15",
+            "5",
+            "21",
+            "60",
+            "8",
             "22",
             "29",
-            "16",
-            "7",
-            "25",
-            "18",
-            "5",
-            "19",
-            "4",
-            "8",
-            "14",
-            "30",
-            "11",
-            "23",
-            "28",
-            "10",
-            "24",
-            "17",
-            "15",
-            "12",
+            "47",
             "26",
-            "6",
+            "11",
+            "36",
+            "18",
+            "37",
+            "44",
+            "25",
+            "10",
+            "41",
             "27",
-            "38",
+            "12",
+            "43",
             "9",
+            "19",
+            "7",
+            "46",
+            "6",
+            "58",
             "13",
-            "31"
+            "4",
+            "33",
+            "40",
+            "42",
+            "16",
+            "17"
           ]
         }
       ],
@@ -816,33 +1203,54 @@
         {
           "label": "component_not_present",
           "product_ids": [
+            "48",
+            "45",
+            "28",
+            "32",
+            "38",
+            "39",
+            "30",
+            "49",
+            "57",
+            "14",
+            "34",
+            "56",
+            "59",
+            "20",
+            "35",
+            "15",
+            "5",
+            "21",
+            "60",
+            "8",
             "22",
             "29",
-            "16",
-            "7",
-            "25",
-            "18",
-            "5",
-            "19",
-            "4",
-            "8",
-            "14",
-            "30",
-            "11",
-            "23",
-            "28",
-            "10",
-            "24",
-            "17",
-            "15",
-            "12",
+            "47",
             "26",
-            "6",
+            "11",
+            "36",
+            "18",
+            "37",
+            "44",
+            "25",
+            "10",
+            "41",
             "27",
-            "38",
+            "12",
+            "43",
             "9",
+            "19",
+            "7",
+            "46",
+            "6",
+            "58",
             "13",
-            "31"
+            "4",
+            "33",
+            "40",
+            "42",
+            "16",
+            "17"
           ]
         }
       ],
@@ -857,15 +1265,16 @@
         "known_affected": [
           "1",
           "2",
-          "20",
-          "21",
+          "23",
+          "24",
           "3",
-          "32",
-          "33",
-          "34",
-          "35",
-          "36",
-          "37"
+          "31",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55"
         ],
         "known_not_affected": [
           "10",
@@ -878,20 +1287,41 @@
           "17",
           "18",
           "19",
+          "20",
+          "21",
           "22",
-          "23",
-          "24",
           "25",
           "26",
           "27",
           "28",
           "29",
           "30",
-          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
           "38",
+          "39",
           "4",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
           "5",
+          "56",
+          "57",
+          "58",
+          "59",
           "6",
+          "60",
           "7",
           "8",
           "9"
@@ -902,7 +1332,7 @@
           "category": "no_fix_planned",
           "details": "Currently no fix is planned",
           "product_ids": [
-            "20"
+            "23"
           ]
         },
         {
@@ -912,37 +1342,45 @@
             "1",
             "2",
             "3",
-            "33",
-            "34",
-            "35"
+            "51",
+            "52",
+            "53"
           ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V20261103 or later version",
+          "product_ids": [
+            "31"
+          ],
+          "url": "https://support.industry.siemens.com/cs/ww/en/view/110007932/"
         },
         {
           "category": "vendor_fix",
           "details": "Red Hat released a PHP security patch for RHEL 8 and 9",
           "product_ids": [
-            "36"
+            "54"
           ]
         },
         {
           "category": "vendor_fix",
           "details": "Red Hat released a PHP security patch for RHEL 7",
           "product_ids": [
-            "32"
+            "50"
           ]
         },
         {
           "category": "vendor_fix",
           "details": "Upgrade PHP version to V8.5.12",
           "product_ids": [
-            "37"
+            "55"
           ]
         },
         {
           "category": "vendor_fix",
           "details": "Upgrade PHP version to V8.1.34 release 6",
           "product_ids": [
-            "21"
+            "24"
           ]
         }
       ],
@@ -957,15 +1395,16 @@
           "products": [
             "1",
             "2",
-            "20",
-            "21",
+            "23",
+            "24",
             "3",
-            "32",
-            "33",
-            "34",
-            "35",
-            "36",
-            "37"
+            "31",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55"
           ]
         }
       ],
@@ -974,33 +1413,54 @@
           "category": "impact",
           "details": "PHP is not present in this product",
           "product_ids": [
+            "48",
+            "45",
+            "28",
+            "32",
+            "38",
+            "39",
+            "30",
+            "49",
+            "57",
+            "14",
+            "34",
+            "56",
+            "59",
+            "20",
+            "35",
+            "15",
+            "5",
+            "21",
+            "60",
+            "8",
             "22",
             "29",
-            "16",
-            "7",
-            "25",
-            "18",
-            "5",
-            "19",
-            "4",
-            "8",
-            "14",
-            "30",
-            "11",
-            "23",
-            "28",
-            "10",
-            "24",
-            "17",
-            "15",
-            "12",
+            "47",
             "26",
-            "6",
+            "11",
+            "36",
+            "18",
+            "37",
+            "44",
+            "25",
+            "10",
+            "41",
             "27",
-            "38",
+            "12",
+            "43",
             "9",
+            "19",
+            "7",
+            "46",
+            "6",
+            "58",
             "13",
-            "31"
+            "4",
+            "33",
+            "40",
+            "42",
+            "16",
+            "17"
           ]
         }
       ],

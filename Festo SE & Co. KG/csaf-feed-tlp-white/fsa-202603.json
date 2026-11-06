@@ -32,7 +32,7 @@
       },
       {
         "category": "description",
-        "text": "Festo recommends updating FactoryViews 1.12.1 and earlier to FactoryViews 1.13.0.\nFor MES4 with xampp no fix is available. Please apply the mitigation measures.",
+        "text": "Festo recommends updating FactoryViews to version 1.12.2 through the \"Versions\" page of the FactoryViews control panel. Versions of FactoryViews prior to 1.12 must first be updated to 1.12 available for download here: https://www.festo.com/de/de/support-portal-specific?query=factoryviews&groupId=4&productName=factoryviews&documentId=659952\n\nFor MES4 with xampp no fix is available. Please apply the mitigation measures.",
         "title": "Remediation"
       },
       {
@@ -79,9 +79,9 @@
       "aliases": [
         "VDE-2026-139"
       ],
-      "current_release_date": "2026-11-02T12:00:00.000Z",
+      "current_release_date": "2026-11-05T14:00:00.000Z",
       "generator": {
-        "date": "2026-11-02T09:52:47.138Z",
+        "date": "2026-11-03T09:06:26.066Z",
         "engine": {
           "name": "Secvisogram",
           "version": "2.6.16"
@@ -94,10 +94,15 @@
           "date": "2026-11-02T12:00:00.000Z",
           "number": "1.0.0",
           "summary": "Initial Revision"
+        },
+        {
+          "date": "2026-11-05T14:00:00.000Z",
+          "number": "2.0.0",
+          "summary": "Adjusted information about vendor fix for FactoryViews"
         }
       ],
       "status": "final",
-      "version": "1.0.0"
+      "version": "2.0.0"
     }
   },
   "product_tree": {
@@ -110,12 +115,12 @@
                 "branches": [
                   {
                     "category": "product_version",
-                    "name": "1.13.0",
+                    "name": "1.12.2",
                     "product": {
-                      "name": "FactoryViews 1.13.0",
+                      "name": "FactoryViews 1.12.2",
                       "product_id": "FV-113",
                       "product_identification_helper": {
-                        "cpe": "cpe:2.3:a:festo:factoryviews:1.13.0:*:*:*:*:*:*:*"
+                        "cpe": "cpe:2.3:a:festo:factoryviews:1.12.2:*:*:*:*:*:*:*"
                       }
                     }
                   },
@@ -204,8 +209,8 @@
       "remediations": [
         {
           "category": "vendor_fix",
-          "date": "2026-10-30T11:00:00.000Z",
-          "details": "Update to FactoryViews 1.13.0",
+          "date": "2026-11-03T11:00:00.000Z",
+          "details": "Install patch 1.12.2 through the \"Versions\" page of the FactoryViews control panel on version 1.12.0 or 1.12.1.\n\nVersions of FactoryViews prior to 1.12 must first be updated to 1.12 available for download here: https://www.festo.com/de/de/support-portal-specific?query=factoryviews&groupId=4&productName=factoryviews&documentId=659952",
           "product_ids": [
             "FV-112"
           ],
@@ -294,8 +299,8 @@
       "remediations": [
         {
           "category": "vendor_fix",
-          "date": "2026-10-30T11:00:00.000Z",
-          "details": "Update to FactoryViews 1.13.0",
+          "date": "2026-11-03T11:00:00.000Z",
+          "details": "Install patch 1.12.2 through the \"Versions\" page of the FactoryViews control panel on version 1.12.0 or 1.12.1.\n\nVersions of FactoryViews prior to 1.12 must first be updated to 1.12 available for download here: https://www.festo.com/de/de/support-portal-specific?query=factoryviews&groupId=4&productName=factoryviews&documentId=659952",
           "product_ids": [
             "FV-112"
           ],
