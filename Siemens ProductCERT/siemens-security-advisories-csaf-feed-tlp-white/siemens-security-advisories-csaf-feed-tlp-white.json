@@ -9,6 +9,99 @@
     "entry": [
       {
         "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-566435",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-23T00:00:00Z",
+        "summary": {
+          "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products."
+        },
+        "title": "PHP2Shell Vulnerabilities in Siemens Software Products",
+        "updated": "2026-11-20T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-935812.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-935812",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-935812.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-935812.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-935812.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-20T00:00:00Z",
+        "summary": {
+          "content": "Siemens is currently assessing the impact of NGINX2Root (CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, CVE-2026-113425) on Industrial Edge.\r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "NGINX2Root Vulnerability in Industrial Edge",
+        "updated": "2026-11-20T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-810379",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-19T00:00:00Z",
+        "summary": {
+          "content": "On November 17, 2026, the OpenJDK project released security updates addressing a critical vulnerability in the hardware-accelerated Base64 decoder in the OpenJDK HotSpot JVM, commonly referred to as \"Java4Shell\" (tracked as CVE-2026-114938). The vulnerability is a heap-based out-of-bounds write that could allow a remote, unauthenticated attacker to cause memory corruption and potentially execute arbitrary code. \r\n\r\n__For your system to be exposed to this vulnerability, all of the following conditions must be met:__  \r\n\r\n* An affected JVM. Including Java runtimes bundled inside products.\r\n* Intel and AMD chips are affected in case they support a x86-64 CPU architecture with AVX-512 VBMI\r\n* Untrusted Base64 reaching Base64.getDecoded() or getUrlDecoded()\r\n* A JIT-compiled decoder  \r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available.  \r\n\r\nThis advisory covers the status of impact of various Siemens products."
+        },
+        "title": "Java4Shell Vulnerability in Siemens Products",
+        "updated": "2026-11-19T00:00:00Z"
+      },
+      {
+        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json",
           "type": "application/json"
         },
@@ -33,10 +126,754 @@
         ],
         "published": "2026-10-30T00:00:00Z",
         "summary": {
-          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products.\r\n\r\nSiemens has released new versions for the affected products and recommends to update to the latest versions."
+          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products.\r\n\r\nSiemens has released new versions for some of the affected products and recommends to update to the latest versions."
         },
         "title": "Node2Shell Vulnerability in Siemens Products",
-        "updated": "2026-11-06T00:00:00Z"
+        "updated": "2026-11-18T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-166980",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-26T00:00:00Z",
+        "summary": {
+          "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products.\r\n\r\nAs a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals.\r\n\r\n Siemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends mitigations for products where fixes are not or not yet available."
+        },
+        "title": "PHP2Shell Vulnerabilities in Siemens Products",
+        "updated": "2026-11-18T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-272816",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-18T00:00:00Z",
+        "summary": {
+          "content": "Siemens is currently assessing the impact of Java4Shell (CVE-2026-114938) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup and the underlying hardware. **For your system to be exposed to this vulnerability, all of the following conditions must be met:**\r\n\r\n- An affected JVM. Including Java runtimes bundled inside products.\r\n- Intel and AMD chips are affected in case they support a x86-64 CPU architecture with AVX-512 VBMI\r\n- Untrusted Base64 reaching Base64.getDecoded() or getUrlDecoded()\r\n- A JIT-compiled decoder\r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Java4Shell Vulnerability in Industrial Edge",
+        "updated": "2026-11-18T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-566512",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-23T00:00:00Z",
+        "summary": {
+          "content": "Palo Alto Networks has published [1] information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities.\r\n\r\nCustomers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications.\r\n\r\n[1] <https://security.paloaltonetworks.com/CVE-2026-109618>"
+        },
+        "title": "PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
+        "updated": "2026-11-18T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-710379.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-710379",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-710379.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-710379.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-710379.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access, tool execution, or system compromise.\r\n\r\nSiemens has released new versions for the affected products and recommends to update to the latest versions."
+        },
+        "title": "Multiple Vulnerabilities in Mendix Studio Pro's MCP Server",
+        "updated": "2026-11-16T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-104023.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-104023",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-104023.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-104023.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-104023.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-07-14T00:00:00Z",
+        "summary": {
+          "content": "Palo Alto Networks has published \\[1\\] information on vulnerabilities in PAN-OS. This advisory lists the related Siemens Industrial products affected by these vulnerabilities.\r\n\r\nCustomers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications.\r\n\r\n[1] https://security.paloaltonetworks.com/"
+        },
+        "title": "Multiple Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-105852.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-105852",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-105852.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-105852.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-105852.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code.\r\n\r\nSiemens has released a new version for Simcenter Femap and recommends to update to the latest version."
+        },
+        "title": "Out of Bounds Read Vulnerability in Simcenter Femap",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-127084.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-127084",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-127084.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-127084.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-127084.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-08-11T00:00:00Z",
+        "summary": {
+          "content": "[Fortinet has published](https://www.fortiguard.com/psirt) information on vulnerabilities in FortiOS. This advisory lists the related Siemens Industrial products.\r\n\r\nSiemens recommends to contact customer support for additional information, and follow Fortinet advisory for workarounds and mitigation measures."
+        },
+        "title": "Multiple Vulnerabilities in Fortigate NGFW before V7.6.7 on RUGGEDCOM APE1808 Devices",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-242944",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens products.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Node2Shell Vulnerability in Siemens Industrial Products",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-282044.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-282044",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-282044.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-282044.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-282044.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2025-08-12T00:00:00Z",
+        "summary": {
+          "content": "The installers used to install several Siemens products are affected by a DLL hijacking vulnerability. This could allow an attacker to execute arbitrary code when a legitimate user installs an application that uses the affected installer component. This vulnerability poses a risk only during setup and installation phase of the affected applications downloaded e.g. via OSD (Online Software Delivery).\r\n\r\nSiemens has released new versions for several affected products and recommends using the latest versions during setup and installation. Siemens is preparing further fixes and recommends specific countermeasures for products where fixes are not or not yet available."
+        },
+        "title": "DLL Hijacking Vulnerability in Siemens Web Installer used by the Online Software Delivery",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-390352.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-390352",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-390352.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-390352.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-390352.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-13T00:00:00Z",
+        "summary": {
+          "content": ".NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory.\r\n\r\nSiemens has released a new version for .NET Client Library for SIMATIC S7 Webserver API and recommends to update to the latest version."
+        },
+        "title": "Multiple Vulnerabilities in .NET Client Library for SIMATIC S7 Webserver API",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-392349.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-392349",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-392349.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-392349.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-392349.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-05-12T00:00:00Z",
+        "summary": {
+          "content": "Multiple industrial devices contain a vulnerability that could allow an attacker to cause a denial of service condition.\r\n\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available."
+        },
+        "title": "Denial of Service Vulnerability in Industrial Devices",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-434797.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-434797",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-434797.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-434797.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-434797.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-06-09T00:00:00Z",
+        "summary": {
+          "content": "OpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Buffer Overflow Vulnerability in OpenSSL affecting Siemens Products",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-435267.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-435267",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-435267.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-435267.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-435267.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program.\r\n\r\nSiemens has released a new version for ROS# and recommends to update to the latest version."
+        },
+        "title": "Code Injection Vulnerability in ROS# Before 2.3.1",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-457936.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-457936",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-457936.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-457936.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-457936.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-13T00:00:00Z",
+        "summary": {
+          "content": "Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant).\r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Vulnerabilities in the additional GNU/Linux subsystem of the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP V3.1.7",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-493396.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-493396",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-493396.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-493396.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-493396.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2025-08-12T00:00:00Z",
+        "summary": {
+          "content": "Affected products do not properly sanitize user-controllable input when parsing project files. This could allow an attacker to cause a type confusion and execute arbitrary code within the affected application.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available."
+        },
+        "title": "Deserialization Vulnerability in Siemens Engineering Platforms",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-651988.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-651988",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-651988.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-651988.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-651988.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "[Fortinet has published](https://www.fortiguard.com/psirt) information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products.\r\n\r\nSiemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support to receive detailed information"
+        },
+        "title": "Double Free vulnerability in Fortigate NGFW before V7.6.9 on RUGGEDCOM APE1808 Devices",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-678870.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-678870",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-678870.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-678870.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-678870.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products.\r\n\r\nPlease also have a look on following Software Field Bulletins:\r\n\r\nTeamcenter: [https://support.sw.siemens.com/en-US/knowledge-base/PL8869204](https://support.sw.siemens.com/en-US/knowledge-base/PL8869204)\r\n\r\nPolarion: [https://support.sw.siemens.com/en-US/knowledge-base/PL8869197](https://support.sw.siemens.com/en-US/knowledge-base/PL8869197)\r\n\r\nManufacturing Operations Center (Opcenter) and Process Preparation X: [https://support.sw.siemens.com/en-US/knowledge-base/PL8869211](https://support.sw.siemens.com/en-US/knowledge-base/PL8869211)\r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Node2Shell/Broccoli2Shell Vulnerabilities in Siemens Software Products",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-693808.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-693808",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-693808.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-693808.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-693808.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2025-08-12T00:00:00Z",
+        "summary": {
+          "content": "Affected products do not properly restrict access permissions to a local Windows Named Pipe and do not properly sanitize user-controllable input sent to that Named Pipe. This could allow a local authenticated attacker to cause a type confusion and execute arbitrary code within the affected application and its privileges.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available."
+        },
+        "title": "Deserialization Vulnerability in Siemens Engineering Platforms",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-724261.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-724261",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-724261.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-724261.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-724261.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "meta-iot2050 (<https://github.com/siemens/meta-iot2050>) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root.\r\n\r\nSiemens is preparing fixes and recommends mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Command Injection Vulnerability in meta-iot2050",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-800126.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-800126",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-800126.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-800126.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-800126.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2024-12-10T00:00:00Z",
+        "summary": {
+          "content": "Affected products do not properly sanitize user-controllable input when parsing files. This could allow an attacker to cause a type confusion and execute arbitrary code within the affected application.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.\r\n\r\nSiemens has released products based on the Totally Integrated Automation Portal (TIA Portal) V20 which are not affected by CVE-2024-49849. See the chapter \"Additional Information\" below for more details."
+        },
+        "title": "Deserialization Vulnerability in Siemens Engineering Platforms before V20",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-834709",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-08-11T00:00:00Z",
+        "summary": {
+          "content": "SIMATIC IoT2050 devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges.\r\n\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 with Industrial OS",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-904646.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-904646",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-904646.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-904646.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-904646.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2025-07-08T00:00:00Z",
+        "summary": {
+          "content": "A sensitive data exposure vulnerability in SIPROTEC 5 can allow an attacker to retrieve sensitive session data from browser history, logs, or other storage mechanisms, potentially leading to unauthorized access.\r\n\r\n\r\nSiemens has released new versions for the affected products and recommends to update to the latest versions."
+        },
+        "title": "Sensitive Data Exposure Vulnerability in SIPROTEC 5 Devices",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-970803.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-970803",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-970803.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-970803.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-970803.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user.\r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Insecure User Authentication in SIMATIC SCADA and PCS 7 systems",
+        "updated": "2026-11-10T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-979641.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-979641",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-979641.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-979641.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-979641.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device.\r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Implicit Execution of Active Content when Opening Files Vulnerability in SIMATIC WinCC Graphics Designer",
+        "updated": "2026-11-10T00:00:00Z"
       },
       {
         "content": {
@@ -68,130 +905,6 @@
         },
         "title": "Node2Shell Vulnerability in Industrial Edge Management Applications",
         "updated": "2026-11-06T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-166980",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-166980.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-26T00:00:00Z",
-        "summary": {
-          "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products.\r\n\r\nAs a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals.\r\n\r\n Siemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends mitigations for products where fixes are not or not yet available."
-        },
-        "title": "PHP2Shell Vulnerabilities in Siemens Products",
-        "updated": "2026-11-05T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-566435",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-23T00:00:00Z",
-        "summary": {
-          "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products."
-        },
-        "title": "PHP2Shell Vulnerabilities in Siemens Software Products",
-        "updated": "2026-11-04T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-566512",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566512.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-23T00:00:00Z",
-        "summary": {
-          "content": "Palo Alto Networks has published [1] information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities.\r\n\r\nCustomers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications.\r\n\r\n[1] <https://security.paloaltonetworks.com/CVE-2026-109618>"
-        },
-        "title": "PHP2Shell Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
-        "updated": "2026-11-04T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-834709",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-834709.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-08-11T00:00:00Z",
-        "summary": {
-          "content": "SIMATIC IoT2050 devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges.\r\n\r\nSiemens has released new versions for the affected products and recommends to update to the latest versions."
-        },
-        "title": "Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 with Industrial OS",
-        "updated": "2026-11-04T00:00:00Z"
       },
       {
         "content": {
@@ -443,68 +1156,6 @@
       },
       {
         "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-104023.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-104023",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-104023.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-104023.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-104023.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-07-14T00:00:00Z",
-        "summary": {
-          "content": "Palo Alto Networks has published \\[1\\] information on vulnerabilities in PAN-OS. This advisory lists the related Siemens Industrial products affected by these vulnerabilities.\r\n\r\nCustomers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications.\r\n\r\n[1] https://security.paloaltonetworks.com/"
-        },
-        "title": "Multiple Vulnerabilities in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
-        "updated": "2026-10-13T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-127084.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-127084",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-127084.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-127084.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-127084.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-08-11T00:00:00Z",
-        "summary": {
-          "content": "[Fortinet has published](https://www.fortiguard.com/psirt) information on vulnerabilities in FortiOS. This advisory lists the related Siemens Industrial products.\r\n\r\nSiemens recommends to contact customer support for additional information, and follow Fortinet advisory for workarounds and mitigation measures."
-        },
-        "title": "Multiple Vulnerabilities in Fortigate NGFW before V7.6.7 on RUGGEDCOM APE1808 Devices",
-        "updated": "2026-10-13T00:00:00Z"
-      },
-      {
-        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-148322.json",
           "type": "application/json"
         },
@@ -629,37 +1280,6 @@
       },
       {
         "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-282044.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-282044",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-282044.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-282044.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-282044.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2025-08-12T00:00:00Z",
-        "summary": {
-          "content": "The installers used to install several Siemens products are affected by a DLL hijacking vulnerability. This could allow an attacker to execute arbitrary code when a legitimate user installs an application that uses the affected installer component. This vulnerability poses a risk only during setup and installation phase of the affected applications downloaded e.g. via OSD (Online Software Delivery).\r\n\r\nSiemens has released new versions for several affected products and recommends using the latest versions during setup and installation. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available."
-        },
-        "title": "DLL Hijacking Vulnerability in Siemens Web Installer used by the Online Software Delivery",
-        "updated": "2026-10-13T00:00:00Z"
-      },
-      {
-        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-333035.json",
           "type": "application/json"
         },
@@ -722,37 +1342,6 @@
       },
       {
         "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-390352.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-390352",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-390352.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-390352.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-390352.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-13T00:00:00Z",
-        "summary": {
-          "content": ".NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory.\r\n\r\nSiemens has released a new version for .NET Client Library for SIMATIC S7 Webserver API and recommends to update to the latest version."
-        },
-        "title": "Multiple Vulnerabilities in .NET Client Library for SIMATIC S7 Webserver API",
-        "updated": "2026-10-13T00:00:00Z"
-      },
-      {
-        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-392859.json",
           "type": "application/json"
         },
@@ -811,99 +1400,6 @@
           "content": "Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version  >= V3.1.0 and < V3.1.5 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant).\r\n\r\nThese GNU/Linux vulnerabilities have been externally identified. \r\nSiemens has released new versions for the affected products and recommends to update to the latest versions.\r\n\r\nSIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP >= V3.1.0 and < V3.1.5 are no longer maintained and there won't be any update to the CVE list anymore. Please update to the latest version.\r\n\r\nNote: This SSA advises vulnerabilities for firmware version V3.1 only; for versions < V3.1 refer to Siemens Security Bulletin SSB-439005 (<https://cert-portal.siemens.com/productcert/html/ssb-439005.html>)."
         },
         "title": "Vulnerabilities in the additional GNU/Linux subsystem of the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP  >= V3.1.0 and < V3.1.5",
-        "updated": "2026-10-13T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-434797.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-434797",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-434797.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-434797.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-434797.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-06-09T00:00:00Z",
-        "summary": {
-          "content": "OpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available."
-        },
-        "title": "Buffer Overflow Vulnerability in OpenSSL affecting Siemens Products",
-        "updated": "2026-10-13T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-457936.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-457936",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-457936.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-457936.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-457936.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-13T00:00:00Z",
-        "summary": {
-          "content": "Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant).\r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available."
-        },
-        "title": "Vulnerabilities in the additional GNU/Linux subsystem of the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP V3.1.7",
-        "updated": "2026-10-13T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-493396.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-493396",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-493396.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-493396.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-493396.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2025-08-12T00:00:00Z",
-        "summary": {
-          "content": "Affected products do not properly sanitize user-controllable input when parsing project files. This could allow an attacker to cause a type confusion and execute arbitrary code within the affected application.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available."
-        },
-        "title": "Deserialization Vulnerability in Siemens Engineering Platforms",
         "updated": "2026-10-13T00:00:00Z"
       },
       {
@@ -1094,37 +1590,6 @@
       },
       {
         "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-693808.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-693808",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-693808.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-693808.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-693808.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2025-08-12T00:00:00Z",
-        "summary": {
-          "content": "Affected products do not properly restrict access permissions to a local Windows Named Pipe and do not properly sanitize user-controllable input sent to that Named Pipe. This could allow a local authenticated attacker to cause a type confusion and execute arbitrary code within the affected application and its privileges.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available."
-        },
-        "title": "Deserialization Vulnerability in Siemens Engineering Platforms",
-        "updated": "2026-10-13T00:00:00Z"
-      },
-      {
-        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-765416.json",
           "type": "application/json"
         },
@@ -1245,37 +1710,6 @@
           "content": "Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.0.\r\n\r\nSiemens has released a new version for SIMATIC S7-1500 TM MFP -\u00a0GNU/Linux subsystem and recommends to update to the latest version.\r\n\r\nSIMATIC S7-1500 TM MFP V1.0 is no longer maintained and there won't be any update to the CVE list anymore. Please update to the latest version. \r\n\r\nThis advisory lists vulnerabilities for firmware version V1.0 only; for V1.1 refer to Siemens Security Advisory SSA-265688 (<https://cert-portal.siemens.com/productcert/html/ssa-265688.html>)."
         },
         "title": "Vulnerabilities in the Additional GNU/Linux Subsystem of the SIMATIC S7-1500 TM MFP Before V1.1",
-        "updated": "2026-10-13T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-800126.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-800126",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-800126.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-800126.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-800126.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2024-12-10T00:00:00Z",
-        "summary": {
-          "content": "Affected products do not properly sanitize user-controllable input when parsing files. This could allow an attacker to cause a type confusion and execute arbitrary code within the affected application.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.\r\n\r\nSiemens has released products based on the Totally Integrated Automation Portal (TIA Portal) V20 which are not affected by CVE-2024-49849. See the chapter \"Additional Information\" below for more details."
-        },
-        "title": "Deserialization Vulnerability in Siemens Engineering Platforms before V20",
         "updated": "2026-10-13T00:00:00Z"
       },
       {
@@ -2051,37 +2485,6 @@
           "content": "Insyde has published information on vulnerabilities in Insyde BIOS in [February 2022](https://www.insyde.com/security-pledge). This advisory lists the Siemens Industrial products affected by these vulnerabilities.\r\n\r\n\r\nSiemens has released new versions for the affected products and recommends to update to the latest versions."
         },
         "title": "Insyde BIOS Vulnerabilities in Siemens Industrial Products",
-        "updated": "2026-08-11T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-392349.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-392349",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-392349.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-392349.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-392349.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-05-12T00:00:00Z",
-        "summary": {
-          "content": "Multiple industrial devices contain a vulnerability that could allow an attacker to cause a denial of service condition.\r\n\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available."
-        },
-        "title": "Denial of Service Vulnerability in Industrial Devices",
         "updated": "2026-08-11T00:00:00Z"
       },
       {
@@ -3322,37 +3725,6 @@
           "content": "Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios HTTP client library. The vulnerability stems from a specific \"Gadget\" attack chain that allows prototype pollution in other third-party libraries, potentially allowing an attacker to execute arbitrary code.\r\n\r\nSiemens has released a new version for gWAP and recommends to update to the latest version."
         },
         "title": "Prototype Pollution Vulnerability in Axios Library Affecting Siemens gWAP Before V3.1.1",
-        "updated": "2026-05-12T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-904646.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-904646",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-904646.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-904646.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-904646.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2025-07-08T00:00:00Z",
-        "summary": {
-          "content": "A sensitive data exposure vulnerability in SIPROTEC 5 can allow an attacker to retrieve sensitive session data from browser history, logs, or other storage mechanisms, potentially leading to unauthorized access.\r\n\r\nSiemens is preparing fix versions and recommends countermeasures for products where fixes are not, or not yet available."
-        },
-        "title": "Sensitive Data Exposure Vulnerability in SIPROTEC 5 Devices",
         "updated": "2026-05-12T00:00:00Z"
       },
       {
@@ -26831,6 +27203,6 @@
       }
     ],
     "title": "Siemens Security Advisories CSAF feed (TLP:WHITE)",
-    "updated": "2026-11-06T15:43:00.348184Z"
+    "updated": "2026-11-20T17:08:36.302108Z"
   }
 }

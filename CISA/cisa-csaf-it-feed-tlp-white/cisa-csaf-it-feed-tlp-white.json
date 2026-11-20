@@ -9,6 +9,174 @@
     "entry": [
       {
         "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-317-01.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-317-01",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-317-01.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-317-01.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-317-01.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-13T16:45:20Z",
+        "title": "Jet Admin Cloud Platform Prompt Injection",
+        "updated": "2026-11-13T16:45:20Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-310-01.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-310-01",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-310-01.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-310-01.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-310-01.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-13T16:33:18Z",
+        "title": "Catalis WebPro SQLi",
+        "updated": "2026-11-13T16:33:18Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-314-01.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-314-01",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-314-01.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-314-01.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-314-01.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-13T16:27:48Z",
+        "title": "iDentalSoft website information exposure",
+        "updated": "2026-11-13T16:27:48Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-03.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-313-03",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-03.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-03.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-03.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T21:40:20Z",
+        "title": "AsiaInfo BSS multiple vulnerabilities",
+        "updated": "2026-11-10T21:40:20Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-01.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-313-01",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-01.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-01.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-01.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T19:36:29Z",
+        "title": "Chargemap Web Platform multiple vulnerabilities",
+        "updated": "2026-11-10T21:24:13Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-04.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VA-26-313-04",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-04.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-04.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-313-04.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T19:44:23Z",
+        "title": "BeeS ERP administrative console IDOR",
+        "updated": "2026-11-10T19:44:23Z"
+      },
+      {
+        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-it-feed-tlp-white/va-26-294-01.json",
           "type": "application/json"
         },
@@ -2900,6 +3068,6 @@
       }
     ],
     "title": "CISA CSAF IT feed (TLP:WHITE)",
-    "updated": "2026-11-06T15:43:00.348184Z"
+    "updated": "2026-11-20T17:08:36.302108Z"
   }
 }

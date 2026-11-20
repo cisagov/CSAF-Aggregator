@@ -9,6 +9,38 @@
     "entry": [
       {
         "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2026-087.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VDE-2026-087",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2026-087.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2026-087.json.sha256",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2026-087.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2026-087.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-11T10:00:00Z",
+        "title": "Beckhoff: Exposed IOCTLs with insufficient access control in TcRouter.sys",
+        "updated": "2026-11-11T10:00:00Z"
+      },
+      {
+        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2025-106.json",
           "type": "application/json"
         },
@@ -137,66 +169,34 @@
       },
       {
         "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json",
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json",
           "type": "application/json"
         },
         "format": {
           "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
           "version": "2.0"
         },
-        "id": "VDE-2020-019",
+        "id": "VDE-2021-051",
         "link": [
           {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json",
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json",
             "rel": "self"
           },
           {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json.sha256",
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json.sha256",
             "rel": "hash"
           },
           {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json.sha512",
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json.sha512",
             "rel": "hash"
           },
           {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json.asc",
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json.asc",
             "rel": "signature"
           }
         ],
-        "published": "2020-06-16T08:31:00Z",
-        "title": "Beckhoff: EtherLeak in TwinCAT RT network driver",
-        "updated": "2025-05-22T13:03:10Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "VDE-2021-008",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json.sha256",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2024-10-21T08:00:00Z",
-        "title": "Beckhoff: Stack Overflow and XXE vulnerability in various OPC UA products",
+        "published": "2021-11-04T07:00:00Z",
+        "title": "Beckhoff: Relative path traversal vulnerability through TwinCAT OPC UA Server",
         "updated": "2025-05-22T13:03:10Z"
       },
       {
@@ -265,34 +265,34 @@
       },
       {
         "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json",
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json",
           "type": "application/json"
         },
         "format": {
           "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
           "version": "2.0"
         },
-        "id": "VDE-2021-051",
+        "id": "VDE-2021-008",
         "link": [
           {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json",
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json",
             "rel": "self"
           },
           {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json.sha256",
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json.sha256",
             "rel": "hash"
           },
           {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json.sha512",
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json.sha512",
             "rel": "hash"
           },
           {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-051.json.asc",
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2021-008.json.asc",
             "rel": "signature"
           }
         ],
-        "published": "2021-11-04T07:00:00Z",
-        "title": "Beckhoff: Relative path traversal vulnerability through TwinCAT OPC UA Server",
+        "published": "2024-10-21T08:00:00Z",
+        "title": "Beckhoff: Stack Overflow and XXE vulnerability in various OPC UA products",
         "updated": "2025-05-22T13:03:10Z"
       },
       {
@@ -457,6 +457,38 @@
       },
       {
         "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "VDE-2020-019",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json.sha256",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2020-019.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2020-06-16T08:31:00Z",
+        "title": "Beckhoff: EtherLeak in TwinCAT RT network driver",
+        "updated": "2025-05-22T13:03:10Z"
+      },
+      {
+        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Beckhoff%20Automation%20GmbH%20&%20Co.%20KG/csaf-feed-tlp-white/vde-2019-019.json",
           "type": "application/json"
         },
@@ -560,6 +592,6 @@
       }
     ],
     "title": "CSAF feed (TLP:WHITE)",
-    "updated": "2026-11-06T15:43:00.348184Z"
+    "updated": "2026-11-20T17:08:36.302108Z"
   }
 }

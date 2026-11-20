@@ -1,0 +1,701 @@
+{
+  "document": {
+    "category": "csaf_security_advisory",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Disclosure is not limited. (TLPv2: TLP:CLEAR)",
+      "tlp": {
+        "label": "WHITE"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "Siemens is currently assessing the impact of NGINX2Root (CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-121810, CVE-2026-113425) on Industrial Edge.\n\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available.",
+        "title": "Summary"
+      },
+      {
+        "category": "general",
+        "text": "As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals.\nAdditional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity",
+        "title": "General Recommendations"
+      },
+      {
+        "category": "general",
+        "text": "For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories",
+        "title": "Additional Resources"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "productcert@siemens.com",
+      "name": "Siemens ProductCERT",
+      "namespace": "https://www.siemens.com"
+    },
+    "references": [
+      {
+        "category": "self",
+        "summary": "SSA-935812: NGINX2Root Vulnerability in Industrial Edge - HTML Version",
+        "url": "https://cert-portal.siemens.com/productcert/html/ssa-935812.html"
+      },
+      {
+        "category": "self",
+        "summary": "SSA-935812: NGINX2Root Vulnerability in Industrial Edge - CSAF Version",
+        "url": "https://cert-portal.siemens.com/productcert/csaf/ssa-935812.json"
+      }
+    ],
+    "title": "SSA-935812: NGINX2Root Vulnerability in Industrial Edge",
+    "tracking": {
+      "current_release_date": "2026-11-20T00:00:00.000Z",
+      "generator": {
+        "engine": {
+          "name": "Siemens ProductCERT CSAF Generator",
+          "version": "1"
+        }
+      },
+      "id": "SSA-935812",
+      "initial_release_date": "2026-11-20T00:00:00.000Z",
+      "revision_history": [
+        {
+          "date": "2026-11-20T00:00:00.000Z",
+          "legacy_version": "1.0",
+          "number": "1",
+          "summary": "Publication Date"
+        }
+      ],
+      "status": "interim",
+      "version": "1"
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Cloud Device (IECD)",
+                  "product_id": "1"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Cloud Device (IECD)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Device Kit - arm64",
+                  "product_id": "2"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Device Kit - arm64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Device Kit\u00a0- x86-64",
+                  "product_id": "3"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Device Kit\u00a0- x86-64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Hub",
+                  "product_id": "4"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Hub"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Management Cloud",
+                  "product_id": "5"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Management Cloud"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Management Pro V1",
+                  "product_id": "6"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Management Pro V1"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Management Pro V2",
+                  "product_id": "7"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Management Pro V2"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Management Virtual",
+                  "product_id": "8"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Management Virtual"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Own Device (IEOD)",
+                  "product_id": "9"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Own Device (IEOD)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Industrial Edge Virtual Device (IEVD)",
+                  "product_id": "10"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Industrial Edge Virtual Device (IEVD)"
+          }
+        ],
+        "category": "vendor",
+        "name": "Siemens"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-113425",
+      "cwe": {
+        "id": "CWE-416",
+        "name": "Use After Free"
+      },
+      "flags": [
+        {
+          "label": "vulnerable_code_not_in_execute_path",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "When NGINX Plus or NGINX Open Source is configured as a mail proxy, undisclosed traffic can cause a use-after-free in an nginx worker process.\u00a0Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\nImpact:\nA remote unauthenticated attacker may crash an nginx worker process or corrupt its memory, disrupting service. Remote code execution is a potential impact. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "1",
+          "10",
+          "2",
+          "3",
+          "9"
+        ],
+        "known_not_affected": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "details": "Currently no fix is available",
+          "product_ids": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "details": "This product is not affected because HTTP/2 is disabled, and HTTP/3 and SSI are not used.",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "title": "CVE-2026-113425"
+    },
+    {
+      "cve": "CVE-2026-121810",
+      "cwe": {
+        "id": "CWE-416",
+        "name": "Use After Free"
+      },
+      "flags": [
+        {
+          "label": "vulnerable_code_not_in_execute_path",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Description:\nThis issue affects NGINX Plus and NGINX Open Source configurations that use HTTP/3. A remote, unauthenticated attacker can cause a use-after-free condition in the NGINX worker process, leading to a restart. Exploitation also depends on conditions beyond the attacker\u2019s control. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\nImpact:\nThis vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or to possibly trigger a code execution. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "1",
+          "10",
+          "2",
+          "3",
+          "9"
+        ],
+        "known_not_affected": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "mitigation",
+          "details": "The following measure can be configured using a Web Application Firewall (WAF) or a reverse proxy: Disable HTTP/3/QUIC on affected services.",
+          "product_ids": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        },
+        {
+          "category": "none_available",
+          "details": "Currently no fix is available",
+          "product_ids": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "details": "This product is not affected because HTTP/2 is disabled, and HTTP/3 and SSI are not used.",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "title": "CVE-2026-121810"
+    },
+    {
+      "cve": "CVE-2026-123007",
+      "cwe": {
+        "id": "CWE-191",
+        "name": "Integer Underflow (Wrap or Wraparound)"
+      },
+      "flags": [
+        {
+          "label": "vulnerable_code_not_in_execute_path",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2. When NGINX processes undisclosed traffic, the flow control window can exceed the allowed threshold, potentially resulting in a heap buffer overflow typically followed by an NGINX worker segmentation fault. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\nImpact: An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or potentially execute code remotely. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "1",
+          "10",
+          "2",
+          "3",
+          "9"
+        ],
+        "known_not_affected": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "mitigation",
+          "details": "The following measure can be configured using a Web Application Firewall (WAF) or a reverse proxy: Disable HTTP/2 on affected listeners.",
+          "product_ids": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        },
+        {
+          "category": "none_available",
+          "details": "Currently no fix is available",
+          "product_ids": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "details": "This product is not affected because HTTP/2 is disabled, and HTTP/3 and SSI are not used.",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "title": "CVE-2026-123007"
+    },
+    {
+      "cve": "CVE-2026-123633",
+      "cwe": {
+        "id": "CWE-416",
+        "name": "Use After Free"
+      },
+      "flags": [
+        {
+          "label": "vulnerable_code_not_in_execute_path",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "When NGINX Plus or NGINX Open Source is configured to use HTTP/2 for client connections and proxy client requests to a backend, a specially crafted request can result in use-after-free in the worker process, if this process is running low on worker_connections.\u00a0Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\n\n\n\nImpact:\n\n\n\nThis vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or may allow a code execution. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "1",
+          "10",
+          "2",
+          "3",
+          "9"
+        ],
+        "known_not_affected": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "mitigation",
+          "details": "The following measure can be configured using a Web Application Firewall (WAF) or a reverse proxy: Disable HTTP/2 on affected listeners.",
+          "product_ids": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        },
+        {
+          "category": "none_available",
+          "details": "Currently no fix is available",
+          "product_ids": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "details": "This product is not affected because HTTP/2 is disabled, and HTTP/3 and SSI are not used.",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "title": "CVE-2026-123633"
+    },
+    {
+      "cve": "CVE-2026-123634",
+      "cwe": {
+        "id": "CWE-416",
+        "name": "Use After Free"
+      },
+      "flags": [
+        {
+          "label": "vulnerable_code_not_in_execute_path",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "This issue occurs when NGINX Plus or NGINX Open Source is configured as a proxy, the proxied server name includes variables, and a Server Side Includes (SSI) or mirror directive sends a subrequest to a location that resolves the same server name. Under these conditions, a specially crafted HTTP request may cause a use-after-free condition in a worker process. An attacker may also be able to execute code if Address Space Layout Randomization (ASLR) is disabled or the attacker can bypass ASLR.\n\nImpact: \nAn attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or perform remote code execution (RCE)\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "1",
+          "10",
+          "2",
+          "3",
+          "9"
+        ],
+        "known_not_affected": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "mitigation",
+          "details": "Avoid the use of SSI and mirror directives, and do not use variables when configuring the proxy server name.",
+          "product_ids": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        },
+        {
+          "category": "none_available",
+          "details": "Currently no fix is available",
+          "product_ids": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "1",
+            "10",
+            "2",
+            "3",
+            "9"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "details": "This product is not affected because HTTP/2 is disabled, and HTTP/3 and SSI are not used.",
+          "product_ids": [
+            "5",
+            "4",
+            "8",
+            "7",
+            "6"
+          ]
+        }
+      ],
+      "title": "CVE-2026-123634"
+    }
+  ]
+}
