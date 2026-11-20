@@ -20,7 +20,7 @@ jobs:
     - name: setup python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.9'
+        python-version: '3.12'
     - run: pip install requests pgpy python-dateutil
     - name: Run aggregator
       run: python3 .github/aggregation/csaf_scraper.py
