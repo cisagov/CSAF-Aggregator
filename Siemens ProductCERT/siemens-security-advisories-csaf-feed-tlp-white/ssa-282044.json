@@ -12,7 +12,7 @@
     "notes": [
       {
         "category": "summary",
-        "text": "The installers used to install several Siemens products are affected by a DLL hijacking vulnerability. This could allow an attacker to execute arbitrary code when a legitimate user installs an application that uses the affected installer component. This vulnerability poses a risk only during setup and installation phase of the affected applications downloaded e.g. via OSD (Online Software Delivery).\n\nSiemens has released new versions for several affected products and recommends using the latest versions during setup and installation. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.",
+        "text": "The installers used to install several Siemens products are affected by a DLL hijacking vulnerability. This could allow an attacker to execute arbitrary code when a legitimate user installs an application that uses the affected installer component. This vulnerability poses a risk only during setup and installation phase of the affected applications downloaded e.g. via OSD (Online Software Delivery).\n\nSiemens has released new versions for several affected products and recommends using the latest versions during setup and installation. Siemens is preparing further fixes and recommends specific countermeasures for products where fixes are not or not yet available.",
         "title": "Summary"
       },
       {
@@ -51,7 +51,7 @@
     ],
     "title": "SSA-282044: DLL Hijacking Vulnerability in Siemens Web Installer used by the Online Software Delivery",
     "tracking": {
-      "current_release_date": "2026-10-13T00:00:00.000Z",
+      "current_release_date": "2026-11-10T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -126,10 +126,16 @@
           "legacy_version": "2.0",
           "number": "11",
           "summary": "Update the affected version of SIMATIC Safety Matrix to V6.3"
+        },
+        {
+          "date": "2026-11-10T00:00:00.000Z",
+          "legacy_version": "2.1",
+          "number": "12",
+          "summary": "Added fix for SIMATIC WinCC Visualization Architect (SiVArc) V18; Added no fix planned for SIMATIC eaSie Workflow Skills V26,SIMATIC eaSie PCS 7 Skill Package V26,SIMATIC eaSie Document Skills V26,SIMATIC eaSie Core Package V26"
         }
       ],
       "status": "interim",
-      "version": "11"
+      "version": "12"
     }
   },
   "product_tree": {
@@ -455,13 +461,13 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
-                  "name": "SIMATIC eaSie Document Skills",
+                  "name": "SIMATIC eaSie Document Skills V26",
                   "product_id": "23"
                 }
               }
             ],
             "category": "product_name",
-            "name": "SIMATIC eaSie Document Skills"
+            "name": "SIMATIC eaSie Document Skills V26"
           },
           {
             "branches": [
@@ -469,7 +475,7 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
-                  "name": "SIMATIC eaSie PCS 7 Skill Package (6DL5424-0BX00-0AV8)",
+                  "name": "SIMATIC eaSie PCS 7 Skill Package V26 (6DL5424-0BX00-0AV8)",
                   "product_id": "24",
                   "product_identification_helper": {
                     "model_numbers": [
@@ -480,7 +486,7 @@
               }
             ],
             "category": "product_name",
-            "name": "SIMATIC eaSie PCS 7 Skill Package (6DL5424-0BX00-0AV8)"
+            "name": "SIMATIC eaSie PCS 7 Skill Package V26 (6DL5424-0BX00-0AV8)"
           },
           {
             "branches": [
@@ -488,13 +494,13 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
-                  "name": "SIMATIC eaSie Workflow Skills",
+                  "name": "SIMATIC eaSie Workflow Skills V26",
                   "product_id": "25"
                 }
               }
             ],
             "category": "product_name",
-            "name": "SIMATIC eaSie Workflow Skills"
+            "name": "SIMATIC eaSie Workflow Skills V26"
           },
           {
             "branches": [
@@ -1718,9 +1724,9 @@
             "branches": [
               {
                 "category": "product_version_range",
-                "name": "vers:all/*",
+                "name": "vers:intdot/<18.0.6",
                 "product": {
-                  "name": "SIMATIC WinCC Visualization Architect (SiVArc) V18",
+                  "name": "SIMATIC WinCC Visualization Architect (SiVArc) V18 < V18 Update 6",
                   "product_id": "113"
                 }
               }
@@ -2560,6 +2566,10 @@
             "16",
             "17",
             "18",
+            "22",
+            "23",
+            "24",
+            "25",
             "29",
             "3",
             "34",
@@ -2607,7 +2617,6 @@
             "105",
             "106",
             "107",
-            "113",
             "116",
             "117",
             "118",
@@ -2617,10 +2626,6 @@
             "123",
             "124",
             "125",
-            "22",
-            "23",
-            "24",
-            "25",
             "26",
             "27",
             "37",
@@ -2675,22 +2680,6 @@
           "category": "vendor_fix",
           "details": "Update to V17 Update 9 or later version",
           "product_ids": [
-            "135"
-          ],
-          "url": "https://support.industry.siemens.com/cs/ww/en/view/109784441/"
-        },
-        {
-          "category": "vendor_fix",
-          "details": "Update to V17 Update 9 or later version",
-          "product_ids": [
-            "77"
-          ],
-          "url": "https://support.industry.siemens.com/cs/ww/en/view/109784441/"
-        },
-        {
-          "category": "vendor_fix",
-          "details": "Update to V17 Update 9 or later version",
-          "product_ids": [
             "112"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109792356/"
@@ -2707,9 +2696,33 @@
           "category": "vendor_fix",
           "details": "Update to V17 Update 9 or later version",
           "product_ids": [
+            "135"
+          ],
+          "url": "https://support.industry.siemens.com/cs/ww/en/view/109784441/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V17 Update 9 or later version",
+          "product_ids": [
             "139"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109825750/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V17 Update 9 or later version",
+          "product_ids": [
+            "77"
+          ],
+          "url": "https://support.industry.siemens.com/cs/ww/en/view/109784441/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V18 Update 6 or later version",
+          "product_ids": [
+            "113"
+          ],
+          "url": "https://support.industry.siemens.com/cs/ww/en/view/109807644/"
         },
         {
           "category": "vendor_fix",
@@ -2718,6 +2731,21 @@
             "136"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109817218/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V19 Update 4 or later version",
+          "product_ids": [
+            "28"
+          ],
+          "url": "https://support.industry.siemens.com/cs/ww/en/view/109947027/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V19 Update 4 or later version",
+          "product_ids": [
+            "79"
+          ]
         },
         {
           "category": "vendor_fix",
@@ -2742,21 +2770,6 @@
             "137"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109925643/"
-        },
-        {
-          "category": "vendor_fix",
-          "details": "Update to V19 Update 4 or later version",
-          "product_ids": [
-            "28"
-          ],
-          "url": "https://support.industry.siemens.com/cs/ww/en/view/109947027/"
-        },
-        {
-          "category": "vendor_fix",
-          "details": "Update to V19 Update 4 or later version",
-          "product_ids": [
-            "79"
-          ]
         },
         {
           "category": "vendor_fix",
@@ -2802,7 +2815,7 @@
           "category": "vendor_fix",
           "details": "Update to V20 or later version",
           "product_ids": [
-            "108"
+            "104"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109987448/"
         },
@@ -2810,7 +2823,7 @@
           "category": "vendor_fix",
           "details": "Update to V20 or later version",
           "product_ids": [
-            "104"
+            "108"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109987448/"
         },

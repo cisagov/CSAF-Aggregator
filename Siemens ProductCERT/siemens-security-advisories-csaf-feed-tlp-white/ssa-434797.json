@@ -12,7 +12,7 @@
     "notes": [
       {
         "category": "summary",
-        "text": "OpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution.\n\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasures for products where fixes are not, or not yet available.",
+        "text": "OpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution.\n\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available.",
         "title": "Summary"
       },
       {
@@ -51,7 +51,7 @@
     ],
     "title": "SSA-434797: Buffer Overflow Vulnerability in OpenSSL affecting Siemens Products",
     "tracking": {
-      "current_release_date": "2026-10-13T00:00:00.000Z",
+      "current_release_date": "2026-11-10T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -90,10 +90,16 @@
           "legacy_version": "1.4",
           "number": "5",
           "summary": "Added fix version for SIMATIC Logon V1.6 and updated SIMATIC Logon V2.0 and SIMOTION OACAMGEN to 'No Fix Planned'"
+        },
+        {
+          "date": "2026-11-10T00:00:00.000Z",
+          "legacy_version": "1.5",
+          "number": "6",
+          "summary": "Clarified that there is no fix planned for SIMATIC eaSie Core Package V26 and SIMATIC eaSie PCS 7 Skill Package V26 (6DL5424-0BX00-0AV8); Clarified that SIMATIC IoT2050 family is not affected"
         }
       ],
       "status": "interim",
-      "version": "5"
+      "version": "6"
     }
   },
   "product_tree": {
@@ -4262,18 +4268,13 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
-                  "name": "SIMATIC eaSie Core Package (6DL5424-0AX00-0AV8)",
-                  "product_id": "225",
-                  "product_identification_helper": {
-                    "model_numbers": [
-                      "6DL5424-0AX00-0AV8"
-                    ]
-                  }
+                  "name": "SIMATIC eaSie Core Package V26",
+                  "product_id": "225"
                 }
               }
             ],
             "category": "product_name",
-            "name": "SIMATIC eaSie Core Package (6DL5424-0AX00-0AV8)"
+            "name": "SIMATIC eaSie Core Package V26"
           },
           {
             "branches": [
@@ -4281,7 +4282,7 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
-                  "name": "SIMATIC eaSie PCS 7 Skill Package (6DL5424-0BX00-0AV8)",
+                  "name": "SIMATIC eaSie PCS 7 Skill Package V26 (6DL5424-0BX00-0AV8)",
                   "product_id": "226",
                   "product_identification_helper": {
                     "model_numbers": [
@@ -4292,7 +4293,7 @@
               }
             ],
             "category": "product_name",
-            "name": "SIMATIC eaSie PCS 7 Skill Package (6DL5424-0BX00-0AV8)"
+            "name": "SIMATIC eaSie PCS 7 Skill Package V26 (6DL5424-0BX00-0AV8)"
           },
           {
             "branches": [
@@ -4375,8 +4376,65 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2)",
+                  "product_id": "232",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0BA00-0YA2"
+                    ]
+                  }
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2)",
+                  "product_id": "233",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0BB00-1YA2"
+                    ]
+                  }
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2)",
+                  "product_id": "234",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0CA00-1AA2"
+                    ]
+                  }
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "SIMATIC IPC BX-21A",
-                  "product_id": "232"
+                  "product_id": "235"
                 }
               }
             ],
@@ -4390,7 +4448,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC IPC MD-57A",
-                  "product_id": "233"
+                  "product_id": "236"
                 }
               }
             ],
@@ -4404,7 +4462,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC IPC ORCLA",
-                  "product_id": "234"
+                  "product_id": "237"
                 }
               }
             ],
@@ -4418,7 +4476,7 @@
                 "name": "vers:intdot/<1.6.0.12",
                 "product": {
                   "name": "SIMATIC Logon V1.6 < V1.6 Upd12",
-                  "product_id": "235"
+                  "product_id": "238"
                 }
               }
             ],
@@ -4432,7 +4490,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC Logon V2.0",
-                  "product_id": "236"
+                  "product_id": "239"
                 }
               }
             ],
@@ -4446,7 +4504,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC MV530 H (6GF3530-0GE10)",
-                  "product_id": "237",
+                  "product_id": "240",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GF3530-0GE10"
@@ -4465,7 +4523,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC MV530 S (6GF3530-0CD10)",
-                  "product_id": "238",
+                  "product_id": "241",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GF3530-0CD10"
@@ -4484,7 +4542,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC MV540 H (6GF3540-0GE10)",
-                  "product_id": "239",
+                  "product_id": "242",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GF3540-0GE10"
@@ -4503,7 +4561,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC MV540 H CRANES (6GF3540-0GE30)",
-                  "product_id": "240",
+                  "product_id": "243",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GF3540-0GE30"
@@ -4522,7 +4580,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC MV540 S (6GF3540-0CD10)",
-                  "product_id": "241",
+                  "product_id": "244",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GF3540-0CD10"
@@ -4541,7 +4599,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC MV550 H (6GF3550-0GE10)",
-                  "product_id": "242",
+                  "product_id": "245",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GF3550-0GE10"
@@ -4560,7 +4618,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC MV550 S (6GF3550-0CD10)",
-                  "product_id": "243",
+                  "product_id": "246",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GF3550-0CD10"
@@ -4579,7 +4637,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC MV560 U (6GF3560-0LE10)",
-                  "product_id": "244",
+                  "product_id": "247",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GF3560-0LE10"
@@ -4598,7 +4656,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC MV560 X (6GF3560-0HE10)",
-                  "product_id": "245",
+                  "product_id": "248",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GF3560-0HE10"
@@ -4617,7 +4675,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC PCS neo V6.0",
-                  "product_id": "246"
+                  "product_id": "249"
                 }
               }
             ],
@@ -4631,7 +4689,7 @@
                 "name": "vers:intdot/<9.3.2",
                 "product": {
                   "name": "SIMATIC PDM V9.3 < V9.3 SP2",
-                  "product_id": "247"
+                  "product_id": "250"
                 }
               }
             ],
@@ -4645,7 +4703,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC RTLS Locating Manager (6GT2780-0DA00)",
-                  "product_id": "248",
+                  "product_id": "251",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GT2780-0DA00"
@@ -4664,7 +4722,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC RTLS Locating Manager (6GT2780-0DA10)",
-                  "product_id": "249",
+                  "product_id": "252",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GT2780-0DA10"
@@ -4683,7 +4741,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC RTLS Locating Manager (6GT2780-0DA20)",
-                  "product_id": "250",
+                  "product_id": "253",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GT2780-0DA20"
@@ -4702,7 +4760,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC RTLS Locating Manager (6GT2780-0DA30)",
-                  "product_id": "251",
+                  "product_id": "254",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GT2780-0DA30"
@@ -4721,7 +4779,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC RTLS Locating Manager (6GT2780-1EA10)",
-                  "product_id": "252",
+                  "product_id": "255",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GT2780-1EA10"
@@ -4740,7 +4798,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC RTLS Locating Manager (6GT2780-1EA20)",
-                  "product_id": "253",
+                  "product_id": "256",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GT2780-1EA20"
@@ -4759,7 +4817,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC RTLS Locating Manager (6GT2780-1EA30)",
-                  "product_id": "254",
+                  "product_id": "257",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6GT2780-1EA30"
@@ -4778,7 +4836,7 @@
                 "name": "vers:intdot/<5.7.4",
                 "product": {
                   "name": "SIMATIC STEP 7 V5 < V5.7 SP4",
-                  "product_id": "255"
+                  "product_id": "258"
                 }
               }
             ],
@@ -4792,7 +4850,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC Target",
-                  "product_id": "256"
+                  "product_id": "259"
                 }
               }
             ],
@@ -4806,7 +4864,7 @@
                 "name": "vers:intdot/<3.19.024",
                 "product": {
                   "name": "SIMATIC WinCC OA V3.19 < V3.19 P024",
-                  "product_id": "257"
+                  "product_id": "260"
                 }
               }
             ],
@@ -4820,7 +4878,7 @@
                 "name": "vers:intdot/<3.20.012",
                 "product": {
                   "name": "SIMATIC WinCC OA V3.20 < V3.20 P012",
-                  "product_id": "258"
+                  "product_id": "261"
                 }
               }
             ],
@@ -4834,7 +4892,7 @@
                 "name": "vers:intdot/<3.21.02",
                 "product": {
                   "name": "SIMATIC WinCC OA V3.21 < V3.21 P02",
-                  "product_id": "259"
+                  "product_id": "262"
                 }
               }
             ],
@@ -4848,7 +4906,7 @@
                 "name": "vers:intdot/<17.0.9",
                 "product": {
                   "name": "SIMATIC WinCC Runtime Advanced V17 < V17 Update 9",
-                  "product_id": "260"
+                  "product_id": "263"
                 }
               }
             ],
@@ -4862,7 +4920,7 @@
                 "name": "vers:intdot/<21",
                 "product": {
                   "name": "SIMATIC WinCC Unified Sequence < V21",
-                  "product_id": "261"
+                  "product_id": "264"
                 }
               }
             ],
@@ -4876,7 +4934,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC WinCC V7.5",
-                  "product_id": "262"
+                  "product_id": "265"
                 }
               }
             ],
@@ -4890,7 +4948,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC WinCC V8.0",
-                  "product_id": "263"
+                  "product_id": "266"
                 }
               }
             ],
@@ -4904,7 +4962,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMATIC WinCC V8.1",
-                  "product_id": "264"
+                  "product_id": "267"
                 }
               }
             ],
@@ -4918,7 +4976,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIMOTION OACAMGEN (6AU1820-3EA20-0AB0)",
-                  "product_id": "265",
+                  "product_id": "268",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6AU1820-3EA20-0AB0"
@@ -4937,7 +4995,7 @@
                 "name": "vers:intdot/<3.1.13",
                 "product": {
                   "name": "SIMOVE Fleetmanager V3.1 < V3.1.13",
-                  "product_id": "266"
+                  "product_id": "269"
                 }
               }
             ],
@@ -4951,7 +5009,7 @@
                 "name": "vers:intdot/<3.2.4",
                 "product": {
                   "name": "SIMOVE Fleetmanager V3.2 < V3.2.4",
-                  "product_id": "267"
+                  "product_id": "270"
                 }
               }
             ],
@@ -4965,7 +5023,7 @@
                 "name": "vers:intdot/<3.3.2",
                 "product": {
                   "name": "SIMOVE Fleetmanager V3.3 < V3.3.2",
-                  "product_id": "268"
+                  "product_id": "271"
                 }
               }
             ],
@@ -4979,7 +5037,7 @@
                 "name": "vers:intdot/>=6.3",
                 "product": {
                   "name": "SINAMICS G200 >= V6.3",
-                  "product_id": "269"
+                  "product_id": "272"
                 }
               }
             ],
@@ -4993,7 +5051,7 @@
                 "name": "vers:intdot/>=6.3",
                 "product": {
                   "name": "SINAMICS G220 >= V6.3",
-                  "product_id": "270"
+                  "product_id": "273"
                 }
               }
             ],
@@ -5007,7 +5065,7 @@
                 "name": "vers:intdot/>=6.3",
                 "product": {
                   "name": "SINAMICS S200 >= V6.3",
-                  "product_id": "271"
+                  "product_id": "274"
                 }
               }
             ],
@@ -5021,7 +5079,7 @@
                 "name": "vers:intdot/>=6.3",
                 "product": {
                   "name": "SINAMICS S210 >= V6.3",
-                  "product_id": "272"
+                  "product_id": "275"
                 }
               }
             ],
@@ -5035,7 +5093,7 @@
                 "name": "vers:intdot/>=6.3",
                 "product": {
                   "name": "SINAMICS S220 >= V6.3",
-                  "product_id": "273"
+                  "product_id": "276"
                 }
               }
             ],
@@ -5049,7 +5107,7 @@
                 "name": "vers:intdot/<1.0.2.5",
                 "product": {
                   "name": "SINEC INS < V1.0 SP2 Update 5",
-                  "product_id": "274"
+                  "product_id": "277"
                 }
               }
             ],
@@ -5063,7 +5121,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SINEC NMS",
-                  "product_id": "275"
+                  "product_id": "278"
                 }
               }
             ],
@@ -5077,7 +5135,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SINEC Security Monitor",
-                  "product_id": "276"
+                  "product_id": "279"
                 }
               }
             ],
@@ -5091,7 +5149,7 @@
                 "name": "vers:intdot/<4.2.3",
                 "product": {
                   "name": "SINUMERIK Access MyMachine /OPC UA < V4.2 SP3",
-                  "product_id": "277"
+                  "product_id": "280"
                 }
               }
             ],
@@ -5105,7 +5163,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIPLANT",
-                  "product_id": "278"
+                  "product_id": "281"
                 }
               }
             ],
@@ -5119,7 +5177,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIPLUS NET SCALANCE X202-2P IRT (6AG1202-2BH00-2BA3)",
-                  "product_id": "279",
+                  "product_id": "282",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6AG1202-2BH00-2BA3"
@@ -5138,7 +5196,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SIPLUS NET SCALANCE X308-2 (6AG1308-2FL10-4AA3)",
-                  "product_id": "280",
+                  "product_id": "283",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6AG1308-2FL10-4AA3"
@@ -5157,7 +5215,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SITRANS ASM IQ",
-                  "product_id": "281"
+                  "product_id": "284"
                 }
               }
             ],
@@ -5171,7 +5229,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "SITRANS Soft Sensor Engine IQ (SITRANS SSE IQ)",
-                  "product_id": "282"
+                  "product_id": "285"
                 }
               }
             ],
@@ -5185,7 +5243,7 @@
                 "name": "vers:intdot/<2.15.3.0",
                 "product": {
                   "name": "User Management Component (UMC) < V2.15.3.0",
-                  "product_id": "283"
+                  "product_id": "286"
                 }
               }
             ],
@@ -5199,7 +5257,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Visual Inspection Cockpit",
-                  "product_id": "284"
+                  "product_id": "287"
                 }
               }
             ],
@@ -5223,161 +5281,165 @@
         {
           "label": "vulnerable_code_not_present",
           "product_ids": [
-            "17",
-            "10",
             "16",
-            "7",
-            "8",
-            "47",
-            "48",
-            "15",
-            "50",
-            "45",
-            "14",
             "13",
-            "11",
-            "12",
             "49",
+            "48",
             "46",
-            "9"
+            "7",
+            "15",
+            "14",
+            "17",
+            "47",
+            "50",
+            "12",
+            "10",
+            "45",
+            "9",
+            "8",
+            "11"
           ]
         },
         {
           "label": "component_not_present",
           "product_ids": [
-            "102",
-            "170",
-            "120",
-            "136",
-            "82",
-            "139",
-            "135",
-            "104",
-            "71",
-            "101",
-            "73",
-            "97",
-            "180",
-            "122",
-            "112",
-            "75",
-            "111",
-            "158",
-            "123",
-            "145",
-            "85",
-            "197",
-            "134",
-            "88",
-            "143",
-            "77",
-            "115",
-            "162",
-            "119",
-            "193",
-            "126",
-            "83",
-            "70",
             "130",
-            "125",
-            "186",
-            "189",
-            "178",
-            "118",
-            "140",
-            "90",
-            "93",
-            "146",
-            "72",
-            "76",
-            "192",
-            "79",
-            "179",
-            "110",
-            "155",
-            "203",
-            "128",
-            "200",
-            "199",
-            "81",
-            "127",
-            "124",
-            "182",
             "190",
-            "184",
-            "185",
-            "114",
-            "131",
-            "279",
-            "191",
-            "142",
-            "194",
-            "181",
-            "109",
-            "98",
-            "160",
-            "176",
-            "188",
-            "204",
-            "99",
-            "80",
-            "183",
-            "117",
+            "72",
+            "119",
+            "283",
+            "159",
+            "76",
+            "193",
+            "136",
+            "105",
+            "170",
             "172",
-            "169",
-            "144",
+            "85",
+            "187",
+            "121",
+            "184",
+            "79",
+            "140",
+            "125",
+            "171",
+            "81",
+            "101",
+            "201",
+            "128",
+            "127",
+            "192",
+            "196",
+            "94",
+            "107",
+            "112",
+            "97",
+            "116",
+            "98",
+            "179",
             "86",
+            "202",
+            "91",
+            "176",
+            "82",
+            "129",
+            "104",
+            "157",
+            "117",
+            "124",
+            "199",
+            "93",
+            "113",
+            "122",
+            "95",
+            "92",
+            "111",
+            "99",
+            "188",
+            "175",
+            "84",
+            "137",
+            "96",
+            "132",
+            "139",
+            "133",
+            "135",
+            "160",
+            "282",
             "141",
             "106",
-            "280",
-            "103",
-            "159",
-            "175",
-            "91",
-            "113",
-            "187",
-            "74",
-            "157",
-            "121",
+            "145",
+            "120",
             "198",
-            "202",
-            "133",
-            "195",
-            "96",
-            "171",
-            "105",
-            "138",
-            "95",
+            "103",
             "154",
-            "108",
-            "161",
-            "132",
-            "196",
-            "173",
-            "100",
             "89",
-            "137",
-            "84",
-            "116",
-            "92",
-            "107",
-            "201",
-            "174",
-            "78",
-            "129",
-            "94",
-            "156",
+            "126",
+            "109",
+            "115",
+            "162",
+            "144",
+            "185",
+            "191",
+            "195",
+            "197",
             "87",
-            "177"
+            "78",
+            "146",
+            "134",
+            "155",
+            "169",
+            "114",
+            "77",
+            "189",
+            "143",
+            "118",
+            "88",
+            "110",
+            "123",
+            "183",
+            "102",
+            "80",
+            "108",
+            "100",
+            "90",
+            "200",
+            "204",
+            "74",
+            "180",
+            "71",
+            "161",
+            "178",
+            "75",
+            "194",
+            "174",
+            "182",
+            "73",
+            "70",
+            "173",
+            "138",
+            "142",
+            "181",
+            "83",
+            "131",
+            "203",
+            "158",
+            "177",
+            "186",
+            "156"
           ]
         },
         {
           "label": "vulnerable_code_not_in_execute_path",
           "product_ids": [
-            "228",
-            "230",
+            "233",
             "229",
-            "227"
+            "234",
+            "232",
+            "231",
+            "230",
+            "227",
+            "228"
           ]
         }
       ],
@@ -5433,10 +5495,6 @@
           "225",
           "226",
           "23",
-          "231",
-          "232",
-          "233",
-          "234",
           "235",
           "236",
           "237",
@@ -5485,11 +5543,14 @@
           "276",
           "277",
           "278",
+          "279",
           "28",
+          "280",
           "281",
-          "282",
-          "283",
           "284",
+          "285",
+          "286",
+          "287",
           "29",
           "3",
           "30",
@@ -5635,8 +5696,12 @@
           "228",
           "229",
           "230",
-          "279",
-          "280",
+          "231",
+          "232",
+          "233",
+          "234",
+          "282",
+          "283",
           "45",
           "46",
           "47",
@@ -5726,10 +5791,6 @@
             "225",
             "226",
             "23",
-            "231",
-            "232",
-            "233",
-            "234",
             "235",
             "236",
             "237",
@@ -5778,11 +5839,14 @@
             "276",
             "277",
             "278",
+            "279",
             "28",
+            "280",
             "281",
-            "282",
-            "283",
             "284",
+            "285",
+            "286",
+            "287",
             "29",
             "3",
             "30",
@@ -5871,10 +5935,6 @@
             "225",
             "226",
             "23",
-            "231",
-            "232",
-            "233",
-            "234",
             "235",
             "236",
             "237",
@@ -5923,11 +5983,14 @@
             "276",
             "277",
             "278",
+            "279",
             "28",
+            "280",
             "281",
-            "282",
-            "283",
             "284",
+            "285",
+            "286",
+            "287",
             "29",
             "3",
             "30",
@@ -5973,32 +6036,32 @@
           "category": "mitigation",
           "details": "Restrict the port at the host with the DeviceConnectionProxy to secure destinations",
           "product_ids": [
-            "248",
-            "249",
-            "250",
             "251",
             "252",
             "253",
-            "254"
+            "254",
+            "255",
+            "256",
+            "257"
           ]
         },
         {
           "category": "mitigation",
           "details": "Securing the connected email server as follows:\n\n\u2022  Configure the email server to enforce encrypted communication (TLS/SSL) for all SMTP connections.\n\n\u2022   Restrict access to the email server to trusted systems only (e.g., by using firewall rules or IP allowlists).\n\n\u2022   Ensure strong authentication to access the email server.\n\n\u2022   Keep the email server software and underlying operating system up to date with the latest security patches.",
           "product_ids": [
-            "248"
+            "251"
           ]
         },
         {
           "category": "mitigation",
           "details": "Securing the connected email server as follows:\n\n\u2022   Configure the email server to enforce encrypted communication (TLS/SSL) for all SMTP connections.\n\n\u2022   Restrict access to the email server to trusted systems only (e.g., by using firewall rules or IP allowlists).\n\n\u2022   Ensure strong authentication to access the email server.\n\n\u2022   Keep the email server software and underlying operating system up to date with the latest security patches.",
           "product_ids": [
-            "249",
-            "250",
-            "251",
             "252",
             "253",
-            "254"
+            "254",
+            "255",
+            "256",
+            "257"
           ]
         },
         {
@@ -6048,10 +6111,6 @@
             "225",
             "226",
             "23",
-            "231",
-            "232",
-            "233",
-            "234",
             "235",
             "236",
             "237",
@@ -6100,11 +6159,14 @@
             "276",
             "277",
             "278",
+            "279",
             "28",
+            "280",
             "281",
-            "282",
-            "283",
             "284",
+            "285",
+            "286",
+            "287",
             "29",
             "3",
             "30",
@@ -6153,12 +6215,14 @@
             "1",
             "19",
             "20",
-            "236",
-            "246",
-            "262",
-            "263",
-            "264",
-            "265"
+            "225",
+            "226",
+            "239",
+            "249",
+            "265",
+            "266",
+            "267",
+            "268"
           ]
         },
         {
@@ -6200,16 +6264,10 @@
             "221",
             "222",
             "224",
-            "225",
-            "226",
             "23",
-            "231",
-            "232",
-            "233",
-            "234",
+            "235",
+            "236",
             "237",
-            "238",
-            "239",
             "24",
             "240",
             "241",
@@ -6217,28 +6275,31 @@
             "243",
             "244",
             "245",
+            "246",
+            "247",
             "248",
-            "249",
             "25",
-            "250",
             "251",
             "252",
             "253",
             "254",
+            "255",
             "256",
+            "257",
+            "259",
             "26",
-            "269",
             "27",
-            "270",
-            "271",
             "272",
             "273",
+            "274",
             "275",
             "276",
+            "278",
+            "279",
             "28",
-            "281",
-            "282",
             "284",
+            "285",
+            "287",
             "29",
             "30",
             "31",
@@ -6283,7 +6344,7 @@
           "category": "vendor_fix",
           "details": "Update to V1.0 SP2 Update 5 or later version",
           "product_ids": [
-            "274"
+            "277"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109999722/"
         },
@@ -6291,7 +6352,7 @@
           "category": "vendor_fix",
           "details": "Update to V1.6 Upd12 or later version",
           "product_ids": [
-            "235"
+            "238"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109812242/"
         },
@@ -6307,7 +6368,7 @@
           "category": "vendor_fix",
           "details": "Update to V17 Update 9 or later version",
           "product_ids": [
-            "260"
+            "263"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109800912/"
         },
@@ -6315,7 +6376,7 @@
           "category": "vendor_fix",
           "details": "Update to V2.15.3.0 or later version",
           "product_ids": [
-            "283"
+            "286"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/110000730/"
         },
@@ -6323,7 +6384,7 @@
           "category": "vendor_fix",
           "details": "Update to V21 or later version",
           "product_ids": [
-            "261"
+            "264"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109996963/"
         },
@@ -6331,7 +6392,7 @@
           "category": "vendor_fix",
           "details": "Update to V3.1.13 or later version",
           "product_ids": [
-            "266"
+            "269"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109813191/"
         },
@@ -6339,7 +6400,7 @@
           "category": "vendor_fix",
           "details": "Update to V3.19 P024 or later version",
           "product_ids": [
-            "257"
+            "260"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/110000400/"
         },
@@ -6347,7 +6408,7 @@
           "category": "vendor_fix",
           "details": "Update to V3.2.4 or later version",
           "product_ids": [
-            "267"
+            "270"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109813191/"
         },
@@ -6355,7 +6416,7 @@
           "category": "vendor_fix",
           "details": "Update to V3.20 P012 or later version",
           "product_ids": [
-            "258"
+            "261"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/110000657/"
         },
@@ -6363,9 +6424,17 @@
           "category": "vendor_fix",
           "details": "Update to V3.21 P02 or later version",
           "product_ids": [
-            "259"
+            "262"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/110000985/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V3.3.2 or later version",
+          "product_ids": [
+            "271"
+          ],
+          "url": "https://support.industry.siemens.com/cs/ww/en/view/109813191/"
         },
         {
           "category": "vendor_fix",
@@ -6377,24 +6446,16 @@
         },
         {
           "category": "vendor_fix",
-          "details": "Update to V3.3.2 or later version",
-          "product_ids": [
-            "268"
-          ],
-          "url": "https://support.industry.siemens.com/cs/ww/en/view/109813191/"
-        },
-        {
-          "category": "vendor_fix",
           "details": "Update to V4.2 SP3 or later version\nUpdated software version can be obtained from Siemens customer support or a local partner.",
           "product_ids": [
-            "277"
+            "280"
           ]
         },
         {
           "category": "vendor_fix",
           "details": "Update to V5.7 SP4 or later version",
           "product_ids": [
-            "255"
+            "258"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109991080/"
         },
@@ -6402,7 +6463,7 @@
           "category": "vendor_fix",
           "details": "Update to V9.3 SP2 or later version",
           "product_ids": [
-            "247"
+            "250"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/110002130/"
         },
@@ -6410,7 +6471,7 @@
           "category": "vendor_fix",
           "details": "Contact customer support siplant-support.de@siemens.com",
           "product_ids": [
-            "278"
+            "281"
           ]
         },
         {
@@ -6473,10 +6534,6 @@
             "225",
             "226",
             "23",
-            "231",
-            "232",
-            "233",
-            "234",
             "235",
             "236",
             "237",
@@ -6525,11 +6582,14 @@
             "276",
             "277",
             "278",
+            "279",
             "28",
+            "280",
             "281",
-            "282",
-            "283",
             "284",
+            "285",
+            "286",
+            "287",
             "29",
             "3",
             "30",
@@ -6577,163 +6637,167 @@
           "category": "impact",
           "details": "The vulnerable component is not compiled with the firmware",
           "product_ids": [
-            "17",
-            "10",
             "16",
-            "7",
-            "8",
-            "47",
-            "48",
-            "15",
-            "50",
-            "45",
-            "14",
             "13",
-            "11",
-            "12",
             "49",
+            "48",
             "46",
-            "9"
+            "7",
+            "15",
+            "14",
+            "17",
+            "47",
+            "50",
+            "12",
+            "10",
+            "45",
+            "9",
+            "8",
+            "11"
           ]
         },
         {
           "category": "impact",
           "details": "The vulnerable component called CMS is disabled in the product",
           "product_ids": [
-            "102",
-            "170",
-            "120",
-            "136",
-            "82",
-            "139",
-            "135",
-            "104",
-            "71",
-            "101",
-            "73",
-            "97",
-            "180",
-            "122",
-            "112",
-            "75",
-            "111",
-            "158",
-            "123",
-            "145",
-            "85",
-            "197",
-            "134",
-            "88",
-            "143",
-            "77",
-            "115",
-            "162",
-            "119",
-            "193",
-            "126",
-            "83",
-            "70",
             "130",
-            "125",
-            "186",
-            "189",
-            "178",
-            "118",
-            "140",
-            "90",
-            "93",
-            "146",
-            "72",
-            "76",
-            "192",
-            "79",
-            "179",
-            "110",
-            "155",
-            "203",
-            "128",
-            "200",
-            "199",
-            "81",
-            "127",
-            "124",
-            "182",
             "190",
-            "184",
-            "185",
-            "114",
-            "131",
-            "279",
-            "191",
-            "142",
-            "194",
-            "181",
-            "109",
-            "98",
-            "160",
-            "176",
-            "188",
-            "204",
-            "99",
-            "80",
-            "183",
-            "117",
+            "72",
+            "119",
+            "283",
+            "159",
+            "76",
+            "193",
+            "136",
+            "105",
+            "170",
             "172",
-            "169",
-            "144",
+            "85",
+            "187",
+            "121",
+            "184",
+            "79",
+            "140",
+            "125",
+            "171",
+            "81",
+            "101",
+            "201",
+            "128",
+            "127",
+            "192",
+            "196",
+            "94",
+            "107",
+            "112",
+            "97",
+            "116",
+            "98",
+            "179",
             "86",
+            "202",
+            "91",
+            "176",
+            "82",
+            "129",
+            "104",
+            "157",
+            "117",
+            "124",
+            "199",
+            "93",
+            "113",
+            "122",
+            "95",
+            "92",
+            "111",
+            "99",
+            "188",
+            "175",
+            "84",
+            "137",
+            "96",
+            "132",
+            "139",
+            "133",
+            "135",
+            "160",
+            "282",
             "141",
             "106",
-            "280",
-            "103",
-            "159",
-            "175",
-            "91",
-            "113",
-            "187",
-            "74",
-            "157",
-            "121",
+            "145",
+            "120",
             "198",
-            "202",
-            "133",
-            "195",
-            "96",
-            "171",
-            "105",
-            "138",
-            "95",
+            "103",
             "154",
-            "108",
-            "161",
-            "132",
-            "196",
-            "173",
-            "100",
             "89",
-            "137",
-            "84",
-            "116",
-            "92",
-            "107",
-            "201",
-            "174",
-            "78",
-            "129",
-            "94",
-            "156",
+            "126",
+            "109",
+            "115",
+            "162",
+            "144",
+            "185",
+            "191",
+            "195",
+            "197",
             "87",
-            "177"
+            "78",
+            "146",
+            "134",
+            "155",
+            "169",
+            "114",
+            "77",
+            "189",
+            "143",
+            "118",
+            "88",
+            "110",
+            "123",
+            "183",
+            "102",
+            "80",
+            "108",
+            "100",
+            "90",
+            "200",
+            "204",
+            "74",
+            "180",
+            "71",
+            "161",
+            "178",
+            "75",
+            "194",
+            "174",
+            "182",
+            "73",
+            "70",
+            "173",
+            "138",
+            "142",
+            "181",
+            "83",
+            "131",
+            "203",
+            "158",
+            "177",
+            "186",
+            "156"
           ]
         },
         {
           "category": "impact",
           "details": "The vulnerable component is not used in the device.",
           "product_ids": [
-            "228",
-            "230",
+            "233",
             "229",
-            "227"
+            "234",
+            "232",
+            "231",
+            "230",
+            "227",
+            "228"
           ]
         }
       ],

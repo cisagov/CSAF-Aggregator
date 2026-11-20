@@ -1,0 +1,732 @@
+{
+  "document": {
+    "acknowledgments": [
+      {
+        "organization": "CERT@VDE",
+        "summary": "coordination",
+        "urls": [
+          "https://certvde.com"
+        ]
+      },
+      {
+        "names": [
+          "Chi Siang Choo"
+        ],
+        "organization": "4rthur Security Team",
+        "summary": "Reported by",
+        "urls": [
+          "https://4rthur.ai/"
+        ]
+      },
+      {
+        "names": [
+          "Julian Horoszkiewicz"
+        ],
+        "summary": "Reported by"
+      },
+      {
+        "names": [
+          "Patrick Saif"
+        ],
+        "summary": "Reported by"
+      }
+    ],
+    "aggregate_severity": {
+      "namespace": "https://www.first.org/cvss/v3.1/specification-document#Qualitative-Severity-Rating-Scale",
+      "text": "High"
+    },
+    "category": "csaf_security_advisory",
+    "csaf_version": "2.0",
+    "distribution": {
+      "tlp": {
+        "label": "WHITE"
+      }
+    },
+    "lang": "en-US",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "The vulnerabilities allow local low privileged users or processes to gain full system access on the affected devices through exposed IOCTL function calls.\n",
+        "title": "Summary"
+      },
+      {
+        "category": "description",
+        "text": "All three vulnerabilities lead to full compromise of the affected devices.",
+        "title": "Impact"
+      },
+      {
+        "category": "general",
+        "text": "Where TwinCAT is installed, dedicate the use of the personal computer to TwinCAT development or programmable logic control and ensure that trustworthy persons have access only and that further software installed there originates from trusted source only. The solution, which is to update to a recent version of the affected components, is the advisable mitigation.",
+        "title": "General Recommendation"
+      },
+      {
+        "category": "general",
+        "text": "Please update to a recent version of the affected components.\n\n| Component       | Fixed version    |\n| ------------- | ------------- |\n| TcPkg Package \"TwinCAT.XAR.Base.KM\"   | 3.18.1     |\n| File \"TcRouter.sys\" for Windows | 3.1.0.2365   |\n| Product \"TC1000 TwinCAT 3 ADS Build 4024\" for Windows | 3.1.4024.79 |\n| Product \"TwinCAT 3 extended Automation Runtime (XAR) Build 4024\" for Windows | 3.1.4024.79 |\n| Product \"TwinCAT 3 eXtended Automation Engineering (XAE) Build 4024\" for Windows | 3.1.4024.79 |\n",
+        "title": "Remediation"
+      },
+      {
+        "category": "general",
+        "text": "Beckhoff Automation welcomes responsibly coordinated reports of vulnerabilities and Beckhoff will collaborate with reporting parties to fix vulnerabilities or mitigate threats.",
+        "title": "Reporting vulnerabilities"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "Beckhoff is not responsible for any side effects negatively affecting the real-time capabilities of your TwinCAT control application possibly caused by updates. Beckhoff offers updated images with qualified performance for Beckhoff hardware from time to time. TwinCAT System Manager offers tools which can be of assistance to verify real-time performance after update. A backup should be created every time before installing an update. Only administrators or IT experts should perform the backup and update procedure.",
+        "title": "Disclaimer"
+      },
+      {
+        "category": "details",
+        "text": "Some TwinCAT products for Windows operating systems install the driver TcRouter.sys where the affected versions of it expose IOCTL function calls through which a local user or process with SYSTEM privileges can access I/O ports, arbitrary physical memory and move arbitrary physical memory content.",
+        "title": "Product description"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "product-securityincident@beckhoff.com",
+      "name": "Beckhoff Automation GmbH & Co. KG",
+      "namespace": "https://www.beckhoff.com"
+    },
+    "references": [
+      {
+        "category": "self",
+        "summary": "Beckhoff Security Advisory 2026-001: Exposed IOCTLs with insufficient access control in TcRouter.sys - PDF version",
+        "url": "https://download.beckhoff.com/download/Document/product-security/Advisories/advisory-2026-001.pdf"
+      },
+      {
+        "category": "external",
+        "summary": "Additional information about the latest security advisories is provided here:",
+        "url": "https://www.beckhoff.com/secinfo"
+      },
+      {
+        "category": "external",
+        "summary": "CERT@VDE Security Advisories for Beckhoff Automation GmbH & Co. KG",
+        "url": "https://certvde.com/en/advisories/vendor/beckhoff/"
+      },
+      {
+        "category": "self",
+        "summary": "VDE-2026-087: Beckhoff: Exposed IOCTLs with insufficient access control in TcRouter.sys - CSAF",
+        "url": "https://beckhoff.csaf-tp.certvde.com/.well-known/csaf/white/2026/vde-2026-087.json"
+      },
+      {
+        "category": "self",
+        "summary": "VDE-2026-087: Beckhoff: Exposed IOCTLs with insufficient access control in TcRouter.sys - HTML",
+        "url": "https://certvde.com/en/advisories/VDE-2026-087"
+      }
+    ],
+    "title": "Beckhoff: Exposed IOCTLs with insufficient access control in TcRouter.sys",
+    "tracking": {
+      "aliases": [
+        "VDE-2026-087"
+      ],
+      "current_release_date": "2026-11-11T10:00:00.000Z",
+      "generator": {
+        "date": "2026-11-03T07:42:08.265Z",
+        "engine": {
+          "name": "Secvisogram",
+          "version": "2.6.16"
+        }
+      },
+      "id": "VDE-2026-087",
+      "initial_release_date": "2026-11-11T10:00:00.000Z",
+      "revision_history": [
+        {
+          "date": "2026-11-11T10:00:00.000Z",
+          "number": "1.0.0",
+          "summary": "Initial revision."
+        }
+      ],
+      "status": "final",
+      "version": "1.0.0"
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "branches": [
+                  {
+                    "branches": [
+                      {
+                        "branches": [
+                          {
+                            "category": "product_version",
+                            "name": "3.1.0.2364",
+                            "product": {
+                              "name": "TcRouter.sys for Windows on x64 3.1.0.2364",
+                              "product_id": "CSAFPID-51001",
+                              "product_identification_helper": {
+                                "cpe": "cpe:2.3:a:beckhoff:TcRouter.sys:3.1.0.2364:*:*:*:*:Windows:x64:*",
+                                "hashes": [
+                                  {
+                                    "file_hashes": [
+                                      {
+                                        "algorithm": "sha256",
+                                        "value": "cdf9d3fcb7cdc666dde3efc608b19ef59046afe554294f588f3061b15397abbd"
+                                      }
+                                    ],
+                                    "filename": "TcRouter.sys"
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "category": "product_version_range",
+                            "name": "vers:semver/>=1.0.0|<3.1.0.2365",
+                            "product": {
+                              "name": "TcRouter.sys for Windows on x64 <3.1.0.2365",
+                              "product_id": "CSAFPID-51002",
+                              "product_identification_helper": {
+                                "cpe": "cpe:2.3:a:beckhoff:TcRouter.sys:*:*:*:*:*:Windows:x64:*"
+                              }
+                            }
+                          },
+                          {
+                            "category": "product_version",
+                            "name": "3.1.0.2365",
+                            "product": {
+                              "name": "TcRouter.sys for Windows on x64 3.1.0.2365",
+                              "product_id": "CSAFPID-52001",
+                              "product_identification_helper": {
+                                "cpe": "cpe:2.3:a:beckhoff:TcRouter.sys:3.1.0.2365:*:*:*:*:Windows:x64:*",
+                                "hashes": [
+                                  {
+                                    "file_hashes": [
+                                      {
+                                        "algorithm": "sha256",
+                                        "value": "8f9d27464db412896d366607351d32c8bdd485971df4a9658ce1f9575f124b8b"
+                                      }
+                                    ],
+                                    "filename": "TcRouter.sys"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ],
+                        "category": "architecture",
+                        "name": "x64"
+                      },
+                      {
+                        "branches": [
+                          {
+                            "category": "product_version",
+                            "name": "3.1.0.2364",
+                            "product": {
+                              "name": "TcRouter.sys for Windows on x86 3.1.0.2364",
+                              "product_id": "CSAFPID-51003",
+                              "product_identification_helper": {
+                                "cpe": "cpe:2.3:a:beckhoff:TcRouter.sys:3.1.0.2364:*:*:*:*:Windows:x86:*",
+                                "hashes": [
+                                  {
+                                    "file_hashes": [
+                                      {
+                                        "algorithm": "sha256",
+                                        "value": "841158df3a9586d8c1a175a5a88500eedfc6cabbdafa5d0bff8f4171677e0cb7"
+                                      }
+                                    ],
+                                    "filename": "TcRouter.sys"
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "category": "product_version_range",
+                            "name": "vers:semver/>=1.0.0|<3.1.0.2365",
+                            "product": {
+                              "name": "TcRouter.sys for Windows on x86 <3.1.0.2365",
+                              "product_id": "CSAFPID-51004",
+                              "product_identification_helper": {
+                                "cpe": "cpe:2.3:a:beckhoff:TcRouter.sys:*:*:*:*:*:Windows:x86:*"
+                              }
+                            }
+                          },
+                          {
+                            "category": "product_version",
+                            "name": "3.1.0.2365",
+                            "product": {
+                              "name": "TcRouter.sys for Windows on x86 3.1.0.2365",
+                              "product_id": "CSAFPID-52002",
+                              "product_identification_helper": {
+                                "cpe": "cpe:2.3:a:beckhoff:TcRouter.sys:3.1.0.2365:*:*:*:*:Windows:x86:*",
+                                "hashes": [
+                                  {
+                                    "file_hashes": [
+                                      {
+                                        "algorithm": "sha256",
+                                        "value": "4399ff6c8d7c150ea6c9d03a161103d4cbb0ae80fd8ea6c16d899c1cf4c1a65a"
+                                      }
+                                    ],
+                                    "filename": "TcRouter.sys"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ],
+                        "category": "architecture",
+                        "name": "x86"
+                      }
+                    ],
+                    "category": "product_family",
+                    "name": "TwinCAT 3.1 driver"
+                  },
+                  {
+                    "branches": [
+                      {
+                        "category": "product_version",
+                        "name": "3.16.29",
+                        "product": {
+                          "name": "TwinCAT.XAR.Base.KM 3.16.29",
+                          "product_id": "CSAFPID-51011",
+                          "product_identification_helper": {
+                            "cpe": "cpe:2.3:a:beckhoff:TwinCAT.XAR.Base.KM:3.16.29:tcpkg:*:*:*:Windows:*:*",
+                            "hashes": [
+                              {
+                                "file_hashes": [
+                                  {
+                                    "algorithm": "sha256",
+                                    "value": "f567dc16b63025c7c76926d7e44eef94e58d0634d179cac91c177b70b8305487"
+                                  }
+                                ],
+                                "filename": "TwinCAT.XAR.Base.KM.3.16.29.nupkg"
+                              }
+                            ],
+                            "purl": "pkg:generic/beckhoff/tcpkg/TwinCAT.XAR.Base.KM@3.16.29"
+                          }
+                        }
+                      },
+                      {
+                        "category": "product_version_range",
+                        "name": "vers:semver/>=1.0.0|<3.18.1",
+                        "product": {
+                          "name": "TwinCAT.XAR.Base.KM <3.18.1",
+                          "product_id": "CSAFPID-51012",
+                          "product_identification_helper": {
+                            "cpe": "cpe:2.3:a:beckhoff:TwinCAT.XAR.Base.KM:tcpkg:*:*:*:*:Windows:*:*",
+                            "purl": "pkg:generic/beckhoff/tcpkg/TwinCAT.XAR.Base.KM?vers=%3C3.18.1"
+                          }
+                        }
+                      },
+                      {
+                        "category": "product_version",
+                        "name": "3.18.1",
+                        "product": {
+                          "name": "TwinCAT.XAR.Base.KM 3.18.1",
+                          "product_id": "CSAFPID-52011",
+                          "product_identification_helper": {
+                            "cpe": "cpe:2.3:a:beckhoff:TwinCAT.XAR.Base.KM:3.18.1:tcpkg:*:*:*:Windows:*:*",
+                            "hashes": [
+                              {
+                                "file_hashes": [
+                                  {
+                                    "algorithm": "sha256",
+                                    "value": "04c7e1f0f24ac26f24dec16165370893e2a34c2e58ed885614f6920eb15d1474"
+                                  }
+                                ],
+                                "filename": "TwinCAT.XAR.Base.KM.3.18.1.nupkg"
+                              }
+                            ],
+                            "purl": "pkg:generic/beckhoff/tcpkg/TwinCAT.XAR.Base.KM@3.18.1"
+                          }
+                        }
+                      }
+                    ],
+                    "category": "product_family",
+                    "name": "TwinCAT 3.1 4026 package"
+                  }
+                ],
+                "category": "product_family",
+                "name": "for Windows"
+              }
+            ],
+            "category": "product_family",
+            "name": "Software"
+          }
+        ],
+        "category": "vendor",
+        "name": "Beckhoff"
+      }
+    ],
+    "product_groups": [
+      {
+        "group_id": "CSAFGID-0001",
+        "product_ids": [
+          "CSAFPID-51001",
+          "CSAFPID-51002",
+          "CSAFPID-51003",
+          "CSAFPID-51004",
+          "CSAFPID-51011",
+          "CSAFPID-51012"
+        ],
+        "summary": "Affected products"
+      },
+      {
+        "group_id": "CSAFGID-0002",
+        "product_ids": [
+          "CSAFPID-52001",
+          "CSAFPID-52002",
+          "CSAFPID-52011"
+        ],
+        "summary": "Fixed products"
+      },
+      {
+        "group_id": "CSAFGID-0003",
+        "product_ids": [
+          "CSAFPID-51001",
+          "CSAFPID-51003",
+          "CSAFPID-51011"
+        ],
+        "summary": "Last affected products"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "acknowledgments": [
+        {
+          "organization": "CERT@VDE",
+          "summary": "coordination",
+          "urls": [
+            "https://certvde.com"
+          ]
+        },
+        {
+          "names": [
+            "Chi Siang Choo"
+          ],
+          "organization": "4rthur Security Team",
+          "summary": "Reported by",
+          "urls": [
+            "https://4rthur.ai/"
+          ]
+        },
+        {
+          "names": [
+            "Julian Horoszkiewicz"
+          ],
+          "summary": "Reported by"
+        },
+        {
+          "names": [
+            "Patrick Saif"
+          ],
+          "summary": "Reported by"
+        }
+      ],
+      "cve": "CVE-2026-18767",
+      "cwe": {
+        "id": "CWE-782",
+        "name": "Exposed IOCTL with Insufficient Access Control"
+      },
+      "notes": [
+        {
+          "audience": "all",
+          "category": "description",
+          "text": "A local low privileged attacker or process can access I/O ports via TcRouter.sys because of exposed IOCTL function calls resulting in a full compromise of the affected devices.",
+          "title": "CVE description"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "CSAFPID-52001",
+          "CSAFPID-52002",
+          "CSAFPID-52011"
+        ],
+        "known_affected": [
+          "CSAFPID-51001",
+          "CSAFPID-51002",
+          "CSAFPID-51003",
+          "CSAFPID-51004",
+          "CSAFPID-51011",
+          "CSAFPID-51012"
+        ],
+        "last_affected": [
+          "CSAFPID-51001",
+          "CSAFPID-51003",
+          "CSAFPID-51011"
+        ]
+      },
+      "references": [
+        {
+          "category": "external",
+          "summary": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N - 8.5 / High",
+          "url": "https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "Please update to a recent version of the affected components.",
+          "group_ids": [
+            "CSAFGID-0001",
+            "CSAFGID-0003"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "environmentalScore": 7.8,
+            "environmentalSeverity": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "temporalScore": 7.8,
+            "temporalSeverity": "HIGH",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-51001",
+            "CSAFPID-51002",
+            "CSAFPID-51003",
+            "CSAFPID-51004",
+            "CSAFPID-51011",
+            "CSAFPID-51012"
+          ]
+        }
+      ],
+      "title": "Insufficient IOCTL access control allows local access to I/O ports"
+    },
+    {
+      "acknowledgments": [
+        {
+          "organization": "CERT@VDE",
+          "summary": "coordination",
+          "urls": [
+            "https://certvde.com"
+          ]
+        },
+        {
+          "names": [
+            "Chi Siang Choo"
+          ],
+          "organization": "4rthur Security Team",
+          "summary": "Reported by",
+          "urls": [
+            "https://4rthur.ai/"
+          ]
+        },
+        {
+          "names": [
+            "Julian Horoszkiewicz"
+          ],
+          "summary": "Reported by"
+        },
+        {
+          "names": [
+            "Patrick Saif"
+          ],
+          "summary": "Reported by"
+        }
+      ],
+      "cve": "CVE-2026-18768",
+      "cwe": {
+        "id": "CWE-782",
+        "name": "Exposed IOCTL with Insufficient Access Control"
+      },
+      "notes": [
+        {
+          "audience": "all",
+          "category": "description",
+          "text": "A local low privileged attacker can access arbitrary physical memory or define its mapping via TcRouter.sys because of exposed IOCTL function calls resulting in a full compromise of the affected devices.",
+          "title": "CVE description"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "CSAFPID-52001",
+          "CSAFPID-52002",
+          "CSAFPID-52011"
+        ],
+        "known_affected": [
+          "CSAFPID-51001",
+          "CSAFPID-51002",
+          "CSAFPID-51003",
+          "CSAFPID-51004",
+          "CSAFPID-51011",
+          "CSAFPID-51012"
+        ],
+        "last_affected": [
+          "CSAFPID-51001",
+          "CSAFPID-51003",
+          "CSAFPID-51011"
+        ]
+      },
+      "references": [
+        {
+          "category": "external",
+          "summary": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N - 8.5 / High",
+          "url": "https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "Please update to a recent version of the affected components.",
+          "group_ids": [
+            "CSAFGID-0001",
+            "CSAFGID-0003"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "environmentalScore": 7.8,
+            "environmentalSeverity": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "temporalScore": 7.8,
+            "temporalSeverity": "HIGH",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-51001",
+            "CSAFPID-51002",
+            "CSAFPID-51003",
+            "CSAFPID-51004",
+            "CSAFPID-51011",
+            "CSAFPID-51012"
+          ]
+        }
+      ],
+      "title": "Insufficient IOCTL access control allows local access to arbitrary physical memory"
+    },
+    {
+      "acknowledgments": [
+        {
+          "organization": "CERT@VDE",
+          "summary": "coordination",
+          "urls": [
+            "https://certvde.com"
+          ]
+        },
+        {
+          "names": [
+            "Chi Siang Choo"
+          ],
+          "organization": "4rthur Security Team",
+          "summary": "Reported by",
+          "urls": [
+            "https://4rthur.ai/"
+          ]
+        },
+        {
+          "names": [
+            "Julian Horoszkiewicz"
+          ],
+          "summary": "Reported by"
+        },
+        {
+          "names": [
+            "Patrick Saif"
+          ],
+          "summary": "Reported by"
+        }
+      ],
+      "cve": "CVE-2026-18769",
+      "cwe": {
+        "id": "CWE-782",
+        "name": "Exposed IOCTL with Insufficient Access Control"
+      },
+      "notes": [
+        {
+          "audience": "all",
+          "category": "description",
+          "text": "A local low privileged attacker can move arbitrary physical memory content via TcRouter.sys because of exposed IOCTL function calls resulting in a full compromise of the affected devices.",
+          "title": "CVE description"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "CSAFPID-52001",
+          "CSAFPID-52002",
+          "CSAFPID-52011"
+        ],
+        "known_affected": [
+          "CSAFPID-51001",
+          "CSAFPID-51002",
+          "CSAFPID-51003",
+          "CSAFPID-51004",
+          "CSAFPID-51011",
+          "CSAFPID-51012"
+        ],
+        "last_affected": [
+          "CSAFPID-51001",
+          "CSAFPID-51003",
+          "CSAFPID-51011"
+        ]
+      },
+      "references": [
+        {
+          "category": "external",
+          "summary": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N - 8.5 / High",
+          "url": "https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "Please update to a recent version of the affected components.",
+          "group_ids": [
+            "CSAFGID-0001",
+            "CSAFGID-0003"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "environmentalScore": 7.8,
+            "environmentalSeverity": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "temporalScore": 7.8,
+            "temporalSeverity": "HIGH",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-51001",
+            "CSAFPID-51002",
+            "CSAFPID-51003",
+            "CSAFPID-51004",
+            "CSAFPID-51011",
+            "CSAFPID-51012"
+          ]
+        }
+      ],
+      "title": "Insufficient IOCTL access control allows local relocation of arbitrary physical memory"
+    }
+  ]
+}

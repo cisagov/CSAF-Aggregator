@@ -51,7 +51,7 @@
     ],
     "title": "SSA-127084: Multiple Vulnerabilities in Fortigate NGFW before V7.6.7 on RUGGEDCOM APE1808 Devices",
     "tracking": {
-      "current_release_date": "2026-10-13T00:00:00.000Z",
+      "current_release_date": "2026-11-10T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -72,10 +72,16 @@
           "legacy_version": "1.1",
           "number": "2",
           "summary": "Added CVE-2026-71408, CVE-2026-71407 and CVE-2026-84393"
+        },
+        {
+          "date": "2026-11-10T00:00:00.000Z",
+          "legacy_version": "1.2",
+          "number": "3",
+          "summary": "Added CVE-2026-106174"
         }
       ],
       "status": "final",
-      "version": "2"
+      "version": "3"
     }
   },
   "product_tree": {
@@ -312,6 +318,48 @@
         }
       ],
       "title": "CVE-2026-84393"
+    },
+    {
+      "cve": "CVE-2026-106174",
+      "cwe": {
+        "id": "CWE-667",
+        "name": "Improper Locking"
+      },
+      "notes": [
+        {
+          "category": "description",
+          "text": "A improper locking vulnerability in Fortinet FortiOS 8.0.0, FortiOS 7.6.4 through 7.6.6 may allow an unauthenticated attacker with network access to the device to cause a denial of service of the HTTPS management interface via crafted HTTP requests.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "1"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "Update Fortigate NGFW to V7.6.7 or later following the secure update recommendation procedure. Contact customer support to receive detailed information",
+          "product_ids": [
+            "1"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "1"
+          ]
+        }
+      ],
+      "title": "CVE-2026-106174"
     }
   ]
 }

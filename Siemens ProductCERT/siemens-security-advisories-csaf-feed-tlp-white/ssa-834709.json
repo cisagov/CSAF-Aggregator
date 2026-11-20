@@ -12,7 +12,7 @@
     "notes": [
       {
         "category": "summary",
-        "text": "SIMATIC IoT2050 devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges.\n\nSiemens has released new versions for the affected products and recommends to update to the latest versions.",
+        "text": "SIMATIC IoT2050 devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlying server with maximum privileges.\n\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available.",
         "title": "Summary"
       },
       {
@@ -51,7 +51,7 @@
     ],
     "title": "SSA-834709: Missing Authentication Vulnerability in Node-RED on SIMATIC IoT2050 with Industrial OS",
     "tracking": {
-      "current_release_date": "2026-11-04T00:00:00.000Z",
+      "current_release_date": "2026-11-10T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -72,10 +72,16 @@
           "legacy_version": "1.1",
           "number": "2",
           "summary": "Clarified Affected products list. Updated title. Updated summary."
+        },
+        {
+          "date": "2026-11-10T00:00:00.000Z",
+          "legacy_version": "1.2",
+          "number": "3",
+          "summary": "Added additional affected configuration for SIMATIC IoT2050 family"
         }
       ],
       "status": "interim",
-      "version": "2"
+      "version": "3"
     }
   },
   "product_tree": {
@@ -96,6 +102,19 @@
                     ]
                   }
                 }
+              },
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) running Example Image versions with Node-RED installed",
+                  "product_id": "2",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0BA00-1YA2"
+                    ]
+                  }
+                }
               }
             ],
             "category": "product_name",
@@ -108,7 +127,20 @@
                 "name": "vers:intdot/<4.3.4.1",
                 "product": {
                   "name": "SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2) < V4.3.4-1 running Industrial OS with Node-RED installed",
-                  "product_id": "2",
+                  "product_id": "3",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0BA00-0YA2"
+                    ]
+                  }
+                }
+              },
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SIMATIC IoT2050 Basic (6ES7647-0BA00-0YA2) running Example Image versions with Node-RED installed",
+                  "product_id": "4",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6ES7647-0BA00-0YA2"
@@ -127,7 +159,20 @@
                 "name": "vers:intdot/<4.3.4.1",
                 "product": {
                   "name": "SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2) < V4.3.4-1 running Industrial OS with Node-RED installed",
-                  "product_id": "3",
+                  "product_id": "5",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0BB00-1YA2"
+                    ]
+                  }
+                }
+              },
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SIMATIC IoT2050 M.2 (6ES7647-0BB00-1YA2) running Example Image versions with Node-RED installed",
+                  "product_id": "6",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6ES7647-0BB00-1YA2"
@@ -146,7 +191,20 @@
                 "name": "vers:intdot/<4.3.4.1",
                 "product": {
                   "name": "SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2) < V4.3.4-1 running Industrial OS with Node-RED installed",
-                  "product_id": "4",
+                  "product_id": "7",
+                  "product_identification_helper": {
+                    "model_numbers": [
+                      "6ES7647-0CA00-1AA2"
+                    ]
+                  }
+                }
+              },
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "SIMATIC IoT2050 SM (6ES7647-0CA00-1AA2) running Example Image versions with Node-RED installed",
+                  "product_id": "8",
                   "product_identification_helper": {
                     "model_numbers": [
                       "6ES7647-0CA00-1AA2"
@@ -183,7 +241,11 @@
           "1",
           "2",
           "3",
-          "4"
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
         ]
       },
       "remediations": [
@@ -194,7 +256,11 @@
             "1",
             "2",
             "3",
-            "4"
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
           ]
         },
         {
@@ -204,16 +270,30 @@
             "1",
             "2",
             "3",
-            "4"
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "category": "none_available",
+          "details": "Currently no fix is available",
+          "product_ids": [
+            "2",
+            "4",
+            "6",
+            "8"
           ]
         },
         {
           "category": "vendor_fix",
           "details": "Update to V4.3.4-1 or later version",
           "product_ids": [
-            "2",
             "3",
-            "4"
+            "5",
+            "7"
           ],
           "url": "https://support.industry.siemens.com/cs/ww/en/view/109741799/"
         },
@@ -238,7 +318,11 @@
             "1",
             "2",
             "3",
-            "4"
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
           ]
         }
       ],

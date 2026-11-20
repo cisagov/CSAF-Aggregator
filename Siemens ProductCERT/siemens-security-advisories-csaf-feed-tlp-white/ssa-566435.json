@@ -51,7 +51,7 @@
     ],
     "title": "SSA-566435: PHP2Shell Vulnerabilities in Siemens Software Products",
     "tracking": {
-      "current_release_date": "2026-11-04T00:00:00.000Z",
+      "current_release_date": "2026-11-20T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -102,10 +102,16 @@
           "legacy_version": "1.6",
           "number": "7",
           "summary": "Added Opcenter Execution Process and Opcenter Execution Discrete to \"Known Not Affected Product\" list"
+        },
+        {
+          "date": "2026-11-20T00:00:00.000Z",
+          "legacy_version": "1.7",
+          "number": "8",
+          "summary": "Added Opcenter APS, Simcenter, Rapidminer and HPCWorks products to \"Known Not Affected Product\""
         }
       ],
       "status": "final",
-      "version": "7"
+      "version": "8"
     }
   },
   "product_tree": {
@@ -216,8 +222,274 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
-                  "name": "HyperLynx",
+                  "name": "EDEM BulkSim",
                   "product_id": "8"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "EDEM BulkSim"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Graph Lakehouse",
+                  "product_id": "9"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Graph Lakehouse"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Accelerator",
+                  "product_id": "10"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Accelerator"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Accelerator Plus",
+                  "product_id": "11"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Accelerator Plus"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Access",
+                  "product_id": "12"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Access"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Allocator",
+                  "product_id": "13"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Allocator"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Asset Optimization",
+                  "product_id": "14"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Asset Optimization"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Breeze",
+                  "product_id": "15"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Breeze"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Control",
+                  "product_id": "16"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Control"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Desktop Usage Analytics",
+                  "product_id": "17"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Desktop Usage Analytics"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Flowtracer",
+                  "product_id": "18"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Flowtracer"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Grid Engine",
+                  "product_id": "19"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Grid Engine"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Hero",
+                  "product_id": "20"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Hero"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Insight Pro",
+                  "product_id": "21"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Insight Pro"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Insight Pro for License Analytics",
+                  "product_id": "22"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Insight Pro for License Analytics"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Mistral",
+                  "product_id": "23"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Mistral"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Monitor",
+                  "product_id": "24"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Monitor"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks Navops",
+                  "product_id": "25"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks Navops"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HPCWorks PBS Professional",
+                  "product_id": "26"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "HPCWorks PBS Professional"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "HyperLynx",
+                  "product_id": "27"
                 }
               }
             ],
@@ -231,7 +503,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Insights Hub",
-                  "product_id": "9"
+                  "product_id": "28"
                 }
               }
             ],
@@ -244,8 +516,36 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Knowledge Studio for Apache Spark",
+                  "product_id": "29"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Knowledge Studio for Apache Spark"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Opcenter APS",
+                  "product_id": "30"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Opcenter APS"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Opcenter Connect Electronics",
-                  "product_id": "10"
+                  "product_id": "31"
                 }
               }
             ],
@@ -259,7 +559,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter Connect MOM",
-                  "product_id": "11"
+                  "product_id": "32"
                 }
               }
             ],
@@ -273,7 +573,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter Execution Core",
-                  "product_id": "12"
+                  "product_id": "33"
                 }
               }
             ],
@@ -287,7 +587,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter Execution Discrete",
-                  "product_id": "13"
+                  "product_id": "34"
                 }
               }
             ],
@@ -301,7 +601,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter Execution Foundation",
-                  "product_id": "14"
+                  "product_id": "35"
                 }
               }
             ],
@@ -315,7 +615,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter Execution Pharma",
-                  "product_id": "15"
+                  "product_id": "36"
                 }
               }
             ],
@@ -329,7 +629,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter Execution Process",
-                  "product_id": "16"
+                  "product_id": "37"
                 }
               }
             ],
@@ -343,7 +643,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter Intelligence",
-                  "product_id": "17"
+                  "product_id": "38"
                 }
               }
             ],
@@ -357,7 +657,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter Intra Plant Logistics",
-                  "product_id": "18"
+                  "product_id": "39"
                 }
               }
             ],
@@ -371,7 +671,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter Quality",
-                  "product_id": "19"
+                  "product_id": "40"
                 }
               }
             ],
@@ -385,7 +685,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter RDnL",
-                  "product_id": "20"
+                  "product_id": "41"
                 }
               }
             ],
@@ -399,7 +699,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Opcenter X",
-                  "product_id": "21"
+                  "product_id": "42"
                 }
               }
             ],
@@ -413,7 +713,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "PADS Pro Essentials",
-                  "product_id": "22"
+                  "product_id": "43"
                 }
               }
             ],
@@ -427,7 +727,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "PADS Pro Student Edition",
-                  "product_id": "23"
+                  "product_id": "44"
                 }
               }
             ],
@@ -441,7 +741,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "PADS Professional",
-                  "product_id": "24"
+                  "product_id": "45"
                 }
               }
             ],
@@ -455,7 +755,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "PADS Professional - XCR",
-                  "product_id": "25"
+                  "product_id": "46"
                 }
               }
             ],
@@ -469,7 +769,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "PADS Standard - XCR",
-                  "product_id": "26"
+                  "product_id": "47"
                 }
               }
             ],
@@ -483,7 +783,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "PADS Standard & Standard Plus",
-                  "product_id": "27"
+                  "product_id": "48"
                 }
               }
             ],
@@ -496,8 +796,22 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Panopticon Streams",
+                  "product_id": "49"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Panopticon Streams"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Pathway to Learning Engineering",
-                  "product_id": "28"
+                  "product_id": "50"
                 }
               }
             ],
@@ -511,7 +825,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Polarion",
-                  "product_id": "29"
+                  "product_id": "51"
                 }
               }
             ],
@@ -525,7 +839,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "QuadView",
-                  "product_id": "30"
+                  "product_id": "52"
                 }
               }
             ],
@@ -538,8 +852,428 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Rapidminer AI Cloud",
+                  "product_id": "53"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer AI Cloud"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Rapidminer AI Hub",
+                  "product_id": "54"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer AI Hub"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Rapidminer AI Studio",
+                  "product_id": "55"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer AI Studio"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Rapidminer Analytics Workbench (SLC)",
+                  "product_id": "56"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer Analytics Workbench (SLC)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Rapidminer Graph Studio",
+                  "product_id": "57"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer Graph Studio"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Rapidminer Knowledge Seeker",
+                  "product_id": "58"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer Knowledge Seeker"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Rapidminer Knowledge Studio",
+                  "product_id": "59"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer Knowledge Studio"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Rapidminer Monarch Classic / Server",
+                  "product_id": "60"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer Monarch Classic / Server"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Rapidminer Monarch Data Prep Studio",
+                  "product_id": "61"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer Monarch Data Prep Studio"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Rapidminer Panopticon",
+                  "product_id": "62"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Rapidminer Panopticon"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter 3D",
+                  "product_id": "63"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter 3D"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Acusolve",
+                  "product_id": "64"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Acusolve"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Amesim",
+                  "product_id": "65"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Amesim"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Battery Damage Identifier",
+                  "product_id": "66"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Battery Damage Identifier"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Battery Design Studio",
+                  "product_id": "67"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Battery Design Studio"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Compose",
+                  "product_id": "68"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Compose"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter CostAI",
+                  "product_id": "69"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter CostAI"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Culgi",
+                  "product_id": "70"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Culgi"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter DesignAI",
+                  "product_id": "71"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter DesignAI"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter E-Machine Design",
+                  "product_id": "72"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter E-Machine Design"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter E-Motor Director",
+                  "product_id": "73"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter E-Motor Director"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter e-Motor Platform Optimization",
+                  "product_id": "74"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter e-Motor Platform Optimization"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter EDEM",
+                  "product_id": "75"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter EDEM"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Electroflo",
+                  "product_id": "76"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Electroflo"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Embed",
+                  "product_id": "77"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Embed"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Executable Digital Twin",
+                  "product_id": "78"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Executable Digital Twin"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Feko",
+                  "product_id": "79"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Feko"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Femap",
+                  "product_id": "80"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Femap"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Flightstream",
+                  "product_id": "81"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Flightstream"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter FLOEFD",
+                  "product_id": "82"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter FLOEFD"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Simcenter Flomaster",
-                  "product_id": "31"
+                  "product_id": "83"
                 }
               }
             ],
@@ -552,8 +1286,50 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Simcenter Flotherm",
+                  "product_id": "84"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Flotherm"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Flotherm (XT)",
+                  "product_id": "85"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Flotherm (XT)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Flow Simulator",
+                  "product_id": "86"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Flow Simulator"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Simcenter Flux",
-                  "product_id": "32"
+                  "product_id": "87"
                 }
               }
             ],
@@ -566,8 +1342,498 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Simcenter Fluxmotor",
+                  "product_id": "88"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Fluxmotor"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Genesis",
+                  "product_id": "89"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Genesis"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Geomechanics",
+                  "product_id": "90"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Geomechanics"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter HEEDS",
+                  "product_id": "91"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter HEEDS"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Hypergraph",
+                  "product_id": "92"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Hypergraph"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Hypermesh",
+                  "product_id": "93"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Hypermesh"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Hypermesh CFD",
+                  "product_id": "94"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Hypermesh CFD"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Hypermesh NVH",
+                  "product_id": "95"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Hypermesh NVH"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Hyperstudy",
+                  "product_id": "96"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Hyperstudy"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Hyperview",
+                  "product_id": "97"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Hyperview"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Inspire",
+                  "product_id": "98"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Inspire"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Inspire Mfg",
+                  "product_id": "99"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Inspire Mfg"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Madymo",
+                  "product_id": "100"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Madymo"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter MAGNET",
+                  "product_id": "101"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter MAGNET"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Maintenance Aware Design Ecosystem",
+                  "product_id": "102"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Maintenance Aware Design Ecosystem"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Material Data Center",
+                  "product_id": "103"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Material Data Center"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Material Modeler",
+                  "product_id": "104"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Material Modeler"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Motionsolve",
+                  "product_id": "105"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Motionsolve"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Motionview",
+                  "product_id": "106"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Motionview"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Multi-Disciplinary Optimization Director",
+                  "product_id": "107"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Multi-Disciplinary Optimization Director"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Multiscale Designer",
+                  "product_id": "108"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Multiscale Designer"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Nanofluid",
+                  "product_id": "109"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Nanofluid"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Nastran",
+                  "product_id": "110"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Nastran"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter OmniV",
+                  "product_id": "111"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter OmniV"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Optistruct",
+                  "product_id": "112"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Optistruct"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Part Manager",
+                  "product_id": "113"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Part Manager"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter PhysicsAI",
+                  "product_id": "114"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter PhysicsAI"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter PhysicsAI Studio",
+                  "product_id": "115"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter PhysicsAI Studio"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter PSIM",
+                  "product_id": "116"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter PSIM"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Pulse Studio",
+                  "product_id": "117"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Pulse Studio"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Quality Management",
+                  "product_id": "118"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Quality Management"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Radioss",
+                  "product_id": "119"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Radioss"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Reduced Order Modeling",
+                  "product_id": "120"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Reduced Order Modeling"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter RomAI",
+                  "product_id": "121"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter RomAI"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter S-Frame",
+                  "product_id": "122"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter S-Frame"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Simcenter Simlab",
-                  "product_id": "33"
+                  "product_id": "123"
                 }
               }
             ],
@@ -580,8 +1846,288 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Simcenter Simsolid",
+                  "product_id": "124"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Simsolid"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Simulation Cloud Suite",
+                  "product_id": "125"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Simulation Cloud Suite"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter SPEED",
+                  "product_id": "126"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter SPEED"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter SPH Flow",
+                  "product_id": "127"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter SPH Flow"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter STAR-CCM+",
+                  "product_id": "128"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter STAR-CCM+"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter STAR-CCM+ Viewer",
+                  "product_id": "129"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter STAR-CCM+ Viewer"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Studio",
+                  "product_id": "130"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Studio"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter System Analyst",
+                  "product_id": "131"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter System Analyst"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter System Architect",
+                  "product_id": "132"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter System Architect"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter System Simulation Client for Git",
+                  "product_id": "133"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter System Simulation Client for Git"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter System Simulation Client for Git V2021",
+                  "product_id": "134"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter System Simulation Client for Git V2021"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Testlab",
+                  "product_id": "135"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Testlab"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Testlab Data Management",
+                  "product_id": "136"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Testlab Data Management"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Tire",
+                  "product_id": "137"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Tire"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Twin Activate",
+                  "product_id": "138"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Twin Activate"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Ultrafluid",
+                  "product_id": "139"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Ultrafluid"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Unified Design Environment (UDE)",
+                  "product_id": "140"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Unified Design Environment (UDE)"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Weight Analytics",
+                  "product_id": "141"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Weight Analytics"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter X Mechanical",
+                  "product_id": "142"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter X Mechanical"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
+                  "name": "Simcenter Zona",
+                  "product_id": "143"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Simcenter Zona"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Solid Edge",
-                  "product_id": "34"
+                  "product_id": "144"
                 }
               }
             ],
@@ -595,7 +2141,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Supply Chain Suite",
-                  "product_id": "35"
+                  "product_id": "145"
                 }
               }
             ],
@@ -609,7 +2155,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Teamcenter",
-                  "product_id": "36"
+                  "product_id": "146"
                 }
               }
             ],
@@ -623,7 +2169,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Teamcenter Product Cost Management",
-                  "product_id": "37"
+                  "product_id": "147"
                 }
               }
             ],
@@ -637,7 +2183,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Teamcenter Share",
-                  "product_id": "38"
+                  "product_id": "148"
                 }
               }
             ],
@@ -650,8 +2196,22 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Teamcenter Simulation",
+                  "product_id": "149"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Teamcenter Simulation"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Teamcenter Visualization",
-                  "product_id": "39"
+                  "product_id": "150"
                 }
               }
             ],
@@ -665,7 +2225,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Tecnomatix Plant Simulation",
-                  "product_id": "40"
+                  "product_id": "151"
                 }
               }
             ],
@@ -679,7 +2239,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "TestWay",
-                  "product_id": "41"
+                  "product_id": "152"
                 }
               }
             ],
@@ -692,8 +2252,22 @@
                 "category": "product_version_range",
                 "name": "vers:all/*",
                 "product": {
+                  "name": "Thea Render",
+                  "product_id": "153"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Thea Render"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:all/*",
+                "product": {
                   "name": "Valor NPI",
-                  "product_id": "42"
+                  "product_id": "154"
                 }
               }
             ],
@@ -707,7 +2281,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Xcargo",
-                  "product_id": "43"
+                  "product_id": "155"
                 }
               }
             ],
@@ -721,7 +2295,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Xpedition Designer",
-                  "product_id": "44"
+                  "product_id": "156"
                 }
               }
             ],
@@ -735,7 +2309,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Xpedition Enterprise",
-                  "product_id": "45"
+                  "product_id": "157"
                 }
               }
             ],
@@ -749,7 +2323,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Xpedition Enterprise XCR",
-                  "product_id": "46"
+                  "product_id": "158"
                 }
               }
             ],
@@ -763,7 +2337,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Xpedition IC Packaging",
-                  "product_id": "47"
+                  "product_id": "159"
                 }
               }
             ],
@@ -777,7 +2351,7 @@
                 "name": "vers:all/*",
                 "product": {
                   "name": "Xpedition Layout Browser",
-                  "product_id": "48"
+                  "product_id": "160"
                 }
               }
             ],
@@ -801,54 +2375,166 @@
         {
           "label": "component_not_present",
           "product_ids": [
-            "31",
-            "48",
-            "45",
-            "28",
-            "32",
-            "24",
-            "1",
-            "3",
-            "38",
-            "39",
-            "30",
-            "14",
-            "34",
-            "20",
-            "35",
-            "15",
-            "5",
             "21",
-            "8",
-            "22",
-            "29",
-            "47",
-            "26",
-            "11",
-            "36",
-            "18",
-            "37",
-            "44",
-            "25",
-            "10",
-            "23",
-            "41",
-            "27",
-            "12",
-            "2",
-            "43",
-            "9",
-            "19",
-            "7",
-            "46",
-            "6",
-            "13",
-            "4",
-            "33",
+            "24",
+            "138",
+            "99",
+            "30",
+            "107",
+            "149",
+            "96",
             "40",
-            "42",
+            "75",
+            "155",
+            "106",
+            "36",
+            "7",
+            "127",
+            "66",
+            "47",
+            "150",
+            "11",
+            "60",
+            "5",
+            "130",
+            "17",
+            "140",
             "16",
-            "17"
+            "89",
+            "39",
+            "61",
+            "114",
+            "125",
+            "23",
+            "62",
+            "108",
+            "143",
+            "147",
+            "12",
+            "100",
+            "134",
+            "154",
+            "45",
+            "29",
+            "84",
+            "78",
+            "6",
+            "93",
+            "80",
+            "77",
+            "144",
+            "90",
+            "3",
+            "42",
+            "2",
+            "13",
+            "70",
+            "71",
+            "104",
+            "59",
+            "132",
+            "64",
+            "156",
+            "53",
+            "86",
+            "35",
+            "73",
+            "148",
+            "122",
+            "98",
+            "91",
+            "46",
+            "50",
+            "41",
+            "133",
+            "136",
+            "55",
+            "22",
+            "85",
+            "69",
+            "119",
+            "121",
+            "97",
+            "9",
+            "88",
+            "72",
+            "14",
+            "32",
+            "112",
+            "113",
+            "142",
+            "131",
+            "19",
+            "18",
+            "10",
+            "28",
+            "34",
+            "33",
+            "56",
+            "68",
+            "152",
+            "103",
+            "118",
+            "26",
+            "110",
+            "145",
+            "63",
+            "38",
+            "95",
+            "141",
+            "54",
+            "128",
+            "48",
+            "44",
+            "109",
+            "37",
+            "43",
+            "105",
+            "4",
+            "31",
+            "87",
+            "159",
+            "135",
+            "153",
+            "74",
+            "111",
+            "25",
+            "52",
+            "76",
+            "123",
+            "124",
+            "65",
+            "57",
+            "83",
+            "67",
+            "139",
+            "115",
+            "51",
+            "160",
+            "27",
+            "79",
+            "116",
+            "81",
+            "92",
+            "49",
+            "58",
+            "129",
+            "157",
+            "120",
+            "8",
+            "1",
+            "102",
+            "117",
+            "151",
+            "158",
+            "126",
+            "15",
+            "94",
+            "137",
+            "101",
+            "20",
+            "82",
+            "146"
           ]
         }
       ],
@@ -863,12 +2549,73 @@
         "known_not_affected": [
           "1",
           "10",
+          "100",
+          "101",
+          "102",
+          "103",
+          "104",
+          "105",
+          "106",
+          "107",
+          "108",
+          "109",
           "11",
+          "110",
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "119",
           "12",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "128",
+          "129",
           "13",
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138",
+          "139",
           "14",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145",
+          "146",
+          "147",
+          "148",
+          "149",
           "15",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "156",
+          "157",
+          "158",
+          "159",
           "16",
+          "160",
           "17",
           "18",
           "19",
@@ -904,11 +2651,62 @@
           "46",
           "47",
           "48",
+          "49",
           "5",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
           "6",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65",
+          "66",
+          "67",
+          "68",
+          "69",
           "7",
+          "70",
+          "71",
+          "72",
+          "73",
+          "74",
+          "75",
+          "76",
+          "77",
+          "78",
+          "79",
           "8",
-          "9"
+          "80",
+          "81",
+          "82",
+          "83",
+          "84",
+          "85",
+          "86",
+          "87",
+          "88",
+          "89",
+          "9",
+          "90",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "96",
+          "97",
+          "98",
+          "99"
         ]
       },
       "threats": [
@@ -916,60 +2714,166 @@
           "category": "impact",
           "details": "PHP is not present in this product",
           "product_ids": [
-            "48",
-            "45",
-            "28",
-            "32",
-            "24",
-            "1",
-            "3",
-            "38",
-            "39",
-            "30",
-            "14",
-            "34",
-            "20",
-            "35",
-            "15",
-            "5",
             "21",
-            "8",
-            "22",
-            "29",
-            "47",
-            "26",
-            "11",
-            "36",
-            "18",
-            "37",
-            "44",
-            "25",
-            "10",
-            "23",
-            "41",
-            "27",
-            "12",
-            "2",
-            "43",
-            "9",
-            "19",
-            "7",
-            "46",
-            "6",
-            "13",
-            "4",
-            "33",
+            "24",
+            "138",
+            "99",
+            "30",
+            "107",
+            "149",
+            "96",
             "40",
-            "42",
+            "75",
+            "155",
+            "106",
+            "36",
+            "7",
+            "127",
+            "66",
+            "47",
+            "150",
+            "11",
+            "60",
+            "5",
+            "130",
+            "17",
+            "140",
             "16",
-            "17"
-          ]
-        },
-        {
-          "category": "impact",
-          "details": "Simcenter Flomaster is not affected by the PHP issue",
-          "product_ids": [
-            "31"
+            "89",
+            "39",
+            "61",
+            "114",
+            "125",
+            "23",
+            "62",
+            "108",
+            "143",
+            "147",
+            "12",
+            "100",
+            "134",
+            "154",
+            "45",
+            "29",
+            "84",
+            "78",
+            "6",
+            "93",
+            "80",
+            "77",
+            "144",
+            "90",
+            "3",
+            "42",
+            "2",
+            "13",
+            "70",
+            "71",
+            "104",
+            "59",
+            "132",
+            "64",
+            "156",
+            "53",
+            "86",
+            "35",
+            "73",
+            "148",
+            "122",
+            "98",
+            "91",
+            "46",
+            "50",
+            "41",
+            "133",
+            "136",
+            "55",
+            "22",
+            "85",
+            "69",
+            "119",
+            "121",
+            "97",
+            "9",
+            "88",
+            "72",
+            "14",
+            "32",
+            "112",
+            "113",
+            "142",
+            "131",
+            "19",
+            "18",
+            "10",
+            "28",
+            "34",
+            "33",
+            "56",
+            "68",
+            "152",
+            "103",
+            "118",
+            "26",
+            "110",
+            "145",
+            "63",
+            "38",
+            "95",
+            "141",
+            "54",
+            "128",
+            "48",
+            "44",
+            "109",
+            "37",
+            "43",
+            "105",
+            "4",
+            "31",
+            "87",
+            "159",
+            "135",
+            "153",
+            "74",
+            "111",
+            "25",
+            "52",
+            "76",
+            "123",
+            "124",
+            "65",
+            "57",
+            "83",
+            "67",
+            "139",
+            "115",
+            "51",
+            "160",
+            "27",
+            "79",
+            "116",
+            "81",
+            "92",
+            "49",
+            "58",
+            "129",
+            "157",
+            "120",
+            "8",
+            "1",
+            "102",
+            "117",
+            "151",
+            "158",
+            "126",
+            "15",
+            "94",
+            "137",
+            "101",
+            "20",
+            "82",
+            "146"
           ]
         }
       ],
@@ -985,54 +2889,166 @@
         {
           "label": "component_not_present",
           "product_ids": [
-            "31",
-            "48",
-            "45",
-            "28",
-            "32",
-            "24",
-            "1",
-            "3",
-            "38",
-            "39",
-            "30",
-            "14",
-            "34",
-            "20",
-            "35",
-            "15",
-            "5",
             "21",
-            "8",
-            "22",
-            "29",
-            "47",
-            "26",
-            "11",
-            "36",
-            "18",
-            "37",
-            "44",
-            "25",
-            "10",
-            "23",
-            "41",
-            "27",
-            "12",
-            "2",
-            "43",
-            "9",
-            "19",
-            "7",
-            "46",
-            "6",
-            "13",
-            "4",
-            "33",
+            "24",
+            "138",
+            "99",
+            "30",
+            "107",
+            "149",
+            "96",
             "40",
-            "42",
+            "75",
+            "155",
+            "106",
+            "36",
+            "7",
+            "127",
+            "66",
+            "47",
+            "150",
+            "11",
+            "60",
+            "5",
+            "130",
+            "17",
+            "140",
             "16",
-            "17"
+            "89",
+            "39",
+            "61",
+            "114",
+            "125",
+            "23",
+            "62",
+            "108",
+            "143",
+            "147",
+            "12",
+            "100",
+            "134",
+            "154",
+            "45",
+            "29",
+            "84",
+            "78",
+            "6",
+            "93",
+            "80",
+            "77",
+            "144",
+            "90",
+            "3",
+            "42",
+            "2",
+            "13",
+            "70",
+            "71",
+            "104",
+            "59",
+            "132",
+            "64",
+            "156",
+            "53",
+            "86",
+            "35",
+            "73",
+            "148",
+            "122",
+            "98",
+            "91",
+            "46",
+            "50",
+            "41",
+            "133",
+            "136",
+            "55",
+            "22",
+            "85",
+            "69",
+            "119",
+            "121",
+            "97",
+            "9",
+            "88",
+            "72",
+            "14",
+            "32",
+            "112",
+            "113",
+            "142",
+            "131",
+            "19",
+            "18",
+            "10",
+            "28",
+            "34",
+            "33",
+            "56",
+            "68",
+            "152",
+            "103",
+            "118",
+            "26",
+            "110",
+            "145",
+            "63",
+            "38",
+            "95",
+            "141",
+            "54",
+            "128",
+            "48",
+            "44",
+            "109",
+            "37",
+            "43",
+            "105",
+            "4",
+            "31",
+            "87",
+            "159",
+            "135",
+            "153",
+            "74",
+            "111",
+            "25",
+            "52",
+            "76",
+            "123",
+            "124",
+            "65",
+            "57",
+            "83",
+            "67",
+            "139",
+            "115",
+            "51",
+            "160",
+            "27",
+            "79",
+            "116",
+            "81",
+            "92",
+            "49",
+            "58",
+            "129",
+            "157",
+            "120",
+            "8",
+            "1",
+            "102",
+            "117",
+            "151",
+            "158",
+            "126",
+            "15",
+            "94",
+            "137",
+            "101",
+            "20",
+            "82",
+            "146"
           ]
         }
       ],
@@ -1047,12 +3063,73 @@
         "known_not_affected": [
           "1",
           "10",
+          "100",
+          "101",
+          "102",
+          "103",
+          "104",
+          "105",
+          "106",
+          "107",
+          "108",
+          "109",
           "11",
+          "110",
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "119",
           "12",
+          "120",
+          "121",
+          "122",
+          "123",
+          "124",
+          "125",
+          "126",
+          "127",
+          "128",
+          "129",
           "13",
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138",
+          "139",
           "14",
+          "140",
+          "141",
+          "142",
+          "143",
+          "144",
+          "145",
+          "146",
+          "147",
+          "148",
+          "149",
           "15",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "156",
+          "157",
+          "158",
+          "159",
           "16",
+          "160",
           "17",
           "18",
           "19",
@@ -1088,11 +3165,62 @@
           "46",
           "47",
           "48",
+          "49",
           "5",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
           "6",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65",
+          "66",
+          "67",
+          "68",
+          "69",
           "7",
+          "70",
+          "71",
+          "72",
+          "73",
+          "74",
+          "75",
+          "76",
+          "77",
+          "78",
+          "79",
           "8",
-          "9"
+          "80",
+          "81",
+          "82",
+          "83",
+          "84",
+          "85",
+          "86",
+          "87",
+          "88",
+          "89",
+          "9",
+          "90",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "96",
+          "97",
+          "98",
+          "99"
         ]
       },
       "threats": [
@@ -1100,60 +3228,166 @@
           "category": "impact",
           "details": "PHP is not present in this product",
           "product_ids": [
-            "48",
-            "45",
-            "28",
-            "32",
-            "24",
-            "1",
-            "3",
-            "38",
-            "39",
-            "30",
-            "14",
-            "34",
-            "20",
-            "35",
-            "15",
-            "5",
             "21",
-            "8",
-            "22",
-            "29",
-            "47",
-            "26",
-            "11",
-            "36",
-            "18",
-            "37",
-            "44",
-            "25",
-            "10",
-            "23",
-            "41",
-            "27",
-            "12",
-            "2",
-            "43",
-            "9",
-            "19",
-            "7",
-            "46",
-            "6",
-            "13",
-            "4",
-            "33",
+            "24",
+            "138",
+            "99",
+            "30",
+            "107",
+            "149",
+            "96",
             "40",
-            "42",
+            "75",
+            "155",
+            "106",
+            "36",
+            "7",
+            "127",
+            "66",
+            "47",
+            "150",
+            "11",
+            "60",
+            "5",
+            "130",
+            "17",
+            "140",
             "16",
-            "17"
-          ]
-        },
-        {
-          "category": "impact",
-          "details": "Simcenter Flomaster is not affected by the PHP issue",
-          "product_ids": [
-            "31"
+            "89",
+            "39",
+            "61",
+            "114",
+            "125",
+            "23",
+            "62",
+            "108",
+            "143",
+            "147",
+            "12",
+            "100",
+            "134",
+            "154",
+            "45",
+            "29",
+            "84",
+            "78",
+            "6",
+            "93",
+            "80",
+            "77",
+            "144",
+            "90",
+            "3",
+            "42",
+            "2",
+            "13",
+            "70",
+            "71",
+            "104",
+            "59",
+            "132",
+            "64",
+            "156",
+            "53",
+            "86",
+            "35",
+            "73",
+            "148",
+            "122",
+            "98",
+            "91",
+            "46",
+            "50",
+            "41",
+            "133",
+            "136",
+            "55",
+            "22",
+            "85",
+            "69",
+            "119",
+            "121",
+            "97",
+            "9",
+            "88",
+            "72",
+            "14",
+            "32",
+            "112",
+            "113",
+            "142",
+            "131",
+            "19",
+            "18",
+            "10",
+            "28",
+            "34",
+            "33",
+            "56",
+            "68",
+            "152",
+            "103",
+            "118",
+            "26",
+            "110",
+            "145",
+            "63",
+            "38",
+            "95",
+            "141",
+            "54",
+            "128",
+            "48",
+            "44",
+            "109",
+            "37",
+            "43",
+            "105",
+            "4",
+            "31",
+            "87",
+            "159",
+            "135",
+            "153",
+            "74",
+            "111",
+            "25",
+            "52",
+            "76",
+            "123",
+            "124",
+            "65",
+            "57",
+            "83",
+            "67",
+            "139",
+            "115",
+            "51",
+            "160",
+            "27",
+            "79",
+            "116",
+            "81",
+            "92",
+            "49",
+            "58",
+            "129",
+            "157",
+            "120",
+            "8",
+            "1",
+            "102",
+            "117",
+            "151",
+            "158",
+            "126",
+            "15",
+            "94",
+            "137",
+            "101",
+            "20",
+            "82",
+            "146"
           ]
         }
       ],
