@@ -1,0 +1,240 @@
+{
+  "document": {
+    "category": "csaf_security_advisory",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Disclosure is not limited. (TLPv2: TLP:CLEAR)",
+      "tlp": {
+        "label": "WHITE"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "The products listed below contain a session management vulnerability that could allow a deactivated user to continue using an existing session to access and modify data within their previously granted permissions.\n\nSiemens has released new versions for the affected products and recommends to update to the latest versions.",
+        "title": "Summary"
+      },
+      {
+        "category": "general",
+        "text": "As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines for Industrial Security (Download: https://www.siemens.com/cert/operational-guidelines-industrial-security), and to follow the recommendations in the product manuals.\n\nAdditional information on Industrial Security by Siemens can be found at: https://www.siemens.com/industrialsecurity",
+        "title": "General Recommendations"
+      },
+      {
+        "category": "general",
+        "text": "For further inquiries on security vulnerabilities in Siemens products and solutions, please contact the Siemens ProductCERT: https://www.siemens.com/cert/advisories",
+        "title": "Additional Resources"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "The use of Siemens Security Advisories is subject to the terms and conditions listed on: https://www.siemens.com/productcert/terms-of-use.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "productcert@siemens.com",
+      "name": "Siemens ProductCERT",
+      "namespace": "https://www.siemens.com"
+    },
+    "references": [
+      {
+        "category": "self",
+        "summary": "SSA-579716: Insufficient Session Expiration Vulnerability in Mendix Runtime - HTML Version",
+        "url": "https://cert-portal.siemens.com/productcert/html/ssa-579716.html"
+      },
+      {
+        "category": "self",
+        "summary": "SSA-579716: Insufficient Session Expiration Vulnerability in Mendix Runtime - CSAF Version",
+        "url": "https://cert-portal.siemens.com/productcert/csaf/ssa-579716.json"
+      }
+    ],
+    "title": "SSA-579716: Insufficient Session Expiration Vulnerability in Mendix Runtime",
+    "tracking": {
+      "current_release_date": "2026-11-27T00:00:00.000Z",
+      "generator": {
+        "engine": {
+          "name": "Siemens ProductCERT CSAF Generator",
+          "version": "1"
+        }
+      },
+      "id": "SSA-579716",
+      "initial_release_date": "2026-11-27T00:00:00.000Z",
+      "revision_history": [
+        {
+          "date": "2026-11-27T00:00:00.000Z",
+          "legacy_version": "1.0",
+          "number": "1",
+          "summary": "Publication Date"
+        }
+      ],
+      "status": "interim",
+      "version": "1"
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<10.24.29",
+                "product": {
+                  "name": "Mendix Runtime V10 < V10.24.29",
+                  "product_id": "1"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Mendix Runtime V10"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<11.17.0",
+                "product": {
+                  "name": "Mendix Runtime V11 < V11.17.0",
+                  "product_id": "2"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Mendix Runtime V11"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<11.12.8",
+                "product": {
+                  "name": "Mendix Runtime V11.12 < V11.12.8",
+                  "product_id": "3"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Mendix Runtime V11.12"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<11.6.13",
+                "product": {
+                  "name": "Mendix Runtime V11.6 < V11.6.13",
+                  "product_id": "4"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Mendix Runtime V11.6"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version_range",
+                "name": "vers:intdot/<9.24.45",
+                "product": {
+                  "name": "Mendix Runtime V9 < V9.24.45",
+                  "product_id": "5"
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Mendix Runtime V9"
+          }
+        ],
+        "category": "vendor",
+        "name": "Siemens"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-135278",
+      "cwe": {
+        "id": "CWE-613",
+        "name": "Insufficient Session Expiration"
+      },
+      "notes": [
+        {
+          "category": "description",
+          "text": "Affected versions of Mendix Runtime do not end existing sessions when a user account is set to inactive. The account state is checked at sign-in, but not on later requests made with a session that already exists. A user who is deactivated while signed in can keep using that session for as long as the client keeps it alive.\r\n\r\nThis could allow an authenticated remote attacker to read and change data within previous permissions for a persistent session.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "Update to V10.24.29 or later version",
+          "product_ids": [
+            "1"
+          ],
+          "url": "https://docs.mendix.com/releasenotes/studio-pro/10/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V11.12.8 or later version",
+          "product_ids": [
+            "3"
+          ],
+          "url": "https://docs.mendix.com/releasenotes/studio-pro/11.12/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V11.17.0 or later version",
+          "product_ids": [
+            "2"
+          ],
+          "url": "https://docs.mendix.com/releasenotes/studio-pro/11/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V11.6.13 or later version",
+          "product_ids": [
+            "4"
+          ],
+          "url": "https://docs.mendix.com/releasenotes/studio-pro/11.6/"
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V9.24.45 or later version",
+          "product_ids": [
+            "5"
+          ],
+          "url": "https://docs.mendix.com/releasenotes/studio-pro/9/"
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 5.4,
+            "baseSeverity": "MEDIUM",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+            "version": "3.1"
+          },
+          "products": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "title": "CVE-2026-135278"
+    }
+  ]
+}

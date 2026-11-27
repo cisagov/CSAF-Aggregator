@@ -9,6 +9,90 @@
     "entry": [
       {
         "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-03.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "ICSA-26-328-03",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-03.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-03.json.asc",
+            "rel": "signature"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-03.json.sha512",
+            "rel": "hash"
+          }
+        ],
+        "published": "2026-11-24T06:00:00.000000Z",
+        "title": "Danfoss AK-SM 8xxA Series",
+        "updated": "2026-11-24T06:00:00.000000Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-02.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "ICSA-26-328-02",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-02.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-02.json.asc",
+            "rel": "signature"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-02.json.sha512",
+            "rel": "hash"
+          }
+        ],
+        "published": "2026-11-10T08:00:00.000000Z",
+        "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+        "updated": "2026-11-24T07:00:00.000000Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-01.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "ICSA-26-328-01",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-01.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-01.json.asc",
+            "rel": "signature"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-328-01.json.sha512",
+            "rel": "hash"
+          }
+        ],
+        "published": "2026-11-24T06:00:00.000000Z",
+        "title": "AutomationDirect C-More EA9 Programming Software",
+        "updated": "2026-11-24T06:00:00.000000Z"
+      },
+      {
+        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/CISA/cisa-csaf-ot-feed-tlp-white/icsa-26-323-03.json",
           "type": "application/json"
         },
@@ -112408,6 +112492,6 @@
       }
     ],
     "title": "CISA CSAF OT feed (TLP:WHITE)",
-    "updated": "2026-11-20T17:08:36.302108Z"
+    "updated": "2026-11-27T17:53:05.168417Z"
   }
 }

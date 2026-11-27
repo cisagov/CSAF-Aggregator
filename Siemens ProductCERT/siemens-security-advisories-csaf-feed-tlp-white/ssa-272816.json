@@ -51,7 +51,7 @@
     ],
     "title": "SSA-272816: Java4Shell Vulnerability in Industrial Edge",
     "tracking": {
-      "current_release_date": "2026-11-18T00:00:00.000Z",
+      "current_release_date": "2026-11-23T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -66,10 +66,16 @@
           "legacy_version": "1.0",
           "number": "1",
           "summary": "Publication Date"
+        },
+        {
+          "date": "2026-11-23T00:00:00.000Z",
+          "legacy_version": "1.1",
+          "number": "2",
+          "summary": "Adjusted Mitigation section"
         }
       ],
       "status": "interim",
-      "version": "1"
+      "version": "2"
     }
   },
   "product_tree": {
@@ -163,8 +169,8 @@
         {
           "label": "component_not_present",
           "product_ids": [
-            "1",
-            "2"
+            "2",
+            "1"
           ]
         }
       ],
@@ -189,7 +195,7 @@
       "remediations": [
         {
           "category": "mitigation",
-          "details": "Block direct internet access to IEM Pro / IEM Virtual\nThe most effective immediate measure is to shutdown instances or disable internet connectivity to reduce exposure until a fix has been made available and applied. This ensures that no external attacks can occur via this vulnerability.",
+          "details": "Block direct internet access to IEM Pro / IEM Virtual\nIEMs should not be directly accessible from the Internet without restrictions. Inbound access should be limited to authorized sources through appropriate firewall rules, while outbound Internet connectivity should remain enabled for IEM Pro.",
           "product_ids": [
             "3",
             "4",
