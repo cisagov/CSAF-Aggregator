@@ -12,7 +12,7 @@
     "notes": [
       {
         "category": "summary",
-        "text": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup:   \n\n- No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK.\n- Management Applications installed: Follow the specific mitigations until a fix is available.\n- Device Applications installed: Follow the specific mitigations until a fix is available.\n\nFor Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented.\n\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available.",
+        "text": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup:   \n\n- No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK.\n- Management Applications installed: Follow the specific mitigations until a fix is available.\n\nFor Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented.\n\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available.",
         "title": "Summary"
       },
       {
@@ -51,7 +51,7 @@
     ],
     "title": "SSA-443410: Node2Shell Vulnerability in Industrial Edge Management Applications",
     "tracking": {
-      "current_release_date": "2026-11-06T00:00:00.000Z",
+      "current_release_date": "2026-11-27T00:00:00.000Z",
       "generator": {
         "engine": {
           "name": "Siemens ProductCERT CSAF Generator",
@@ -72,10 +72,16 @@
           "legacy_version": "1.1",
           "number": "2",
           "summary": "Added fix for Cloud Connector Configurator, Data Flow Monitoring, Databus Configurator, Edge OPC UA Server Configurator and Flow Creator Configurator; Added DataXess Configurator as affected product"
+        },
+        {
+          "date": "2026-11-27T00:00:00.000Z",
+          "legacy_version": "1.2",
+          "number": "3",
+          "summary": "Added fix for Common Configurator on Device (CC on Edge); adjusted summary"
         }
       ],
       "status": "interim",
-      "version": "2"
+      "version": "3"
     }
   },
   "product_tree": {
@@ -114,9 +120,9 @@
             "branches": [
               {
                 "category": "product_version_range",
-                "name": "vers:all/*",
+                "name": "vers:intdot/<2.7.2",
                 "product": {
-                  "name": "Common Configurator on Device\u00a0(CC on Edge)",
+                  "name": "Common Configurator on Device\u00a0(CC on Edge) < V2.7.2",
                   "product_id": "3"
                 }
               }
@@ -238,7 +244,7 @@
       "notes": [
         {
           "category": "description",
-          "text": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\r\n\r\n\r\n\r\n\r\n\r\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.",
+          "text": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
           "title": "CVE Description"
         }
       ],
@@ -259,13 +265,6 @@
       "remediations": [
         {
           "category": "mitigation",
-          "details": "Stop Common Configurator on Device (CC on Edge) until a fix is available",
-          "product_ids": [
-            "3"
-          ]
-        },
-        {
-          "category": "mitigation",
           "details": "Uninstall all Management Applications and protect your IEM instance with a Firewall/WAF until a fix is available",
           "product_ids": [
             "2"
@@ -275,8 +274,7 @@
           "category": "none_available",
           "details": "Currently no fix is available",
           "product_ids": [
-            "2",
-            "3"
+            "2"
           ]
         },
         {
@@ -306,6 +304,14 @@
           "product_ids": [
             "7"
           ]
+        },
+        {
+          "category": "vendor_fix",
+          "details": "Update to V2.7.2 or later version",
+          "product_ids": [
+            "3"
+          ],
+          "url": "https://iehub.eu1.edge.siemens.cloud/"
         },
         {
           "category": "vendor_fix",

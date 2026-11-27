@@ -9,6 +9,223 @@
     "entry": [
       {
         "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-443410.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-443410",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-443410.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-443410.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-443410.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-30T00:00:00Z",
+        "summary": {
+          "content": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup:   \r\n\r\n- No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK.\r\n- Management Applications installed: Follow the specific mitigations until a fix is available.\r\n\r\nFor Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Node2Shell Vulnerability in Industrial Edge Management Applications",
+        "updated": "2026-11-27T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-545865.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-545865",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-545865.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-545865.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-545865.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-27T00:00:00Z",
+        "summary": {
+          "content": "Mendix OIDC Provider contains a token verification vulnerability that could allow an remote attack to hijack an Account.\r\n\r\nSiemens has released new versions for the affected products and recommends to update to the latest versions."
+        },
+        "title": "Improper Token Verification Vulnerability in Mendix OIDC Provider Module",
+        "updated": "2026-11-27T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-579716.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-579716",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-579716.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-579716.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-579716.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-27T00:00:00Z",
+        "summary": {
+          "content": "The products listed below contain a session management vulnerability that could allow a deactivated user to continue using an existing session to access and modify data within their previously granted permissions.\r\n\r\nSiemens has released new versions for the affected products and recommends to update to the latest versions."
+        },
+        "title": "Insufficient Session Expiration Vulnerability in Mendix Runtime",
+        "updated": "2026-11-27T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-898633.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-898633",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-898633.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-898633.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-898633.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-10-30T00:00:00Z",
+        "summary": {
+          "content": "Palo Alto Networks has published [1] information on a vulnerability in PAN-OS related to the Brotli vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability.  \r\n\r\nCustomers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications.\r\n\r\n[1] <https://security.paloaltonetworks.com/CVE-2026-111497>"
+        },
+        "title": "Brotli Vulnerability in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
+        "updated": "2026-11-27T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-242944",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-10T00:00:00Z",
+        "summary": {
+          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens products.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Node2Shell Vulnerability in Siemens Industrial Products",
+        "updated": "2026-11-24T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-272816",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-18T00:00:00Z",
+        "summary": {
+          "content": "Siemens is currently assessing the impact of Java4Shell (CVE-2026-114938) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup and the underlying hardware. **For your system to be exposed to this vulnerability, all of the following conditions must be met:**\r\n\r\n- An affected JVM. Including Java runtimes bundled inside products.\r\n- Intel and AMD chips are affected in case they support a x86-64 CPU architecture with AVX-512 VBMI\r\n- Untrusted Base64 reaching Base64.getDecoded() or getUrlDecoded()\r\n- A JIT-compiled decoder\r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available."
+        },
+        "title": "Java4Shell Vulnerability in Industrial Edge",
+        "updated": "2026-11-23T00:00:00Z"
+      },
+      {
+        "content": {
+          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json",
+          "type": "application/json"
+        },
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        },
+        "id": "SSA-810379",
+        "link": [
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json",
+            "rel": "self"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json.sha512",
+            "rel": "hash"
+          },
+          {
+            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json.asc",
+            "rel": "signature"
+          }
+        ],
+        "published": "2026-11-19T00:00:00Z",
+        "summary": {
+          "content": "On November 17, 2026, the OpenJDK project released security updates addressing a critical vulnerability in the hardware-accelerated Base64 decoder in the OpenJDK HotSpot JVM, commonly referred to as \"Java4Shell\" (tracked as CVE-2026-114938). The vulnerability is a heap-based out-of-bounds write that could allow a remote, unauthenticated attacker to cause memory corruption and potentially execute arbitrary code. \r\n\r\n__For your system to be exposed to this vulnerability, all of the following conditions must be met:__  \r\n\r\n* An affected JVM. Including Java runtimes bundled inside products.\r\n* Intel and AMD chips are affected in case they support a x86-64 CPU architecture with AVX-512 VBMI\r\n* Untrusted Base64 reaching Base64.getDecoded() or getUrlDecoded()\r\n* A JIT-compiled decoder  \r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available.  \r\n\r\nThis advisory covers the status of impact of various Siemens products."
+        },
+        "title": "Java4Shell Vulnerability in Siemens Products",
+        "updated": "2026-11-23T00:00:00Z"
+      },
+      {
+        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-566435.json",
           "type": "application/json"
         },
@@ -71,37 +288,6 @@
       },
       {
         "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-810379",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-810379.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-11-19T00:00:00Z",
-        "summary": {
-          "content": "On November 17, 2026, the OpenJDK project released security updates addressing a critical vulnerability in the hardware-accelerated Base64 decoder in the OpenJDK HotSpot JVM, commonly referred to as \"Java4Shell\" (tracked as CVE-2026-114938). The vulnerability is a heap-based out-of-bounds write that could allow a remote, unauthenticated attacker to cause memory corruption and potentially execute arbitrary code. \r\n\r\n__For your system to be exposed to this vulnerability, all of the following conditions must be met:__  \r\n\r\n* An affected JVM. Including Java runtimes bundled inside products.\r\n* Intel and AMD chips are affected in case they support a x86-64 CPU architecture with AVX-512 VBMI\r\n* Untrusted Base64 reaching Base64.getDecoded() or getUrlDecoded()\r\n* A JIT-compiled decoder  \r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available.  \r\n\r\nThis advisory covers the status of impact of various Siemens products."
-        },
-        "title": "Java4Shell Vulnerability in Siemens Products",
-        "updated": "2026-11-19T00:00:00Z"
-      },
-      {
-        "content": {
           "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-045512.json",
           "type": "application/json"
         },
@@ -160,37 +346,6 @@
           "content": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products.\r\n\r\nAs a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals.\r\n\r\n Siemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends mitigations for products where fixes are not or not yet available."
         },
         "title": "PHP2Shell Vulnerabilities in Siemens Products",
-        "updated": "2026-11-18T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-272816",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-272816.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-11-18T00:00:00Z",
-        "summary": {
-          "content": "Siemens is currently assessing the impact of Java4Shell (CVE-2026-114938) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup and the underlying hardware. **For your system to be exposed to this vulnerability, all of the following conditions must be met:**\r\n\r\n- An affected JVM. Including Java runtimes bundled inside products.\r\n- Intel and AMD chips are affected in case they support a x86-64 CPU architecture with AVX-512 VBMI\r\n- Untrusted Base64 reaching Base64.getDecoded() or getUrlDecoded()\r\n- A JIT-compiled decoder\r\n\r\nSiemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available."
-        },
-        "title": "Java4Shell Vulnerability in Industrial Edge",
         "updated": "2026-11-18T00:00:00Z"
       },
       {
@@ -346,37 +501,6 @@
           "content": "[Fortinet has published](https://www.fortiguard.com/psirt) information on vulnerabilities in FortiOS. This advisory lists the related Siemens Industrial products.\r\n\r\nSiemens recommends to contact customer support for additional information, and follow Fortinet advisory for workarounds and mitigation measures."
         },
         "title": "Multiple Vulnerabilities in Fortigate NGFW before V7.6.7 on RUGGEDCOM APE1808 Devices",
-        "updated": "2026-11-10T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-242944",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-242944.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-11-10T00:00:00Z",
-        "summary": {
-          "content": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens products.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available."
-        },
-        "title": "Node2Shell Vulnerability in Siemens Industrial Products",
         "updated": "2026-11-10T00:00:00Z"
       },
       {
@@ -874,68 +998,6 @@
         },
         "title": "Implicit Execution of Active Content when Opening Files Vulnerability in SIMATIC WinCC Graphics Designer",
         "updated": "2026-11-10T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-443410.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-443410",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-443410.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-443410.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-443410.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-30T00:00:00Z",
-        "summary": {
-          "content": "Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup:   \r\n\r\n- No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK.\r\n- Management Applications installed: Follow the specific mitigations until a fix is available.\r\n- Device Applications installed: Follow the specific mitigations until a fix is available.\r\n\r\nFor Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented.\r\n\r\nSiemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available."
-        },
-        "title": "Node2Shell Vulnerability in Industrial Edge Management Applications",
-        "updated": "2026-11-06T00:00:00Z"
-      },
-      {
-        "content": {
-          "src": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-898633.json",
-          "type": "application/json"
-        },
-        "format": {
-          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
-          "version": "2.0"
-        },
-        "id": "SSA-898633",
-        "link": [
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-898633.json",
-            "rel": "self"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-898633.json.sha512",
-            "rel": "hash"
-          },
-          {
-            "href": "https://raw.githubusercontent.com/cisagov/CSAF-Aggregator/develop/Siemens%20ProductCERT/siemens-security-advisories-csaf-feed-tlp-white/ssa-898633.json.asc",
-            "rel": "signature"
-          }
-        ],
-        "published": "2026-10-30T00:00:00Z",
-        "summary": {
-          "content": "Palo Alto Networks has published [1] information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability.\r\n\r\nCustomers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications.\r\n\r\n[1] <https://security.paloaltonetworks.com/CVE-2026-111497>"
-        },
-        "title": "Node2Shell Vulnerability in Palo Alto Networks PAN-OS on RUGGEDCOM APE1808 Devices",
-        "updated": "2026-10-30T00:00:00Z"
       },
       {
         "content": {
@@ -27203,6 +27265,6 @@
       }
     ],
     "title": "Siemens Security Advisories CSAF feed (TLP:WHITE)",
-    "updated": "2026-11-20T17:08:36.302108Z"
+    "updated": "2026-11-27T17:53:05.168417Z"
   }
 }
